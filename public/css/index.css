@@ -1,0 +1,68 @@
+/* VARIABLES ROOT/FUENTES */
+
+/* VALOR FUENTES
+→ 'Roboto', sans-serif;
+*/
+
+:root {
+  --color-primario: #0957b1;
+  --color-secundario: #e9f3ff;
+  --color-tercero: #25d0ea;
+  --color-cuarto: #8f969fa3;
+  --color-text-primario: hsl(240 100% 50% / 1);
+}
+
+
+/* GENERAL */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+  & a {
+      text-decoration: none;
+      font-size: 1.6rem;
+      color: black;
+  }
+
+  & p {
+      font-size: 1.6rem;
+  }
+
+  & h1 {
+      font-size: 4rem;
+  }
+
+  & h2 {
+      font-size: 3.5rem;
+  }
+
+  & h3 {
+      font-size: 3rem;
+  }
+
+  & h4 {
+      font-size: 2.5rem;
+  }
+
+  & h5 {
+      font-size: 2rem;
+  }
+
+  & h6 {
+      font-size: 1.5rem;
+  }
+
+  & img {
+      border-radius: 10px;
+  }
+}
