@@ -1,0 +1,170 @@
+/* VARIABLES ROOT/FUENTES */
+
+/* VALOR FUENTES
+→ 'Roboto', sans-serif;
+*/
+
+:root {
+  --color-morado: #4e00cc;
+  --color-azul: #0142e5;
+  --color-rosa: #ce52e1;
+  --color-blanco: #f1f1f1;
+  --color-morado-secundario: #4f0bc2;
+  --color-azul-claro: #25cfe9;
+}
+
+
+/* GENERAL */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+  & a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: black;
+  }
+
+  & p {
+    font-size: 1.6rem;
+  }
+
+  & h1 {
+    font-size: 4rem;
+  }
+
+  & h2 {
+    font-size: 3.5rem;
+  }
+
+  & h3 {
+    font-size: 3rem;
+  }
+
+  & h4 {
+    font-size: 2.5rem;
+  }
+
+  & h5 {
+    font-size: 2rem;
+  }
+
+  & h6 {
+    font-size: 1.5rem;
+  }
+
+  & img {
+    border-radius: 10px;
+  }
+}
+
+/* ===========HEADER=========== */
+
+/* HEADER
+→ section
+→ nav 
+*/
+
+header {
+  height: 15rem;
+  display: grid;
+  grid-template: 1fr 1fr / 1fr;
+
+  /* ===========H1=========== */
+  /* 
+  → div
+  → div → a*5 → span
+  */
+  &>section{
+    background-color: var(--color-blanco);
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    &>div {
+      height: inherit;
+    }
+
+    &>div:nth-of-type(1) {
+      width: 40%;
+    }
+
+    &>div:nth-of-type(2) {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 2rem;
+      margin-right: 4rem;
+      width: 60%;
+
+      &>a {
+        font-size: 3rem;
+        height: 4rem;
+        width: 4rem;
+        text-align: center;
+        line-height: 4rem;
+        color: var(--color-azul);
+        background-color: var(--color-blanco);
+        border-radius: 50%;
+        box-shadow: 0 0 1rem 0.2rem var(--color-azul-claro);
+      }
+    }
+
+  }
+
+  >nav {
+    background-color: var(--color-azul);
+    height: 9rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    &>section:nth-of-type(1) {
+      margin-left: 5dvw;
+
+      &>a {
+        &>img {
+          height: 10rem;
+          border-radius: 2rem;
+          box-shadow: 0 0 1rem .4rem var(--color-azul-claro);
+        }
+      }
+    }
+
+    &section:nth-of-type(2) {
+
+      &>a {}
+    }
+  }
+}
+
+@media (max-width:500px) {
+  header {
+    &>section {
+      &>div:nth-of-type(2){
+        margin-right: 1rem;
+        &>a:nth-of-type(4) {
+          display: none;
+        }
+      }
+    }
+    &>nav>section:nth-of-type(1) {
+      margin-left: 1rem;
+
+      >a>img {
+        height: 7rem;
+      }
+    }
+  }
+}
