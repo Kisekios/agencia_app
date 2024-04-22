@@ -1,0 +1,42 @@
+/* ===========MAIN=========== */
+
+/* MAIN
+→ section → ...
+→ section → ...
+→ section → ...
+*/
+
+main {
+
+  &>section {
+    margin-inline: auto;
+    width: 90dvw;
+    margin-top: 5dvh;
+  }
+  
+  &>section:nth-of-type(1) {
+    height: 70dvh;
+    width: 70dvw;
+    background-color: yellow;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+
+    &>img{
+      object-fit: cover;
+      scroll-snap-align: center;
+      width: 100%;
+    }
+  }
+
+  &>section:nth-of-type(2) {
+    height: 70dvh;
+    background-color: blue;
+  }
+
+  &>section:nth-of-type(3) {
+
+    height: 30dvh;
+    background-color: red;
+  }
+}

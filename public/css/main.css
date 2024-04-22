@@ -28,6 +28,7 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: var(--color-morado);
 
   & a {
     text-decoration: none;
@@ -71,8 +72,8 @@ body {
 /* ===========HEADER=========== */
 
 /* HEADER
-→ section
-→ nav 
+→ section → ...
+→ nav → ...
 */
 
 header {
@@ -83,9 +84,9 @@ header {
   /* ===========H1=========== */
   /* 
   → div
-  → div → a*5 → span
+  → div → a*4 → span
   */
-  &>section{
+  &>section {
     background-color: var(--color-blanco);
     height: 6rem;
     display: flex;
@@ -123,15 +124,21 @@ header {
 
   }
 
+  /* ===========H2=========== */
+  /* 
+  → section → a → img
+  → section → a*4/button
+  */
+
   >nav {
     background-color: var(--color-azul);
     height: 9rem;
     display: flex;
-    flex-direction: row;
     align-items: center;
 
     &>section:nth-of-type(1) {
       margin-left: 5dvw;
+      width: 20%;
 
       &>a {
         &>img {
@@ -142,9 +149,22 @@ header {
       }
     }
 
-    &section:nth-of-type(2) {
+    &>section:nth-of-type(2) {
+      width: 80%;
+      display: flex;
+      justify-content: flex-end;
+      gap: 2rem;
+      margin: 3dvw;
 
-      &>a {}
+      &>a {
+        color: white;
+        font-weight: bold;
+        border-bottom: solid 0.2rem white;
+      }
+
+      &>button {
+        display: none;
+      }
     }
   }
 }
@@ -152,18 +172,70 @@ header {
 @media (max-width:500px) {
   header {
     &>section {
-      &>div:nth-of-type(2){
+      &>div:nth-of-type(2) {
         margin-right: 1rem;
+
         &>a:nth-of-type(4) {
           display: none;
         }
       }
     }
-    &>nav>section:nth-of-type(1) {
-      margin-left: 1rem;
 
-      >a>img {
-        height: 7rem;
+    &>nav {
+      &>section:nth-of-type(1) {
+        margin-left: 1rem;
+
+        >a>img {
+          height: 7rem;
+        }
+      }
+
+      &>section:nth-of-type(2) {
+        &>a {
+          display: none;
+        }
+
+        &>a:nth-of-type(1),
+        button {
+          display: inline;
+          border-bottom: none;
+          text-decoration: underline;
+        }
+
+        &>button {
+          display: flex;
+          flex-direction: column;
+          inline-size: 3rem;
+          block-size: 3rem;
+          border: none;
+          background-color: transparent;
+          gap: .85rem;
+
+          >div {
+            background-color: white;
+            block-size: .2rem;
+            inline-size: 100%;
+            border-radius: .5rem;
+            transition: all .5s;
+            transform-origin: left;
+          }
+
+          &:hover {
+            >div:nth-of-type(1) {
+              transform: rotate(45deg);
+            }
+
+            >div:nth-of-type(2) {
+              opacity: 0;
+            }
+
+            >div:nth-of-type(3) {
+              transform: rotate(-45deg);
+
+            }
+
+          }
+        }
       }
     }
   }
