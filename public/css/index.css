@@ -11,32 +11,93 @@ main {
   &>section {
     margin-inline: auto;
     width: 90dvw;
-    margin-top: 5dvh;
+    margin-top: 10rem;
   }
-  
+
   &>section:nth-of-type(1) {
+    margin-top: 6rem;
     height: 70dvh;
-    width: 70dvw;
-    background-color: yellow;
+    padding: 1rem;
+    gap: 1rem;
     display: flex;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
+    scrollbar-color: white transparent;
+    scrollbar-width: auto;
 
-    &>img{
+    &>img {
+      width: 100%;
       object-fit: cover;
       scroll-snap-align: center;
-      width: 100%;
+
+      &:hover {
+        scale: 105%;
+      }
     }
   }
 
   &>section:nth-of-type(2) {
-    height: 70dvh;
-    background-color: blue;
+    height: 60dvh;
+    display: flex;
+    justify-content: space-evenly;
+
+    &>div {
+      width: 48%;
+      height: 100%;
+
+      &>a {
+        object-fit: cover;
+
+        &>img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
   }
 
   &>section:nth-of-type(3) {
 
-    height: 30dvh;
-    background-color: red;
+    &>article {
+      padding: 2rem 5rem;
+
+      &>h5 {}
+    }
+  }
+}
+
+
+@media (max-width:500px) {
+  main {
+    &>section:nth-of-type(1) {
+      &>img:hover {
+        scale: 100%
+      }
+    }
+
+    &>section {
+      margin-top: 5rem;
+    }
+
+    &>section:nth-of-type(2) {
+      flex-direction: column;
+      justify-content: space-evenly;
+
+      &>div {
+        width: 100%;
+        height: 45%;
+      }
+    }
+
+    &>section:nth-of-type(3) {
+      
+      &>article {
+        padding: 2rem 1.5rem 4rem;
+
+        &>h5:nth-of-type(2) {
+          display: none;
+        }
+      }
+    }
   }
 }

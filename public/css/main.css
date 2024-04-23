@@ -11,8 +11,16 @@
   --color-blanco: #f1f1f1;
   --color-morado-secundario: #4f0bc2;
   --color-azul-claro: #25cfe9;
-}
 
+  & h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--color-blanco);
+  }
+}
 
 /* GENERAL */
 
@@ -29,6 +37,8 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--color-morado);
+  overflow-y: auto;
+  scrollbar-width: thin;
 
   & a {
     text-decoration: none;
@@ -65,7 +75,8 @@ body {
   }
 
   & img {
-    border-radius: 10px;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem 0.2rem var(--color-azul-claro);
   }
 }
 
@@ -168,6 +179,20 @@ header {
     }
   }
 }
+
+/* ===========FOOTER=========== */
+
+/* FOOTER
+→ section → ...
+*/
+
+footer {
+  height: 30dvh;
+  background-color: var(--color-azul);
+  margin-top: 5rem;
+}
+
+/* ===========QUERIES=========== */
 
 @media (max-width:500px) {
   header {
