@@ -57,11 +57,32 @@ main {
   }
 
   &>section:nth-of-type(3) {
+    display: flex;
+    flex-direction: column;
 
     &>article {
       padding: 2rem 5rem;
 
       &>h5 {}
+    }
+
+    &>a {
+      align-self: flex-end;
+      margin-right: 10%;
+
+      &>button {
+        inline-size: 10rem;
+        block-size: 4rem;
+        background-color: var(--color-blanco);
+        box-shadow: 0 0 1rem .4rem var(--color-azul-claro);
+        border: none;
+        border-radius: 5%;
+        font-size: 2rem;
+        font-weight: 600;
+        color: var(--color-azul);
+        cursor: pointer;
+
+      }
     }
   }
 }
@@ -79,6 +100,10 @@ main {
       margin-top: 5rem;
     }
 
+    &>section:nth-of-type(1) {
+      height: 50dvh;
+    }
+
     &>section:nth-of-type(2) {
       flex-direction: column;
       justify-content: space-evenly;
@@ -90,14 +115,15 @@ main {
     }
 
     &>section:nth-of-type(3) {
-      
+
       &>article {
-        padding: 2rem 1.5rem 4rem;
+        padding: 2rem 1.5rem 3rem;
 
         &>h5:nth-of-type(2) {
           display: none;
         }
       }
+
     }
   }
 }

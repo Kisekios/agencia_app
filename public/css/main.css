@@ -17,7 +17,10 @@
   h3,
   h4,
   h5,
-  h6 {
+  h6,
+  a,
+  li,
+  p {
     color: var(--color-blanco);
   }
 }
@@ -42,11 +45,13 @@ body {
 
   & a {
     text-decoration: none;
-    font-size: 1.6rem;
-    color: black;
   }
 
-  & p {
+  & p,
+  a,
+  li,
+
+  ul {
     font-size: 1.6rem;
   }
 
@@ -187,9 +192,76 @@ header {
 */
 
 footer {
-  height: 30dvh;
   background-color: var(--color-azul);
   margin-top: 5rem;
+  padding-top: 1rem;
+
+  &>section {
+    width: 70dvw;
+    margin: auto;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    grid-template-areas:
+      "titulo titulo"
+      "div1 div2"
+      "term term";
+    gap: 1rem;
+
+    &>h1 {
+      grid-area: titulo;
+    }
+
+    &>div {
+      width: 40dvw;
+    }
+
+    &>div:nth-of-type(1) {
+      grid-area: div1;
+
+
+      &>ul>li {
+        margin-bottom: 1rem;
+
+        &>p {
+          text-indent: 2rem;
+
+          &:nth-of-type(1) {
+            text-indent: 0rem;
+          }
+        }
+      }
+    }
+
+    &>div:nth-of-type(2) {
+      grid-area: div2;
+      display: flex;
+      justify-content: space-between;
+
+      &>article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 40%;
+      }
+
+      &>img {
+        height: 13rem;
+        border-radius: 50%;
+      }
+    }
+
+    &>h6 {
+      grid-area: term;
+      text-align: center;
+      margin-bottom: 2rem;
+      &>p {
+        font-size: 1.1rem;
+        font-weight: lighter;
+      }
+    }
+
+  }
 }
 
 /* ===========QUERIES=========== */
@@ -260,6 +332,38 @@ footer {
             }
 
           }
+        }
+      }
+    }
+  }
+
+  footer {
+    margin-top: 3rem;
+    margin: none;
+
+    &>section {
+      width: 90dvw;
+      grid-template-areas:
+        "titulo"
+        "div2"
+        "div1"
+        "term";
+      justify-content: initial;
+      justify-items: initial;
+
+      &>h1 {
+        text-align: center;
+      }
+
+      &>div {
+        width: 90dvw;
+      }
+
+      &>div:nth-of-type(2){
+        margin: 3rem 0;
+
+        &>article{
+          margin-left: 0%;
         }
       }
     }
