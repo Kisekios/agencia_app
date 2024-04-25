@@ -11,6 +11,14 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'))
 })
 
+app.get('/nacionales', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'nacionales.html'))
+})
+
+app.get('/internacionales', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'internacionales.html'))
+})
+
 app.listen(PORT, () => {
   console.log(`server listening on port http://localhost:${PORT}`)
 })

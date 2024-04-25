@@ -14,6 +14,13 @@ main {
     margin-top: 10rem;
   }
 
+  /* ===========M1=========== */
+  /* 
+  → section →  img*
+  → section →  div → a → img
+  → section →  h3,article...,a→button
+  */
+
   &>section:nth-of-type(1) {
     margin-top: 6rem;
     height: 70dvh;

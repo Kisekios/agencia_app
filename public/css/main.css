@@ -98,9 +98,9 @@ header {
   grid-template: 1fr 1fr / 1fr;
 
   /* ===========H1=========== */
-  /* 
+  /* SECTION
   → div
-  → div → a*4 → span
+  → div → a* → span
   */
   &>section {
     background-color: var(--color-blanco);
@@ -141,9 +141,9 @@ header {
   }
 
   /* ===========H2=========== */
-  /* 
+  /* NAV
   → section → a → img
-  → section → a*4/button
+  → section → a*,button,aside→a
   */
 
   >nav {
@@ -188,7 +188,7 @@ header {
 /* ===========FOOTER=========== */
 
 /* FOOTER
-→ section → ...
+→ section → h1,div...,div...,h6
 */
 
 footer {
@@ -255,11 +255,33 @@ footer {
       grid-area: term;
       text-align: center;
       margin-bottom: 2rem;
+
       &>p {
         font-size: 1.1rem;
         font-weight: lighter;
       }
     }
+
+  }
+}
+
+/* ===========QUERIES=========== */
+
+.inactive {
+  display: none;
+}
+
+.cambio {
+  >div:nth-of-type(1) {
+    transform: rotate(45deg);
+  }
+
+  >div:nth-of-type(2) {
+    opacity: 0;
+  }
+
+  >div:nth-of-type(3) {
+    transform: rotate(-45deg);
 
   }
 }
@@ -308,7 +330,7 @@ footer {
           background-color: transparent;
           gap: .85rem;
 
-          >div {
+          &>div {
             background-color: white;
             block-size: .2rem;
             inline-size: 100%;
@@ -316,21 +338,21 @@ footer {
             transition: all .5s;
             transform-origin: left;
           }
+        }
 
-          &:hover {
-            >div:nth-of-type(1) {
-              transform: rotate(45deg);
-            }
+        &>aside {
+          margin-top: 3rem;
+          position: absolute;
+          width: 50dvw;
+          background-color: white;
+          padding: 1rem;
+          border-radius: 5%;
 
-            >div:nth-of-type(2) {
-              opacity: 0;
-            }
-
-            >div:nth-of-type(3) {
-              transform: rotate(-45deg);
-
-            }
-
+          &>a {
+            color: var(--color-azul);
+            display: block;
+            margin: 1rem 0;
+            font-weight: bold;
           }
         }
       }
@@ -359,10 +381,10 @@ footer {
         width: 90dvw;
       }
 
-      &>div:nth-of-type(2){
+      &>div:nth-of-type(2) {
         margin: 3rem 0;
 
-        &>article{
+        &>article {
           margin-left: 0%;
         }
       }

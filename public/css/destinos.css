@@ -1,0 +1,17 @@
+/* ===========MAIN=========== */
+
+/* MAIN
+→ section → ...
+→ section → ...
+→ section → ...
+*/
+
+main{
+  &>section{
+    width: 90dvw;
+    height: 30dvh;
+    background-color: var(--color-blanco);
+    margin-top: 3rem;
+    margin-inline: auto;
+  }
+}
