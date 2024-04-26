@@ -23,7 +23,6 @@ main {
 
   &>section:nth-of-type(1) {
     margin-top: 6rem;
-    height: 70dvh;
     padding: 1rem;
     gap: 1rem;
     display: flex;
@@ -32,13 +31,15 @@ main {
     scrollbar-color: white transparent;
     scrollbar-width: auto;
 
-    &>img {
-      width: 100%;
-      object-fit: cover;
-      scroll-snap-align: center;
+    &>a {
+      &>img {
+        height: 70dvh;
+        object-fit: cover;
+        scroll-snap-align: center;
 
-      &:hover {
-        scale: 105%;
+        &:hover {
+          transform: scale(105%);
+        }
       }
     }
   }

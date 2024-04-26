@@ -6,12 +6,60 @@
 → section → ...
 */
 
-main{
-  &>section{
+main {
+  &>section {
     width: 90dvw;
-    height: 30dvh;
-    background-color: var(--color-blanco);
+    height: 50dvh;
     margin-top: 3rem;
     margin-inline: auto;
+  }
+
+  &>section:nth-of-type(1) {
+    display: flex;
+    gap: 1rem;
+
+    &>a {
+      width: 20%;
+      display: inherit;
+
+      &>img {
+        width: 0;
+        flex-grow: 1;
+        object-fit: cover;
+        transition: .1s ease;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width:500px) {
+  main {
+    &>section:nth-of-type(1) {
+      height: 80dvh;
+      overflow-x: scroll;
+      scroll-snap-type: x mandatory;
+      scrollbar-color: white transparent;
+      scrollbar-width: auto;
+
+      &>a {
+        width: 100%;
+        &>img {
+          width: 90dvw;
+          flex-grow:inherit;
+          scroll-snap-align: center;
+          margin-left: 5dvw;
+
+          &:hover{
+            transform: none;
+          }
+          
+        }
+      }
+    }
   }
 }
