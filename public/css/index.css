@@ -45,7 +45,7 @@ main {
   }
 
   &>section:nth-of-type(2) {
-    height: 60dvh;
+    height: 60vh;
     display: flex;
     justify-content: space-evenly;
 
@@ -98,18 +98,23 @@ main {
 
 @media (max-width:500px) {
   main {
-    &>section:nth-of-type(1) {
-      &>img:hover {
-        scale: 100%
-      }
-    }
 
     &>section {
       margin-top: 5rem;
     }
 
     &>section:nth-of-type(1) {
-      height: 50dvh;
+      margin-top: 3rem;
+      width: 93vw;
+      &>a {
+        &>img {
+          height: 50vh;
+          width: 90vw;
+          &:hover {
+            transform: scale(100%);
+          }
+        }
+      }
     }
 
     &>section:nth-of-type(2) {

@@ -206,7 +206,6 @@ footer {
       "titulo titulo"
       "div1 div2"
       "term term";
-    gap: 1rem;
 
     &>h1 {
       grid-area: titulo;
@@ -360,7 +359,7 @@ footer {
   }
 
   footer {
-    margin-top: 3rem;
+    margin-top: 7rem;
     margin: none;
 
     &>section {
@@ -387,6 +386,10 @@ footer {
         &>article {
           margin-left: 0%;
         }
+      }
+
+      &>h6 {
+        margin-top: 1rem;
       }
     }
   }
