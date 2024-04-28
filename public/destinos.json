@@ -1,0 +1,12 @@
+[
+  {
+    "id": "san_andres",
+    "titulo": "San Andres",
+    "banner": "/assets/nacionales/san_andres_movil.jpeg"
+  },
+  {
+    "id": "cartagena",
+    "titulo": "Cartagena",
+    "banner": "/assets/nacionales/cartagena_movil.jpeg"
+  }
+]
