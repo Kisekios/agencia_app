@@ -2,7 +2,51 @@
   {
     "id": "san_andres",
     "titulo": "San Andres",
-    "banner": "/assets/nacionales/san_andres_movil.jpeg"
+    "banner": "/assets/nacionales/san_andres_movil.jpeg",
+    "descripcion": "San Andrés es un auténtico paraíso ubicado en el Caribe colombiano, cuenta con algunas de las mejores playas del Caribe. Entre ellas se encuentra Spratt Bright, ubicada en el distrito comercial de San Andrés. Esta playa de más de 2 kilómetros invita a relajarse, tomar el sol y disfrutar de deportes acuáticos como el kitesurf o el jet ski. Otra joya es Cocoplum, con aguas cristalinas y protegida por un arrecife de coral. Desde allí, incluso puedes caminar hasta Rocky Cay, un islote rodeado de vida submarina. ",
+    "incluye": "En cualquier plan que elijas de San Andres contaras con asistencia medica, traslados del aeropuerto al hotel y viceversa, el  desayuno, almuerzo y cena, también un tour por el acuario de Hans Cay, Mantarrayas y manglares. ",
+    "hoteles" : [
+      {
+        "nombreHotel": "Tower",
+        "ofrece": ["Bebidas y cócteles en horario especifico", "Alimentación tipo buffet","Piscina", "Dormitorios duo,triple,cuádruple"]
+      },
+      {
+        "nombreHotel": "Hanover",
+        "ofrece": ["Alimentación tipo buffet","Piscina"]
+      },
+      {
+        "nombreHotel": "Tropical",
+        "ofrece": ["Bebidas y cócteles en horario especifico", "Alimentación tipo buffet","Piscina", "Dormitorios duo,triple,cuádruple", ""]
+      }
+    ],
+    "actividades": [
+      {
+        "actividad": "Hans Cay",
+        "imagen": "https://i.pinimg.com/736x/33/28/1b/33281bd75d32ec4b8cda5a44299e9072.jpg"
+      },
+      {
+        "actividad": "Snorkel",
+        "imagen" : "https://i.pinimg.com/564x/e4/98/10/e49810d09a13ec2e9ee0350ec92bc0d5.jpg"
+      },
+      {
+        "actividad": "Snorkel",
+        "imagen" : "https://i.pinimg.com/564x/99/14/b2/9914b21e1070d121ff0fa194690fde38.jpg"
+      },
+      {
+        "actividad": "Dia en lancha",
+        "imagen" : "https://i.pinimg.com/564x/30/f0/3d/30f03de9024817f085bc729d68a3c1f2.jpg"
+      },
+      {
+        "actividad": "El hoyo de agua",
+        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+      }
+    ],
+    "informacion": [
+      "El plan no incluye el IMPUESTO por ingreso a la isla que se paga en el aeropuerto",
+      "El equipaje de mano es de máximo 10 kilogramos",
+      "El equipaje de bodega es de máximo 20 kilogramos",
+      "El plan incluye póliza de asistencia medica en caso de cualquier eventualidad"
+    ]
   },
   {
     "id": "cartagena",
