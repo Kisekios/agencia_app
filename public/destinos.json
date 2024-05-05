@@ -59,12 +59,8 @@
       }
     ],
     "informacion": [
-      "Puedes reservar mínimo con el 30%, paga el saldo a cuotas, a 30 días antes del viaje debes tener el total del viaje pago ",
       "El plan no incluye el IMPUESTO por ingreso a la isla que se paga en el aeropuerto el Dorado 124.000 por persona, niños menores de 7 años no pagan impuesto",
-      "Niños menores de 2 años no tiene costo, solo paga póliza de asistencia medica",
-      "Niños mayores de 3 años pagan la totalidad del plan",
-      "El equipaje de mano es de máximo 10 kilogramos",
-      "El plan incluye póliza de asistencia medica en caso de cualquier eventualidad"
+      "El equipaje de mano es de máximo 10 kilogramos"
     ]
   },
   {
@@ -134,12 +130,7 @@
       }
     ],
     "informacion": [
-      "Puedes reservar mínimo con el 30%, paga el saldo a cuotas, a 30 días antes del viaje debes tener el total del viaje pago ",
-      "El equipaje de mano es de máximo 10 kilogramos",
-      "Niños menores de 2 años no tiene costo, solo paga póliza de asistencia medica",
-      "Niños mayores de 3 años pagan la totalidad del plan",
-      "El equipaje de mano es de máximo 10 kilogramos",
-      "El plan incluye póliza de asistencia medica en caso de cualquier eventualidad"
+      "El equipaje de mano es de máximo 10 kilogramos"
     ]
   },
   {
@@ -203,23 +194,18 @@
       }
     ],
     "informacion": [
-      "Puedes reservar mínimo con el 30%, paga el saldo a cuotas, a 30 días antes del viaje debes tener el total del viaje pago ",
-      "El equipaje de mano es de máximo 10 kilogramos",
-      "Niños menores de 2 años no tiene costo, solo paga póliza de asistencia medica",
-      "Niños mayores de 3 años pagan la totalidad del plan",
-      "El equipaje de mano es de máximo 10 kilogramos",
-      "El plan incluye póliza de asistencia medica en caso de cualquier eventualidad"
+      "El equipaje de mano es de máximo 10 kilogramos"
     ]
   },
   {
     "id": "eje_cafetero",
-    "titulo": "Eje Cafetero",
+    "titulo": "El Eje Cafetero",
     "banner": "/assets/nacionales/eje_cafetero.jpeg",
     "descripcion": "Santa Marta ubicada en la costa caribeña de Colombia es un destino turístico imperdible, que combina historia, naturaleza y aventura, visita el museo del oro Tayrona, visita el callejón del correo, encontraras tiendas,cafes y una atmósfera colonial encantadora, la gran playa del rodadero,playa blanca con sus aguas cristalinas, visita la basilica de Santa Marta, la mas antigua de Colombia.",
     "incluye": "Los planes de 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, incluye desayuno y cena, tour a playa blanca con almuerzo incluido, pólizas de asistencia medica ",
     "hoteles": [
       {
-        "nombreHotel": "SanSiraka",
+        "dia": "Dia 1",
         "ofrece": [
           "Hotel tipo colonial",
           "Ubicado a 2 cuadras de la playa el Rodadero",
@@ -227,14 +213,14 @@
         ]
       },
       {
-        "nombreHotel": "Taybo beach",
+        "dia": "Dia 2",
         "ofrece": [
           "Hotel estilo apartamentos",
           "Ubicado a 3 cuadras de la playa el Rodadero"
         ]
       },
       {
-        "nombreHotel": "Porto Bahia",
+        "dia": "Dia 3",
         "ofrece": [
           "Hotel tipo apartamentos",
           "Ubicado a 4 cuadras de la playa el Rodadero"
@@ -272,23 +258,18 @@
       }
     ],
     "informacion": [
-      "Puedes reservar mínimo con el 30%, paga el saldo a cuotas, a 30 días antes del viaje debes tener el total del viaje pago ",
-      "El equipaje de mano es de máximo 10 kilogramos",
-      "Niños menores de 2 años no tiene costo, solo paga póliza de asistencia medica",
-      "Niños mayores de 3 años pagan la totalidad del plan",
-      "El equipaje de mano es de máximo 10 kilogramos",
-      "El plan incluye póliza de asistencia medica en caso de cualquier eventualidad"
+      "El equipaje de mano es de máximo 10 kilogramos"
     ]
   },
   {
     "id": "hacienda_napoles",
-    "titulo": "Hacienda Napoles",
+    "titulo": "La Hacienda Napoles",
     "banner": "/assets/nacionales/hacienda_napoles.jpeg",
     "descripcion": "Santa Marta ubicada en la costa caribeña de Colombia es un destino turístico imperdible, que combina historia, naturaleza y aventura, visita el museo del oro Tayrona, visita el callejón del correo, encontraras tiendas,cafes y una atmósfera colonial encantadora, la gran playa del rodadero,playa blanca con sus aguas cristalinas, visita la basilica de Santa Marta, la mas antigua de Colombia.",
     "incluye": "Los planes de 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, incluye desayuno y cena, tour a playa blanca con almuerzo incluido, pólizas de asistencia medica ",
     "hoteles": [
       {
-        "nombreHotel": "SanSiraka",
+        "dia": "Dia 1",
         "ofrece": [
           "Hotel tipo colonial",
           "Ubicado a 2 cuadras de la playa el Rodadero",
@@ -296,14 +277,14 @@
         ]
       },
       {
-        "nombreHotel": "Taybo beach",
+        "dia": "Dia 2",
         "ofrece": [
           "Hotel estilo apartamentos",
           "Ubicado a 3 cuadras de la playa el Rodadero"
         ]
       },
       {
-        "nombreHotel": "Porto Bahia",
+        "dia": "Dia 3",
         "ofrece": [
           "Hotel tipo apartamentos",
           "Ubicado a 4 cuadras de la playa el Rodadero"
@@ -341,12 +322,7 @@
       }
     ],
     "informacion": [
-      "Puedes reservar mínimo con el 30%, paga el saldo a cuotas, a 30 días antes del viaje debes tener el total del viaje pago ",
-      "El equipaje de mano es de máximo 10 kilogramos",
-      "Niños menores de 2 años no tiene costo, solo paga póliza de asistencia medica",
-      "Niños mayores de 3 años pagan la totalidad del plan",
-      "El equipaje de mano es de máximo 10 kilogramos",
-      "El plan incluye póliza de asistencia medica en caso de cualquier eventualidad"
+      "El equipaje de mano es de máximo 10 kilogramos"
     ]
   },
   {
@@ -421,13 +397,8 @@
       }
     ],
     "informacion": [
-      "Puedes reservar mínimo con el 30%, paga el saldo a cuotas, a 30 días antes del viaje debes tener el total del viaje pago ",
       "Pasaporte",
-      "El equipaje de mano es de máximo 10 kilogramos",
-      "Niños menores de 2 años no tiene costo, solo paga póliza de asistencia medica",
-      "Niños mayores de 3 años pagan la totalidad del plan",
-      "El equipaje de mano es de máximo 10 kilogramos",
-      "El plan incluye póliza de asistencia medica en caso de cualquier eventualidad"
+      "El equipaje de mano es de máximo 10 kilogramos"
     ]
   },
   {
@@ -490,13 +461,464 @@
       }
     ],
     "informacion": [
-      "Puedes reservar mínimo con el 30%, paga el saldo a cuotas, a 30 días antes del viaje debes tener el total del viaje pago ",
       "Pasaporte",
-      "El equipaje de mano es de máximo 10 kilogramos",
-      "Niños menores de 2 años no tiene costo, solo paga póliza de asistencia medica",
-      "Niños mayores de 3 años pagan la totalidad del plan",
-      "El equipaje de mano es de máximo 10 kilogramos",
-      "El plan incluye póliza de asistencia medica en caso de cualquier eventualidad"
+      "El equipaje de mano es de máximo 10 kilogramos"
+    ]
+  },
+  {
+    "id": "aruba",
+    "titulo": "Aruba",
+    "banner": "/assets/internacionales/aruba_movil.jpeg",
+    "descripcion": "Cancun paraíso turístico con sus 17 kilómetros de arena blanca y brillantes agua turquesa, parques temáticos como el Xcaret,el Xplor, bares y discotecas donde podrás degustar autentico tequila, fiestas inigualables hacen que la vida nocturna en Cancun sea reconocida a nivel mundial, visita la pirámide de Chichen itza, los cenotes , la bella isla mujeres, disfruta de la rica gastronomía mexicana y las artesanías de la cultura de Mexico",
+    "incluye": "Los planes desde 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, hoteles de playa, incluye alimentación completa tipo buffet, bebidas ilimitadas en el hotel, snacks todas las tardes en el hotel, eventos que organizan los hoteles para los huéspedes según el hotel, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria y contamos con una gran variedad de opciones de hoteles",
+    "hoteles": [
+      {
+        "nombreHotel": "Imperial las Perlas",
+        "ofrece": [
+          "Ubicado frente a la playa",
+          "Alimentación completa tipo buffet",
+          "Barra libre de 11AM a 11PM",
+          "Snacks todas las tardes",
+          "Dos piscinas"
+        ]
+      },
+      {
+        "nombreHotel": "El Solimar Resort",
+        "ofrece": [
+          "Ubicado al lado de playa delfines",
+          "Barra libre de 11AM a 11PM",
+          "Resort con amplia playa",
+          "Gran piscina",
+          "Buffet de alta calidad",
+          "Snacks todas las tardes",
+          "Amplias habitaciones con excelente vista al mar"
+        ]
+      },
+      {
+        "nombreHotel": "Dos Playas Faranda",
+        "ofrece": [
+          "Ubicado en el corazón de la zona hotelera",
+          "Restaurante comida Tailandesa, sushi bar, típica Mexicana",
+          "Barra libre de 11AM a 11PM",
+          "Animación nocturna",
+          "Deportes acuáticos",
+          "Disponible para tus eventos especiales"
+        ]
+      }
+    ],
+    "actividades": [
+      {
+        "actividad": "Chichen itza",
+        "imagen": "https://i.pinimg.com/736x/33/28/1b/33281bd75d32ec4b8cda5a44299e9072.jpg"
+      },
+      {
+        "actividad": "Xcaret",
+        "imagen": "https://i.pinimg.com/564x/e4/98/10/e49810d09a13ec2e9ee0350ec92bc0d5.jpg"
+      },
+      {
+        "actividad": "Xplorer",
+        "imagen": "https://i.pinimg.com/564x/99/14/b2/9914b21e1070d121ff0fa194690fde38.jpg"
+      },
+      {
+        "actividad": "Nado con delfines",
+        "imagen": "https://i.pinimg.com/564x/30/f0/3d/30f03de9024817f085bc729d68a3c1f2.jpg"
+      },
+      {
+        "actividad": "Cenotes",
+        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+      },
+      {
+        "actividad": "Tour isla mujeres",
+        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+      },
+      {
+        "actividad": "Zona de antros",
+        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+      }
+    ],
+    "informacion": [
+      "Pasaporte",
+      "El equipaje de mano es de máximo 10 kilogramos"
+    ]
+  },
+  {
+    "id": "crucero",
+    "titulo": "Aventura Crucero ",
+    "banner": "/assets/internacionales/crucero.jpeg",
+    "descripcion": "Cancun paraíso turístico con sus 17 kilómetros de arena blanca y brillantes agua turquesa, parques temáticos como el Xcaret,el Xplor, bares y discotecas donde podrás degustar autentico tequila, fiestas inigualables hacen que la vida nocturna en Cancun sea reconocida a nivel mundial, visita la pirámide de Chichen itza, los cenotes , la bella isla mujeres, disfruta de la rica gastronomía mexicana y las artesanías de la cultura de Mexico",
+    "incluye": "Los planes desde 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, hoteles de playa, incluye alimentación completa tipo buffet, bebidas ilimitadas en el hotel, snacks todas las tardes en el hotel, eventos que organizan los hoteles para los huéspedes según el hotel, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria y contamos con una gran variedad de opciones de hoteles",
+    "hoteles": [
+      {
+        "dia": "Dia 1",
+        "ofrece": [
+          "Ubicado frente a la playa",
+          "Alimentación completa tipo buffet",
+          "Barra libre de 11AM a 11PM",
+          "Snacks todas las tardes",
+          "Dos piscinas"
+        ]
+      },
+      {
+        "dia": "Dia 2",
+        "ofrece": [
+          "Ubicado al lado de playa delfines",
+          "Barra libre de 11AM a 11PM",
+          "Resort con amplia playa",
+          "Gran piscina",
+          "Buffet de alta calidad",
+          "Snacks todas las tardes",
+          "Amplias habitaciones con excelente vista al mar"
+        ]
+      },
+      {
+        "dia": "Dia 3",
+        "ofrece": [
+          "Ubicado en el corazón de la zona hotelera",
+          "Restaurante comida Tailandesa, sushi bar, típica Mexicana",
+          "Barra libre de 11AM a 11PM",
+          "Animación nocturna",
+          "Deportes acuáticos",
+          "Disponible para tus eventos especiales"
+        ]
+      }
+    ],
+    "actividades": [
+      {
+        "actividad": "Chichen itza",
+        "imagen": "https://i.pinimg.com/736x/33/28/1b/33281bd75d32ec4b8cda5a44299e9072.jpg"
+      },
+      {
+        "actividad": "Xcaret",
+        "imagen": "https://i.pinimg.com/564x/e4/98/10/e49810d09a13ec2e9ee0350ec92bc0d5.jpg"
+      },
+      {
+        "actividad": "Xplorer",
+        "imagen": "https://i.pinimg.com/564x/99/14/b2/9914b21e1070d121ff0fa194690fde38.jpg"
+      },
+      {
+        "actividad": "Nado con delfines",
+        "imagen": "https://i.pinimg.com/564x/30/f0/3d/30f03de9024817f085bc729d68a3c1f2.jpg"
+      },
+      {
+        "actividad": "Cenotes",
+        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+      },
+      {
+        "actividad": "Tour isla mujeres",
+        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+      },
+      {
+        "actividad": "Zona de antros",
+        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+      }
+    ],
+    "informacion": [
+      "Pasaporte",
+      "El equipaje de mano es de máximo 10 kilogramos"
+    ]
+  },
+  {
+    "id": "curacao",
+    "titulo": "Curacao ",
+    "banner": "/assets/internacionales/crucero.jpeg",
+    "descripcion": "Cancun paraíso turístico con sus 17 kilómetros de arena blanca y brillantes agua turquesa, parques temáticos como el Xcaret,el Xplor, bares y discotecas donde podrás degustar autentico tequila, fiestas inigualables hacen que la vida nocturna en Cancun sea reconocida a nivel mundial, visita la pirámide de Chichen itza, los cenotes , la bella isla mujeres, disfruta de la rica gastronomía mexicana y las artesanías de la cultura de Mexico",
+    "incluye": "Los planes desde 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, hoteles de playa, incluye alimentación completa tipo buffet, bebidas ilimitadas en el hotel, snacks todas las tardes en el hotel, eventos que organizan los hoteles para los huéspedes según el hotel, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria y contamos con una gran variedad de opciones de hoteles",
+    "hoteles": [
+      {
+        "nombreHotel": "Dia 1",
+        "ofrece": [
+          "Ubicado frente a la playa",
+          "Alimentación completa tipo buffet",
+          "Barra libre de 11AM a 11PM",
+          "Snacks todas las tardes",
+          "Dos piscinas"
+        ]
+      },
+      {
+        "nombreHotel": "Dia 2",
+        "ofrece": [
+          "Ubicado al lado de playa delfines",
+          "Barra libre de 11AM a 11PM",
+          "Resort con amplia playa",
+          "Gran piscina",
+          "Buffet de alta calidad",
+          "Snacks todas las tardes",
+          "Amplias habitaciones con excelente vista al mar"
+        ]
+      },
+      {
+        "nombreHotel": "Dia 3",
+        "ofrece": [
+          "Ubicado en el corazón de la zona hotelera",
+          "Restaurante comida Tailandesa, sushi bar, típica Mexicana",
+          "Barra libre de 11AM a 11PM",
+          "Animación nocturna",
+          "Deportes acuáticos",
+          "Disponible para tus eventos especiales"
+        ]
+      }
+    ],
+    "actividades": [
+      {
+        "actividad": "Chichen itza",
+        "imagen": "https://i.pinimg.com/736x/33/28/1b/33281bd75d32ec4b8cda5a44299e9072.jpg"
+      },
+      {
+        "actividad": "Xcaret",
+        "imagen": "https://i.pinimg.com/564x/e4/98/10/e49810d09a13ec2e9ee0350ec92bc0d5.jpg"
+      },
+      {
+        "actividad": "Xplorer",
+        "imagen": "https://i.pinimg.com/564x/99/14/b2/9914b21e1070d121ff0fa194690fde38.jpg"
+      },
+      {
+        "actividad": "Nado con delfines",
+        "imagen": "https://i.pinimg.com/564x/30/f0/3d/30f03de9024817f085bc729d68a3c1f2.jpg"
+      },
+      {
+        "actividad": "Cenotes",
+        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+      },
+      {
+        "actividad": "Tour isla mujeres",
+        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+      },
+      {
+        "actividad": "Zona de antros",
+        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+      }
+    ],
+    "informacion": [
+      "Pasaporte",
+      "El equipaje de mano es de máximo 10 kilogramos"
+    ]
+  },
+  {
+    "id": "punta_cana",
+    "titulo": "Punta Cana ",
+    "banner": "/assets/internacionales/punta_cana.jpeg",
+    "descripcion": "Cancun paraíso turístico con sus 17 kilómetros de arena blanca y brillantes agua turquesa, parques temáticos como el Xcaret,el Xplor, bares y discotecas donde podrás degustar autentico tequila, fiestas inigualables hacen que la vida nocturna en Cancun sea reconocida a nivel mundial, visita la pirámide de Chichen itza, los cenotes , la bella isla mujeres, disfruta de la rica gastronomía mexicana y las artesanías de la cultura de Mexico",
+    "incluye": "Los planes desde 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, hoteles de playa, incluye alimentación completa tipo buffet, bebidas ilimitadas en el hotel, snacks todas las tardes en el hotel, eventos que organizan los hoteles para los huéspedes según el hotel, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria y contamos con una gran variedad de opciones de hoteles",
+    "hoteles": [
+      {
+        "nombreHotel": "Dia 1",
+        "ofrece": [
+          "Ubicado frente a la playa",
+          "Alimentación completa tipo buffet",
+          "Barra libre de 11AM a 11PM",
+          "Snacks todas las tardes",
+          "Dos piscinas"
+        ]
+      },
+      {
+        "nombreHotel": "Dia 2",
+        "ofrece": [
+          "Ubicado al lado de playa delfines",
+          "Barra libre de 11AM a 11PM",
+          "Resort con amplia playa",
+          "Gran piscina",
+          "Buffet de alta calidad",
+          "Snacks todas las tardes",
+          "Amplias habitaciones con excelente vista al mar"
+        ]
+      },
+      {
+        "nombreHotel": "Dia 3",
+        "ofrece": [
+          "Ubicado en el corazón de la zona hotelera",
+          "Restaurante comida Tailandesa, sushi bar, típica Mexicana",
+          "Barra libre de 11AM a 11PM",
+          "Animación nocturna",
+          "Deportes acuáticos",
+          "Disponible para tus eventos especiales"
+        ]
+      }
+    ],
+    "actividades": [
+      {
+        "actividad": "Chichen itza",
+        "imagen": "https://i.pinimg.com/736x/33/28/1b/33281bd75d32ec4b8cda5a44299e9072.jpg"
+      },
+      {
+        "actividad": "Xcaret",
+        "imagen": "https://i.pinimg.com/564x/e4/98/10/e49810d09a13ec2e9ee0350ec92bc0d5.jpg"
+      },
+      {
+        "actividad": "Xplorer",
+        "imagen": "https://i.pinimg.com/564x/99/14/b2/9914b21e1070d121ff0fa194690fde38.jpg"
+      },
+      {
+        "actividad": "Nado con delfines",
+        "imagen": "https://i.pinimg.com/564x/30/f0/3d/30f03de9024817f085bc729d68a3c1f2.jpg"
+      },
+      {
+        "actividad": "Cenotes",
+        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+      },
+      {
+        "actividad": "Tour isla mujeres",
+        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+      },
+      {
+        "actividad": "Zona de antros",
+        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+      }
+    ],
+    "informacion": [
+      "Pasaporte",
+      "El equipaje de mano es de máximo 10 kilogramos"
+    ]
+  },
+  {
+    "id": "panama",
+    "titulo": "Panama",
+    "banner": "/assets/internacionales/panama.jpeg",
+    "descripcion": "Cancun paraíso turístico con sus 17 kilómetros de arena blanca y brillantes agua turquesa, parques temáticos como el Xcaret,el Xplor, bares y discotecas donde podrás degustar autentico tequila, fiestas inigualables hacen que la vida nocturna en Cancun sea reconocida a nivel mundial, visita la pirámide de Chichen itza, los cenotes , la bella isla mujeres, disfruta de la rica gastronomía mexicana y las artesanías de la cultura de Mexico",
+    "incluye": "Los planes desde 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, hoteles de playa, incluye alimentación completa tipo buffet, bebidas ilimitadas en el hotel, snacks todas las tardes en el hotel, eventos que organizan los hoteles para los huéspedes según el hotel, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria y contamos con una gran variedad de opciones de hoteles",
+    "hoteles": [
+      {
+        "nombreHotel": "Dia 1",
+        "ofrece": [
+          "Ubicado frente a la playa",
+          "Alimentación completa tipo buffet",
+          "Barra libre de 11AM a 11PM",
+          "Snacks todas las tardes",
+          "Dos piscinas"
+        ]
+      },
+      {
+        "nombreHotel": "Dia 2",
+        "ofrece": [
+          "Ubicado al lado de playa delfines",
+          "Barra libre de 11AM a 11PM",
+          "Resort con amplia playa",
+          "Gran piscina",
+          "Buffet de alta calidad",
+          "Snacks todas las tardes",
+          "Amplias habitaciones con excelente vista al mar"
+        ]
+      },
+      {
+        "nombreHotel": "Dia 3",
+        "ofrece": [
+          "Ubicado en el corazón de la zona hotelera",
+          "Restaurante comida Tailandesa, sushi bar, típica Mexicana",
+          "Barra libre de 11AM a 11PM",
+          "Animación nocturna",
+          "Deportes acuáticos",
+          "Disponible para tus eventos especiales"
+        ]
+      }
+    ],
+    "actividades": [
+      {
+        "actividad": "Chichen itza",
+        "imagen": "https://i.pinimg.com/736x/33/28/1b/33281bd75d32ec4b8cda5a44299e9072.jpg"
+      },
+      {
+        "actividad": "Xcaret",
+        "imagen": "https://i.pinimg.com/564x/e4/98/10/e49810d09a13ec2e9ee0350ec92bc0d5.jpg"
+      },
+      {
+        "actividad": "Xplorer",
+        "imagen": "https://i.pinimg.com/564x/99/14/b2/9914b21e1070d121ff0fa194690fde38.jpg"
+      },
+      {
+        "actividad": "Nado con delfines",
+        "imagen": "https://i.pinimg.com/564x/30/f0/3d/30f03de9024817f085bc729d68a3c1f2.jpg"
+      },
+      {
+        "actividad": "Cenotes",
+        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+      },
+      {
+        "actividad": "Tour isla mujeres",
+        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+      },
+      {
+        "actividad": "Zona de antros",
+        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+      }
+    ],
+    "informacion": [
+      "Pasaporte",
+      "El equipaje de mano es de máximo 10 kilogramos"
+    ]
+  },
+  {
+    "id": "europa",
+    "titulo": "Europa",
+    "banner": "/assets/internacionales/europa.jpeg",
+    "descripcion": "Cancun paraíso turístico con sus 17 kilómetros de arena blanca y brillantes agua turquesa, parques temáticos como el Xcaret,el Xplor, bares y discotecas donde podrás degustar autentico tequila, fiestas inigualables hacen que la vida nocturna en Cancun sea reconocida a nivel mundial, visita la pirámide de Chichen itza, los cenotes , la bella isla mujeres, disfruta de la rica gastronomía mexicana y las artesanías de la cultura de Mexico",
+    "incluye": "Los planes desde 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, hoteles de playa, incluye alimentación completa tipo buffet, bebidas ilimitadas en el hotel, snacks todas las tardes en el hotel, eventos que organizan los hoteles para los huéspedes según el hotel, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria y contamos con una gran variedad de opciones de hoteles",
+    "hoteles": [
+      {
+        "dia": "Dia 1",
+        "ofrece": [
+          "Ubicado frente a la playa",
+          "Alimentación completa tipo buffet",
+          "Barra libre de 11AM a 11PM",
+          "Snacks todas las tardes",
+          "Dos piscinas"
+        ]
+      },
+      {
+        "dia": "Dia 2",
+        "ofrece": [
+          "Ubicado al lado de playa delfines",
+          "Barra libre de 11AM a 11PM",
+          "Resort con amplia playa",
+          "Gran piscina",
+          "Buffet de alta calidad",
+          "Snacks todas las tardes",
+          "Amplias habitaciones con excelente vista al mar"
+        ]
+      },
+      {
+        "dia": "Dia 3",
+        "ofrece": [
+          "Ubicado en el corazón de la zona hotelera",
+          "Restaurante comida Tailandesa, sushi bar, típica Mexicana",
+          "Barra libre de 11AM a 11PM",
+          "Animación nocturna",
+          "Deportes acuáticos",
+          "Disponible para tus eventos especiales"
+        ]
+      }
+    ],
+    "actividades": [
+      {
+        "actividad": "Chichen itza",
+        "imagen": "https://i.pinimg.com/736x/33/28/1b/33281bd75d32ec4b8cda5a44299e9072.jpg"
+      },
+      {
+        "actividad": "Xcaret",
+        "imagen": "https://i.pinimg.com/564x/e4/98/10/e49810d09a13ec2e9ee0350ec92bc0d5.jpg"
+      },
+      {
+        "actividad": "Xplorer",
+        "imagen": "https://i.pinimg.com/564x/99/14/b2/9914b21e1070d121ff0fa194690fde38.jpg"
+      },
+      {
+        "actividad": "Nado con delfines",
+        "imagen": "https://i.pinimg.com/564x/30/f0/3d/30f03de9024817f085bc729d68a3c1f2.jpg"
+      },
+      {
+        "actividad": "Cenotes",
+        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+      },
+      {
+        "actividad": "Tour isla mujeres",
+        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+      },
+      {
+        "actividad": "Zona de antros",
+        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+      }
+    ],
+    "informacion": [
+      "Pasaporte",
+      "El equipaje de mano es de máximo 10 kilogramos"
     ]
   }
 ]

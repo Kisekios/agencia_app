@@ -1,19 +1,24 @@
 const obtenerUrl = (globalThis.location.pathname).split('/')
 
-fetch('http://localhost:1234/destinos.json')
+fetch('http://192.168.0.8:1234/destinos.json')
   .then(res => res.json())
   .then(response => {
     const destino = response.find(x => x.id === obtenerUrl[2])
-
     const imagen = document.querySelector('.imagen')
     const nameDestino = document.querySelector('.destino-name')
     const descripcionDestino = document.querySelector('.destino-descripcion')
     const incluyeDestino = document.querySelector('.destino-incluye')
+    const tituloPresentacionDestino = document.querySelector('.presentacion-destino-titulo')
 
     imagen.setAttribute('src', destino.banner)
     nameDestino.innerHTML = destino.titulo
     descripcionDestino.innerHTML = destino.descripcion
     incluyeDestino.innerHTML = destino.incluye
+    if (obtenerUrl[1] === 'destino') {
+      tituloPresentacionDestino.innerHTML = '<em>Que puedes encontrar en ' + destino.titulo
+    } else {
+      tituloPresentacionDestino.innerHTML = '<em>Visitaras y disfrutaras de'
+    }
 
     descripcionHoteles(destino.hoteles)
     actividadesDestino(destino.actividades)
@@ -27,10 +32,16 @@ function descripcionHoteles (hoteles) {
     const hotelCard = document.createElement('div')
 
     const hotelName = document.createElement('h4')
-    hotelName.innerHTML = hotel.nombreHotel
 
     const hotelDescripcion = document.createElement('h5')
-    hotelDescripcion.innerHTML = 'Cuenta con:'
+
+    if (hotel.nombreHotel) {
+      hotelName.innerHTML = hotel.nombreHotel
+      hotelDescripcion.innerHTML = 'Cuenta con:'
+    } else {
+      hotelName.innerHTML = hotel.dia
+      hotelDescripcion.innerHTML = 'Cronograma:'
+    }
 
     const hotelOfrece = document.createElement('ul')
 

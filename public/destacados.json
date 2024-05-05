@@ -1,0 +1,30 @@
+[
+  {
+    "url": "/plan-turistico/crucero",
+    "imagen": "/assets/internacionales/crucero.jpeg"
+  },
+  {
+    "url": "/plan-turistico/europa",
+    "imagen": "/assets/internacionales/europa.jpeg"
+  },
+  {
+    "url": "/plan-turistico/cartagena_&_santa_marta",
+    "imagen": "/assets/nacionales/cartagena_&_santa_marta.jpeg"
+  },
+  {
+    "url": "/destino/cancun",
+    "imagen": "/assets/internacionales/cancun.jpeg"
+  },
+  {
+    "url": "/plan-turistico/eje_cafetero",
+    "imagen": "/assets/nacionales/eje_cafetero.jpeg"
+  },
+  {
+    "url": "/destino/san_andres",
+    "imagen": "/assets/nacionales/san_andres_movil.jpeg"
+  },
+  {
+    "url": "/destino/cartagena",
+    "imagen": "/assets/nacionales/cartagena_movil.jpeg"
+  }
+]

@@ -28,6 +28,13 @@ app.get('/destino/:id', (req, res) => {
   res.status(404).json({ message: 'Destino no encontrado' })
 })
 
+app.get('/plan-turistico/:id', (req, res) => {
+  const { id } = req.params
+  const destino = destinos.find(x => x.id === id)
+  if (destino) return res.sendFile(path.join(__dirname, 'public', 'planes.html'))/* res.json(destino) */
+  res.status(404).json({ message: 'Destino no encontrado' })
+})
+
 app.listen(PORT, () => {
   console.log(`server listening on port http://localhost:${PORT}`)
 })
