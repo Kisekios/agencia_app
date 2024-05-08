@@ -39,7 +39,12 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: var(--color-morado);
+  background: linear-gradient(
+    260deg,
+    var(--color-rosa),
+    var(--color-morado),
+    var(--color-rosa)
+    );
   overflow-y: auto;
   scrollbar-width: thin;
 
@@ -173,9 +178,9 @@ header {
       margin: 3dvw;
 
       &>a {
-        color: white;
+        color: var(--color-blanco);
         font-weight: bold;
-        border-bottom: solid 0.2rem white;
+        border-bottom: solid 0.2rem var(--color-blanco);
       }
 
       &>button {
@@ -334,7 +339,7 @@ footer {
           gap: .85rem;
 
           &>div {
-            background-color: white;
+            background-color: var(--color-blanco);
             block-size: .2rem;
             inline-size: 100%;
             border-radius: .5rem;
@@ -347,7 +352,7 @@ footer {
           margin-top: 3rem;
           position: absolute;
           width: 50dvw;
-          background-color: white;
+          background-color: var(--color-blanco);
           padding: 1rem;
           border-radius: 5%;
 
