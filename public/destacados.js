@@ -1,4 +1,5 @@
 const obtenerUrl = (globalThis.location.pathname).split('/')
+const allDestinos = document.querySelector('.destinos-opciones')
 
 // Inyeccion de imagen y url de planes destacados/promociones
 fetch('http://192.168.0.16:1234/destinos.json')
@@ -6,23 +7,25 @@ fetch('http://192.168.0.16:1234/destinos.json')
   .then(response => {
     const destacados = document.querySelector('.destacados')
     if (obtenerUrl[1] === '') { // inyección al index
-      buscarIndiceParaOrdenar(0, 2)
+      buscarIndiceParaOrdenar(0, true)
     } else if (obtenerUrl[1] === 'nacionales') {
-      buscarIndiceParaOrdenar(1, 3)
+      buscarIndiceParaOrdenar(1, 'nacional')
+      inyectarEnlacesDestinos('nacional')
     } else if (obtenerUrl[1] === 'internacionales') {
-      buscarIndiceParaOrdenar(1, 4)
+      buscarIndiceParaOrdenar(2, 'internacional')
+      inyectarEnlacesDestinos('internacional')
     }
 
-    function buscarIndiceParaOrdenar(n1, n2) {
+    function buscarIndiceParaOrdenar(n1, tipo) {
       const destacados = []
       for (let i = 0; i < response.length; i++) {
-        if (response[i].destacado[n1] && response[i].destacado[n2] !== 0) {
+        if (response[i].destacado[n1] !== 0 && (response[i].viaje === tipo || tipo === true)) {
           destacados.push(response[i])
         }
       }
 
       for (let i = 1; i < destacados.length + 1; i++) {
-        const orden = destacados.find(x => x.destacado[n2] === i)
+        const orden = destacados.find(x => x.destacado[n1] === i)
         renderDestacados(orden.banner, orden.url)
       }
     }
@@ -36,5 +39,20 @@ fetch('http://192.168.0.16:1234/destinos.json')
 
       enlaceDestacado.appendChild(imageDestacado)
       destacados.appendChild(enlaceDestacado)
+    }
+
+    function inyectarEnlacesDestinos(tipoViaje) {
+      const tituloAllDestinos = document.createElement('h1')
+      tituloAllDestinos.innerHTML = 'Todos los destinos ' + obtenerUrl[1]
+      allDestinos.appendChild(tituloAllDestinos)
+      for (let i = 0; i < response.length; i++) {
+        if (response[i].viaje === tipoViaje) {
+          const enlaceDestino = document.createElement('a')
+          enlaceDestino.setAttribute('href', response[i].url)
+          enlaceDestino.innerHTML = response[i].titulo
+
+          allDestinos.appendChild(enlaceDestino)
+        }
+      }
     }
   })

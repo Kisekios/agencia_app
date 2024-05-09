@@ -111,6 +111,9 @@ main {
       margin-top: 3rem;
     }
 
+    &>p,li {
+      font-size: 2rem;
+    }
     &>div>ul>li {
       margin-bottom: .5rem;
     }
@@ -138,6 +141,10 @@ main {
       &>h1 {
         border-bottom: none;
       }
+    }
+
+    &>section:nth-of-type(3)>div>ul>li {
+      margin-left: 1rem;
     }
   }
 }

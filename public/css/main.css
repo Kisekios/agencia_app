@@ -55,7 +55,6 @@ body {
   & p,
   a,
   li,
-
   ul {
     font-size: 1.6rem;
   }
@@ -178,7 +177,6 @@ header {
       margin: 3dvw;
 
       &>a {
-        color: var(--color-blanco);
         font-weight: bold;
         border-bottom: solid 0.2rem var(--color-blanco);
       }

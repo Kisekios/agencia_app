@@ -8,16 +8,17 @@ fetch('http://192.168.0.16:1234/destinos.json')
     const nameDestino = document.querySelector('.destino-name')
     const descripcionDestino = document.querySelector('.destino-descripcion')
     const incluyeDestino = document.querySelector('.destino-incluye')
-    const tituloPresentacionDestino = document.querySelector('.presentacion-destino-titulo')
 
     imagen.setAttribute('src', destino.banner)
     nameDestino.innerHTML = destino.titulo
     descripcionDestino.innerHTML = destino.descripcion
     incluyeDestino.innerHTML = destino.incluye
     if (obtenerUrl[1] === 'destino') {
-      tituloPresentacionDestino.innerHTML = '<em>Que puedes encontrar en ' + destino.titulo
+      (document.querySelector('.presentation-destino-titulo')).innerHTML = '<em>Que puedes encontrar en ' + destino.titulo;
+      (document.querySelector('.hoteles-planes-descripcion')).innerHTML = 'Hoteles con tarifa especial'
     } else {
-      tituloPresentacionDestino.innerHTML = '<em>Visitaras y disfrutaras de'
+      (document.querySelector('.presentation-destino-titulo')).innerHTML = '<em>Visitaras y disfrutaras de';
+      (document.querySelector('.hoteles-planes-descripcion')).innerHTML = 'Como es el itinerario'
     }
 
     descripcionHoteles(destino.hoteles)
@@ -28,7 +29,7 @@ fetch('http://192.168.0.16:1234/destinos.json')
 function descripcionHoteles (hoteles) {
   const hotelesDestino = document.querySelector('.destino-hoteles')
 
-  for (hotel of hoteles) {
+  for (const hotel of hoteles) {
     const hotelCard = document.createElement('div')
 
     const hotelName = document.createElement('h4')
@@ -62,14 +63,14 @@ function descripcionHoteles (hoteles) {
 function actividadesDestino (actividades) {
   const actividadesDestino = document.querySelector('.destino-actividades')
 
-  for (opcion of actividades) {
+  for (const option of actividades) {
     const actividadCard = document.createElement('div')
 
     const actividadName = document.createElement('h3')
-    actividadName.innerHTML = opcion.actividad
+    actividadName.innerHTML = option.actividad
 
     const actividadImagen = document.createElement('img')
-    actividadImagen.setAttribute('src', opcion.imagen)
+    actividadImagen.setAttribute('src', option.imagen)
 
     actividadCard.appendChild(actividadName)
     actividadCard.appendChild(actividadImagen)
@@ -82,7 +83,7 @@ function informacionAdicionalDestino (informacion) {
   const informacionDestino = document.querySelector('.informacion-destino')
   const informacionAdicional = document.createElement('ul')
 
-  for (nota of informacion) {
+  for (const nota of informacion) {
     const notaAdicional = document.createElement('li')
     notaAdicional.innerHTML = nota
 

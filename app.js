@@ -1,6 +1,8 @@
+/* eslint-disable no-undef */
 const express = require('express')
 const app = express()
 const path = require('path')
+
 const destinos = require('./public/destinos.json')
 
 const PORT = process.env.PORT ?? 1234
@@ -14,24 +16,24 @@ app.get('/', (req, res) => {
 })
 
 app.get('/nacionales', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'nacionales.html'))
+  res.sendFile(path.join(__dirname, 'public', 'destinos.html'))
 })
 
 app.get('/internacionales', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'internacionales.html'))
+  res.sendFile(path.join(__dirname, 'public', 'destinos.html'))
 })
 
 app.get('/destino/:id', (req, res) => {
   const { id } = req.params
   const destino = destinos.find(x => x.id === id)
-  if (destino) return res.sendFile(path.join(__dirname, 'public', 'destino.html'))/* res.json(destino) */
+  if (destino) return res.sendFile(path.join(__dirname, 'public', 'destino.html'))
   res.status(404).json({ message: 'Destino no encontrado' })
 })
 
 app.get('/plan-turistico/:id', (req, res) => {
   const { id } = req.params
   const destino = destinos.find(x => x.id === id)
-  if (destino) return res.sendFile(path.join(__dirname, 'public', 'planes.html'))/* res.json(destino) */
+  if (destino) return res.sendFile(path.join(__dirname, 'public', 'destino.html'))
   res.status(404).json({ message: 'Destino no encontrado' })
 })
 

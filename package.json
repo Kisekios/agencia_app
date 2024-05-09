@@ -13,9 +13,18 @@
     "express": "4.19.2"
   },
   "devDependencies": {
+    "@eslint/js": "^9.2.0",
+    "eslint": "^9.2.0",
+    "globals": "^15.1.0",
     "standard": "17.1.0"
   },
   "eslintConfig": {
-    "extends": "standard"
+    "extends": "standard",
+    "rules": {
+      "space-before-function-paren": [
+        "error",
+        "always"
+      ]
+    }
   }
 }

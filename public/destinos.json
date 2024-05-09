@@ -4,10 +4,9 @@
     "titulo": "San Andres",
     "viaje": "nacional",
     "destacado": [
-      true,
-      true,
       2,
-      1
+      1,
+      0
     ],
     "url": "/destino/san_andres",
     "banner": "/assets/nacionales/san_andres_movil.jpeg",
@@ -33,7 +32,7 @@
       {
         "nombreHotel": "Blue cove",
         "ofrece": [
-          "Toboan al mar",
+          "Tobogán al mar",
           "Ubicado a 20 minutos de la playa principal",
           "Bar con Happy hour"
         ]
@@ -75,10 +74,9 @@
     "titulo": "Cartagena",
     "viaje": "nacional",
     "destacado": [
-      false,
-      true,
       0,
-      2
+      2,
+      0
     ],
     "url": "/destino/cartagena",
     "banner": "/assets/nacionales/cartagena_movil.jpeg",
@@ -153,10 +151,9 @@
     "titulo": "Santa Marta",
     "viaje": "nacional",
     "destacado": [
-      true,
-      true,
       4,
-      3
+      3,
+      0
     ],
     "url": "/destino/santa_marta",
     "banner": "/assets/nacionales/santa_marta_movil.jpeg",
@@ -225,10 +222,9 @@
     "titulo": "El Eje Cafetero",
     "viaje": "nacional",
     "destacado": [
-      false,
-      true,
       0,
-      4
+      4,
+      0
     ],
     "url": "/plan-turistico/eje_cafetero",
     "banner": "/assets/nacionales/eje_cafetero.jpeg",
@@ -297,10 +293,9 @@
     "titulo": "La Hacienda Napoles",
     "viaje": "nacional",
     "destacado": [
-      false,
-      true,
       0,
-      5
+      5,
+      0
     ],
     "url": "/plan-turistico/hacienda_napoles",
     "banner": "/assets/nacionales/hacienda_napoles.jpeg",
@@ -369,8 +364,6 @@
     "titulo": "Cancun",
     "viaje": "internacional",
     "destacado": [
-      true,
-      true,
       3,
       0,
       1
@@ -454,8 +447,6 @@
     "titulo": "Ciudad de Mexico",
     "viaje": "internacional",
     "destacado": [
-      false,
-      true,
       0,
       0,
       3
@@ -527,8 +518,6 @@
     "titulo": "Aruba",
     "viaje": "internacional",
     "destacado": [
-      false,
-      true,
       0,
       0,
       2
@@ -612,8 +601,6 @@
     "titulo": "Aventura Crucero ",
     "viaje": "internacional",
     "destacado": [
-      true,
-      true,
       1,
       0,
       5
@@ -697,8 +684,6 @@
     "titulo": "Curacao ",
     "viaje": "internacional",
     "destacado": [
-      false,
-      false,
       0,
       0,
       0
@@ -782,8 +767,6 @@
     "titulo": "Punta Cana ",
     "viaje": "internacional",
     "destacado": [
-      false,
-      true,
       0,
       0,
       4
@@ -867,8 +850,6 @@
     "titulo": "Panama",
     "viaje": "internacional",
     "destacado": [
-      false,
-      false,
       0,
       0,
       0
@@ -952,8 +933,6 @@
     "titulo": "Europa",
     "viaje": "internacional",
     "destacado": [
-      true,
-      true,
       5,
       0,
       6
