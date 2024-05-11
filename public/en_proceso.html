@@ -8,12 +8,60 @@
   <meta name="robots" content="index,follow">
   <title>Modo Vacaciones Porvenir</title>
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="stylesheet" href="/css/destino.css">
+  <link rel="stylesheet" href="/css/destinos.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    main {
+      display: flex;
+      justify-content: space-around;
+      margin: 5rem 5%;
+
+      &>img {
+        height: 70vh;
+      }
+
+      &>div {
+        width: 40vw;
+        display: inherit;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3rem;
+
+        &>p {
+          font-size: 2.5rem;
+          text-wrap: pretty;
+        }
+      }
+    }
+
+    @media (max-width:500px) {
+      main {
+        display: flex;
+        flex-direction: column;
+        margin: 5rem 5%;
+
+        &>img {
+          height: 40vh;
+        }
+
+        &>div {
+          margin-top: 5%;
+          width: 90vw;
+          display: inherit;
+          flex-direction: column;
+          gap: 2rem;
+
+          &>h1 {
+            text-wrap: balance;
+          }
+        }
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -36,7 +84,7 @@
           <img src="/assets/img/logo.jpg" alt="">
         </a>
       </section>
-      <section> <!-- Opciones de barra de navegación -->
+      <section> <!-- Opciones de barra de navegación --> <!-- buen dia -->
         <a href="/sobre-nosotros">Acerca de nosotros</a> <!-- Opciones de navegación -->
         <a href="/blog">Blog</a> <!-- Opciones de navegación -->
         <a href="/nacionales">Nacionales</a> <!-- Opciones de navegación -->
@@ -56,45 +104,12 @@
   </header>
 
   <main>
-    <section> <!-- portada del destino -->
-      <img class="imagen">
-      <article>
-        <h1 class="destino-name"></h1>
-        <p class="destino-descripcion"></p>
-        <h3>Que incluye?</h3>
-        <p class="destino-incluye"></p>
-        <h3 class="hoteles-planes-descripcion"></h3>
-        <section class="destino-hoteles">
-        </section>
-        <h3>Buscas otro plan?</h3>
-        <p>Disponemos de la gran mayoría de hoteles en el destino, Comunícate con nosotros y te ayudaremos a encontrar
-          tus vacaciones como las sueñas</p>
-
-      </article>
-    </section>
-
-    <section> <!-- que hay en  -->
-      <h1 class="presentation-destino-titulo"></h1>
-      <section class="destino-actividades">
-      </section>
-    </section>
-
-    <section> <!-- informacion -->
-      <h2>Información adicional</h2>
-      <div class="informacion-destino"></div>
-      <div>
-        <ul>
-          <li>Puedes reservar mínimo con el 30%, paga el saldo a cuotas, a 30 días antes del viaje debes tener el total
-            del viaje pago</li>
-          <li>Niños menores de 2 años no tiene costo, solo paga póliza de asistencia medica</li>
-          <li>
-            Niños mayores de 3 años pagan la totalidad del plan
-          </li>
-          <li>El plan incluye póliza de asistencia medica en caso de cualquier eventualidad</li>
-        </ul>
-      </div>
-      <p>Si tienes alguna duda, comunícate con nosotros y te brindaremos la Información para responder a tus dudas</p>
-    </section>
+    <img src="/assets/img/en_proceso.jpg" alt="">
+    <div>
+      <h1><em>Esta pagina no ha sido creada</em></h1>
+      <p> Comunícate con nosotros si buscas un destino/plan para tus vacaciones, te ayudaremos a estar En Modo
+        Vacaciones!</p>
+    </div>
   </main>
 
   <footer>
@@ -129,7 +144,7 @@
     </section>
   </footer>
   <script src="/index.js"></script>
-  <script src="/destinos.js"></script>
+  <script src="/destacados.js"></script>
 </body>
 
 </html>

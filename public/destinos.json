@@ -41,27 +41,39 @@
     "actividades": [
       {
         "actividad": "Acuario",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "imagen": "https://www.thearchipielagopress.co/wp-content/uploads/2022/09/image-19.jpeg"
       },
       {
-        "actividad": "Hans Cay",
-        "imagen": "https://i.pinimg.com/736x/33/28/1b/33281bd75d32ec4b8cda5a44299e9072.jpg"
+        "actividad": "Haynes Cay",
+        "imagen": "https://www.weseektravel.com/wp-content/uploads/2022/04/haynes-cay-el-acuario-san-andres-colombia-14-682x768.jpg"
       },
       {
         "actividad": "Buceo",
-        "imagen": "https://i.pinimg.com/564x/e4/98/10/e49810d09a13ec2e9ee0350ec92bc0d5.jpg"
+        "imagen": "https://turismoi.co/uploads/co/photo/photo_file/15379/IMG_20201228_074526_677.jpg"
       },
       {
         "actividad": "Parasail",
-        "imagen": "https://i.pinimg.com/564x/99/14/b2/9914b21e1070d121ff0fa194690fde38.jpg"
+        "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/bb/3e/0a/foto-de-nuestra-visitante.jpg?w=1200&h=-1&s=1"
       },
       {
         "actividad": "Vuelta a la isla",
-        "imagen": "https://i.pinimg.com/564x/30/f0/3d/30f03de9024817f085bc729d68a3c1f2.jpg"
+        "imagen": "https://jetsettravel.com.co/assets/images/media/61b3ec2b8b228.jpeg"
       },
       {
         "actividad": "La noche Blanca",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "imagen": "https://rollingsanandres.com/wp-content/uploads/2020/01/Toures-San-andres.jpg"
+      },
+      {
+        "actividad": "Hoyo soplador",
+        "imagen": "https://www.thearchipielagopress.co/wp-content/uploads/2021/03/HOYO-SOPLADOR.jpg"
+      },
+      {
+        "actividad": "Rocky cay",
+        "imagen": "https://viajasanandres.com/wp-content/uploads/2019/11/rocky-cay.jpg"
+      },
+      {
+        "actividad": "Manglares",
+        "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/a3/a8/ee/ecofiwi-turismo-ecologico.jpg?w=1100&h=800&s=1"
       }
     ],
     "informacion": [
@@ -111,35 +123,35 @@
     "actividades": [
       {
         "actividad": "Costa del Sol",
-        "imagen": "/assets/nacionales/cartagena_movil.jpeg"
+        "imagen": "/assets/destinos_blogs/cartagena_hotel_costa_del_sol_blog.jpeg"
       },
       {
         "actividad": "Castillo de San Felipe",
-        "imagen": "/assets/nacionales/cartagena_movil.jpeg"
+        "imagen": "https://www.semana.com/resizer/rLZ2XSRmTjLpCgnCt4npS9VtoGU=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/GJEKTNS6RVDIDMVGVMG6UBBNEY.jpeg"
       },
       {
-        "actividad": "Muralla",
-        "imagen": "/assets/nacionales/cartagena_movil.jpeg"
+        "actividad": "Las Murallas",
+        "imagen": "https://img.freepik.com/fotos-premium/muralla-ciudad-cartagena-colombia_146714-911.jpg"
       },
       {
         "actividad": "Centro Histórico",
-        "imagen": "/assets/nacionales/cartagena_movil.jpeg"
+        "imagen": "https://www.eluniversal.com.co/sites/default/files/201508/centro_0.jpg"
       },
       {
-        "actividad": "Baru",
-        "imagen": "/assets/nacionales/cartagena_movil.jpeg"
+        "actividad": "Barú",
+        "imagen": "https://i0.wp.com/ramaporelmundo.com/wp-content/uploads/2020/04/IMG_20180617_051406-scaled.jpeg?fit=716%2C537&ssl=1"
       },
       {
         "actividad": "La torre del reloj",
-        "imagen": "/assets/nacionales/cartagena_movil.jpeg"
+        "imagen": "https://cdn.colombia.com/sdi/2015/10/18/torre-del-reloj-704593.jpg"
       },
       {
         "actividad": "Los zapatos viejos",
-        "imagen": "/assets/nacionales/cartagena_movil.jpeg"
+        "imagen": "https://i.pinimg.com/originals/90/0c/57/900c572bb9770d25a408d99ec6a5cc37.jpg"
       },
       {
-        "actividad": "Esculturas de la india Catalina",
-        "imagen": "/assets/nacionales/cartagena_movil.jpeg"
+        "actividad": "La India Catalina",
+        "imagen": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/df/b8/d0.jpg"
       }
     ],
     "informacion": [
@@ -186,31 +198,31 @@
     "actividades": [
       {
         "actividad": "Playa de Rodadero",
-        "imagen": "https://i.pinimg.com/736x/33/28/1b/33281bd75d32ec4b8cda5a44299e9072.jpg"
+        "imagen": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/349007021.jpg?k=cf6495b96ae6c30ee17a68de54562c00681f1a4832c90438eeb87200f5b63ad5&o=&hp=1"
       },
       {
         "actividad": "Playa Blanca",
-        "imagen": "https://i.pinimg.com/564x/e4/98/10/e49810d09a13ec2e9ee0350ec92bc0d5.jpg"
-      },
-      {
-        "actividad": "Motos Acuáticas",
-        "imagen": "https://i.pinimg.com/564x/99/14/b2/9914b21e1070d121ff0fa194690fde38.jpg"
+        "imagen": "https://www.visitsantamarta.com/storage/blogs/Playa%20blanca.jpg"
       },
       {
         "actividad": "Parque Tayrona",
-        "imagen": "https://i.pinimg.com/564x/30/f0/3d/30f03de9024817f085bc729d68a3c1f2.jpg"
-      },
-      {
-        "actividad": "Atardecer en velero",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
-      },
-      {
-        "actividad": "Tour Bahia Concha",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/7/76/Cabo_San_Juan%2C_Colombia.jpg"
       },
       {
         "actividad": "Centro Histórico",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "imagen": "https://www.santamarta.gov.co/sites/default/files/callejon_del_correo_-_santa_marta.jpg"
+      },
+      {
+        "actividad": "Motos Acuáticas",
+        "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/64/41/ab/caption.jpg?w=1200&h=-1&s=1"
+      },
+      {
+        "actividad": "Atardecer en velero",
+        "imagen": "https://santamartatrip.com/sites/default/files/cocoon/velero6_0.jpg"
+      },
+      {
+        "actividad": "Tour Bahia Concha",
+        "imagen": "https://santamartatrip.com/sites/default/files/cocoon/velero5.jpg"
       }
     ],
     "informacion": [
@@ -228,60 +240,93 @@
     ],
     "url": "/plan-turistico/eje_cafetero",
     "banner": "/assets/nacionales/eje_cafetero.jpeg",
-    "descripcion": "Santa Marta ubicada en la costa caribeña de Colombia es un destino turístico imperdible, que combina historia, naturaleza y aventura, visita el museo del oro Tayrona, visita el callejón del correo, encontraras tiendas,cafes y una atmósfera colonial encantadora, la gran playa del rodadero,playa blanca con sus aguas cristalinas, visita la basilica de Santa Marta, la mas antigua de Colombia.",
-    "incluye": "Los planes de 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, incluye desayuno y cena, tour a playa blanca con almuerzo incluido, pólizas de asistencia medica ",
+    "descripcion": "El Eje Cafetero es una de las regiones más bellas y turísticas de Colombia, con una gran variedad de atracciones y actividades para disfrutar. Disfruta de paisajes impresionantes, deliciosa gastronomía y actividades al aire libre en este hermoso destino",
+    "incluye": "El planes de 4 días, 3 noches incluye el transporte, alojamiento, 4 desayunos,1 almuerzo y 3 cenas de comida típica de las fincas de la region, cuenta con 2 horas de cócteles seleccionados ilimitados de 8 PM a 10 PM, incluye traslados a los lugares mas populares del eje cafetero.",
     "hoteles": [
       {
         "dia": "Dia 1",
         "ofrece": [
-          "Hotel tipo colonial",
-          "Ubicado a 2 cuadras de la playa el Rodadero",
-          "Piscina amplia"
+          "Salida de Bogota a las 10 PM"
         ]
       },
       {
         "dia": "Dia 2",
         "ofrece": [
-          "Hotel estilo apartamentos",
-          "Ubicado a 3 cuadras de la playa el Rodadero"
+          "Llegada a Santa Rosa de Cabal",
+          "Desayuno",
+          "Termales de Santa Rosa de Cabal",
+          "Traslado al bio parque de Ukumari",
+          "Almuerzo (no incluido)",
+          "Finalizando la tarde traslado a la finca",
+          "Entrega de habitaciones",
+          "Cena",
+          "Cocteles despues de las 8 PM hasta 10 PM"
         ]
       },
       {
         "dia": "Dia 3",
         "ofrece": [
-          "Hotel tipo apartamentos",
-          "Ubicado a 4 cuadras de la playa el Rodadero"
+          "Desayuno",
+          "Recorrido hacia Salento",
+          "Bajada en jeep al valle del cocora",
+          "Regreso a Salento",
+          "Almuerzo (no incluido)",
+          "Traslado a Filandia",
+          "Regreso a la finca",
+          "Cena",
+          "Cócteles después de las 8 PM hasta 10 PM"
+        ]
+      },
+      {
+        "dia": "Dia 4",
+        "ofrece": [
+          "Desayuno",
+          "Visita al parque del café (Pasaporte múltiple) todo el dia",
+          "Traslado a Quimbaya",
+          "Regreso a la finca",
+          "Cena",
+          "Cócteles después de las 8 PM hasta 10 PM"
+        ]
+      },
+      {
+        "dia": "Dia 5",
+        "ofrece": [
+          "Desayuno",
+          "Tiempo libre en la finca",
+          "Almuerzo (incluido)",
+          "Check out de las habitaciones",
+          "Recoger maletas y de vuelta a Bogota"
         ]
       }
     ],
     "actividades": [
       {
-        "actividad": "Playa de Rodadero",
-        "imagen": "https://i.pinimg.com/736x/33/28/1b/33281bd75d32ec4b8cda5a44299e9072.jpg"
+        "actividad": "Santa Rosa de Cabal",
+        "imagen": "https://irp.cdn-website.com/088ca3db/dms3rep/multi/termales+de+santa+rosa+de+cabal.jpg"
       },
       {
-        "actividad": "Playa Blanca",
-        "imagen": "https://i.pinimg.com/564x/e4/98/10/e49810d09a13ec2e9ee0350ec92bc0d5.jpg"
+        "actividad": "Bio Parque Ukumari",
+        "imagen": "https://www.elquindiano.com/upload/article/b202208070937255.jpg"
       },
       {
-        "actividad": "Motos Acuáticas",
-        "imagen": "https://i.pinimg.com/564x/99/14/b2/9914b21e1070d121ff0fa194690fde38.jpg"
+        "actividad": "Salento",
+        "imagen": "https://trayectoriasenviaje.com/wp-content/uploads/2022/09/que-hacer-salento-fb.jpg"
       },
       {
-        "actividad": "Parque Tayrona",
-        "imagen": "https://i.pinimg.com/564x/30/f0/3d/30f03de9024817f085bc729d68a3c1f2.jpg"
+        "actividad": "Valle del Cocora",
+        "imagen": "https://www.lavanguardia.com/files/article_gallery_microformat/uploads/2021/12/10/61b336a52bca0.jpeg"
       },
       {
-        "actividad": "Atardecer en velero",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "actividad": "Filandia",
+        "imagen": "https://imgs.elpais.com.uy/dims4/default/4799db4/2147483647/strip/true/crop/668x459+8+0/resize/1440x990!/quality/90/?url=https%3A%2F%2Fel-pais-uruguay-production-web.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fuploads%2F2022%2F06%2F27%2F62b9bae962dd9.jpeg"
       },
       {
-        "actividad": "Tour Bahia Concha",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "actividad": "Parque del Cafe",
+        "imagen": "https://fantasiasdeverano.com/wp-content/uploads/2019/02/atracciones-parque-del-cafe.jpg"
       },
       {
-        "actividad": "Centro Histórico",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "actividad": "Quimbaya",
+        "imagen": "https://rutasdelpaisajeculturalcafetero.com/wp-content/uploads/2018/03/Quimbaya1.jpg"
       }
     ],
     "informacion": [

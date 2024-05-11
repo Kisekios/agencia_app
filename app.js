@@ -27,14 +27,22 @@ app.get('/destino/:id', (req, res) => {
   const { id } = req.params
   const destino = destinos.find(x => x.id === id)
   if (destino) return res.sendFile(path.join(__dirname, 'public', 'destino.html'))
-  res.status(404).json({ message: 'Destino no encontrado' })
+    /* res.status(404).sendFile(path.join(__dirname, 'public', 'en_proceso.html')) */
 })
 
 app.get('/plan-turistico/:id', (req, res) => {
   const { id } = req.params
   const destino = destinos.find(x => x.id === id)
   if (destino) return res.sendFile(path.join(__dirname, 'public', 'destino.html'))
-  res.status(404).json({ message: 'Destino no encontrado' })
+  /* res.status(404).sendFile(path.join(__dirname, 'public', 'en_proceso.html')) */
+})
+
+app.get('/blog', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'en_proceso.html'))
+})
+
+app.get('/sobre-nosotros', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'en_proceso.html'))
 })
 
 app.listen(PORT, () => {

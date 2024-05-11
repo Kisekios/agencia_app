@@ -1,7 +1,6 @@
 const obtenerUrl = (globalThis.location.pathname).split('/')
-const allDestinos = document.querySelector('.destinos-opciones')
 
-// Inyeccion de imagen y url de planes destacados/promociones
+// Inyección de imagen y url de planes destacados/promociones
 fetch('http://192.168.0.16:1234/destinos.json')
   .then(res => res.json())
   .then(response => {
@@ -42,6 +41,8 @@ fetch('http://192.168.0.16:1234/destinos.json')
     }
 
     function inyectarEnlacesDestinos(tipoViaje) {
+      const allDestinos = document.querySelector('.destinos-opciones')
+      
       const tituloAllDestinos = document.createElement('h1')
       tituloAllDestinos.innerHTML = 'Todos los destinos ' + obtenerUrl[1]
       allDestinos.appendChild(tituloAllDestinos)
