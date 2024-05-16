@@ -244,13 +244,13 @@
     "incluye": "El planes de 4 días, 3 noches incluye el transporte, alojamiento, 4 desayunos,1 almuerzo y 3 cenas de comida típica de las fincas de la region, cuenta con 2 horas de cócteles seleccionados ilimitados de 8 PM a 10 PM, incluye traslados a los lugares mas populares del eje cafetero.",
     "hoteles": [
       {
-        "dia": "Dia 1",
+        "dia": "Dia 0",
         "ofrece": [
           "Salida de Bogota a las 10 PM"
         ]
       },
       {
-        "dia": "Dia 2",
+        "dia": "Dia 1",
         "ofrece": [
           "Llegada a Santa Rosa de Cabal",
           "Desayuno",
@@ -264,7 +264,7 @@
         ]
       },
       {
-        "dia": "Dia 3",
+        "dia": "Dia 2",
         "ofrece": [
           "Desayuno",
           "Recorrido hacia Salento",
@@ -278,7 +278,7 @@
         ]
       },
       {
-        "dia": "Dia 4",
+        "dia": "Dia 3",
         "ofrece": [
           "Desayuno",
           "Visita al parque del café (Pasaporte múltiple) todo el dia",
@@ -289,7 +289,7 @@
         ]
       },
       {
-        "dia": "Dia 5",
+        "dia": "Dia 4",
         "ofrece": [
           "Desayuno",
           "Tiempo libre en la finca",
@@ -344,60 +344,110 @@
     ],
     "url": "/plan-turistico/hacienda_napoles",
     "banner": "/assets/nacionales/hacienda_napoles.jpeg",
-    "descripcion": "Santa Marta ubicada en la costa caribeña de Colombia es un destino turístico imperdible, que combina historia, naturaleza y aventura, visita el museo del oro Tayrona, visita el callejón del correo, encontraras tiendas,cafes y una atmósfera colonial encantadora, la gran playa del rodadero,playa blanca con sus aguas cristalinas, visita la basilica de Santa Marta, la mas antigua de Colombia.",
-    "incluye": "Los planes de 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, incluye desayuno y cena, tour a playa blanca con almuerzo incluido, pólizas de asistencia medica ",
+    "descripcion": " Disfruta de un emocionante viaje a la vibrante Medellín y la exótica Hacienda Nápoles. Explora la rica historia de Antioquia con visitas a la Piedra del Peñol, el colorido pueblo de Guatapé y el icónico Pueblito Paisa. Navega por la represa de Guatapé en lancha y sumérgete en la belleza del Santorini Colombiano. Vive la emoción del Parque Temático Hacienda Nápoles con su Pasaporte Safari, que incluye parques acuáticos y atracciones de vida silvestre",
+    "incluye": "El plan incluye los transportes y traslados, pólizas de asistencia medica, coordinador de viaje, 5 desayunos y 4 cenas, recorrido en lancha por la represa de Guatapé con reseña historica, visita la piedra del Peñol, el publito Paisa, el Santorini Colombiano. Visitaras el parque Los Pies Descalzos, el parque Botero y la Hacienda Napoles, entre otras mas actividades para que tengas una experiencia completa",
     "hoteles": [
+      {
+        "dia": "Dia 0",
+        "ofrece": [
+          "Salida desde Bogotá a las 8 PM"
+        ]
+      },
       {
         "dia": "Dia 1",
         "ofrece": [
-          "Hotel tipo colonial",
-          "Ubicado a 2 cuadras de la playa el Rodadero",
-          "Piscina amplia"
+          "Desayuno",
+          "Visita a la Piedra del Peñol(no incluye ascenso)",
+          "Caminata por Guatapé",
+          "Recorrido en lancha por la represa",
+          "Desplazamiento a Medellin",
+          "Acomodación en el hotel en Medellin",
+          "Recorrido por el Parque de los Pies Descalzos",
+          "Tour panoramico por el centro administrativo la Alpajurra",
+          "Regreso al hotel y cena"
         ]
       },
       {
         "dia": "Dia 2",
         "ofrece": [
-          "Hotel estilo apartamentos",
-          "Ubicado a 3 cuadras de la playa el Rodadero"
+          "Desayuno",
+          "Visita a Santa Fe de Antioquia",
+          "Recorrido por el puente de occidente y el túnel Fernando Gomez",
+          "Regreso a Medellin",
+          "Recorrido en metro y metro cable",
+          "Visita al Parque Botero",
+          "Visita al Pueblito Paisa y Cerro Nutibara",
+          "Regreso al hotel y cena"
         ]
       },
       {
         "dia": "Dia 3",
         "ofrece": [
-          "Hotel tipo apartamentos",
-          "Ubicado a 4 cuadras de la playa el Rodadero"
+          "Desayuno",
+          "Desplazamiento a El Doradal",
+          "Visita al barrio La Aldea ( El Santorini Colombiano",
+          "Acomodación en el hotel en el Doradal",
+          "Cena"
+        ]
+      },
+      {
+        "dia": "Dia 4",
+        "ofrece": [
+          "Desayuno y desplazamiento al Parque Temático Hacienda Napoles con pasaporte Safari",
+          "Podrás disfrutar de:",
+          "Parque Jurásico",
+          "los habitad de hipopótamos, felinos, monos y suricatos",
+          "Santuario de Fauna y Flora y la Gran Sabana",
+          "Museo memorial y Africano",
+          "Parque acuáticos Acuasaurus, Octopus, Cobras, Rio salvaje y cataratas Victoria",
+          "Regreso al hotel y cena"
+        ]
+      },
+      {
+        "dia": "Dia 5",
+        "ofrece": [
+          "Desayuno",
+          "Mañana de descanzo para disfrutar de las instalaciones del hotel",
+          "Regreso a Bogota"
         ]
       }
     ],
     "actividades": [
       {
-        "actividad": "Playa de Rodadero",
-        "imagen": "https://i.pinimg.com/736x/33/28/1b/33281bd75d32ec4b8cda5a44299e9072.jpg"
+        "actividad": "Piedra del Peñol",
+        "imagen": "https://telemedellin.tv/wp-content/uploads/2023/11/Piedra-del-Penol-1.jpg"
       },
       {
-        "actividad": "Playa Blanca",
-        "imagen": "https://i.pinimg.com/564x/e4/98/10/e49810d09a13ec2e9ee0350ec92bc0d5.jpg"
+        "actividad": "Guatape en lancha",
+        "imagen": "https://turismoi.co/uploads/co/photo/photo_file/14228/WhatsApp_Image_2021-02-22_at_5.16.49_PM.jpeg"
       },
       {
-        "actividad": "Motos Acuáticas",
-        "imagen": "https://i.pinimg.com/564x/99/14/b2/9914b21e1070d121ff0fa194690fde38.jpg"
+        "actividad": "Prk los Pies Descalzos",
+        "imagen": "https://as1.ftcdn.net/v2/jpg/01/42/97/34/1000_F_142973401_XjfgnNmV3sKqqngFvv5WH9tdQIiq4CvS.jpg"
       },
       {
-        "actividad": "Parque Tayrona",
-        "imagen": "https://i.pinimg.com/564x/30/f0/3d/30f03de9024817f085bc729d68a3c1f2.jpg"
+        "actividad": "Pueblito Paisa",
+        "imagen": "https://blog.redbus.co/wp-content/uploads/2019/04/fixedw_large_4x-1.jpg"
       },
       {
-        "actividad": "Atardecer en velero",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "actividad": "Parque Botero",
+        "imagen": "https://terapiasderelajacionmedellin.com/wp-content/uploads/2022/07/Plaza-Botero.webp"
       },
       {
-        "actividad": "Tour Bahia Concha",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "actividad": "Santa fe de Antioqia",
+        "imagen": "https://www.comfenalcoantioquia.com.co/wcm/connect/357a64db-aca9-4812-a8c6-8c96b7ce12cb/Dise%C3%B1o+sin+t%C3%ADtulo+%2858%29.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE-357a64db-aca9-4812-a8c6-8c96b7ce12cb-oANgjp4"
       },
       {
-        "actividad": "Centro Histórico",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "actividad": "Santorini Colombiano",
+        "imagen": "https://revistadiners.com.co/wp-content/uploads/2020/12/laaldea_santorini_portada_.webp"
+      },
+      {
+        "actividad": "Hacienda Napoles",
+        "imagen": "https://www.elpais.com.co/resizer/410XfSjp6rp29Z3AhcicH8p4Llw=/1280x1280/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/MML5MGE6N5BXLNFS75HJETKVJ4.jpeg"
+      },
+      {
+        "actividad": "Hacienda Napoles",
+        "imagen": "https://scontent.fbog3-1.fna.fbcdn.net/v/t1.6435-9/71478355_2489456921136563_2639339149504544768_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHmOIKxGeXVDelqHEUJA_N4im99OBUDLBuKb304FQMsG07e1-mNVV1XZObdJ_Ug17i_y8eAh9HFy-f1TwrUW0pC&_nc_ohc=D3mhzqkQZUEQ7kNvgH_tU62&_nc_ht=scontent.fbog3-1.fna&oh=00_AYAJlUSRN3ed48NQAbhw3ZnByY94SWvm0Dw20T3rUXCEYw&oe=666CA3AE"
       }
     ],
     "informacion": [
@@ -455,31 +505,31 @@
     "actividades": [
       {
         "actividad": "Chichen itza",
-        "imagen": "https://i.pinimg.com/736x/33/28/1b/33281bd75d32ec4b8cda5a44299e9072.jpg"
+        "imagen": "https://cdn.vallarta-adventures.com/sites/default/files/2021-05/CHichen10.jpeg"
       },
       {
         "actividad": "Xcaret",
-        "imagen": "https://i.pinimg.com/564x/e4/98/10/e49810d09a13ec2e9ee0350ec92bc0d5.jpg"
+        "imagen": "https://www.marieldeviaje.com/wp-content/uploads/2019/09/Mariel-de-Viaje-Xcaret-gu%C3%ADa-b%C3%A1sica-2.jpeg"
       },
       {
-        "actividad": "Xplorer",
-        "imagen": "https://i.pinimg.com/564x/99/14/b2/9914b21e1070d121ff0fa194690fde38.jpg"
+        "actividad": "Xplor",
+        "imagen": "https://i.pinimg.com/736x/1b/fb/e2/1bfbe24db53f177587fe68935dfc5c1f.jpg"
       },
       {
         "actividad": "Nado con delfines",
-        "imagen": "https://i.pinimg.com/564x/30/f0/3d/30f03de9024817f085bc729d68a3c1f2.jpg"
+        "imagen": "https://f.hubspotusercontent20.net/hubfs/1709370/Delph_Portada4_CuantoCuestaNadarConDelfines.jpg"
       },
       {
         "actividad": "Cenotes",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "imagen": "https://thecancunsun.com/wp-content/uploads/2022/11/The-Ultimate-Guide-To-Exploring-Top-Cenotes-Near-Cancun-1.jpg"
       },
       {
         "actividad": "Tour isla mujeres",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Isla_Mujeres_aerial_%2829729604048%29.jpg"
       },
       {
         "actividad": "Zona de antros",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "imagen": "https://hotelsotavento.info/wp-content/uploads/2022/10/Coco-Bongo-en-Cancu%CC%81n.jpg"
       }
     ],
     "informacion": [
@@ -526,31 +576,31 @@
     "actividades": [
       {
         "actividad": "Pirámides de Teotihuacan",
-        "imagen": "https://i.pinimg.com/736x/33/28/1b/33281bd75d32ec4b8cda5a44299e9072.jpg"
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/2020-02-11_Teotihuacan_la_Avenida_de_los_Muertos_y_la_Pir%C3%A1mide_del_Sol.jpg/800px-2020-02-11_Teotihuacan_la_Avenida_de_los_Muertos_y_la_Pir%C3%A1mide_del_Sol.jpg"
       },
       {
         "actividad": "La basilica de Guadalupe",
-        "imagen": "https://i.pinimg.com/564x/e4/98/10/e49810d09a13ec2e9ee0350ec92bc0d5.jpg"
+        "imagen": "https://www.turismomexico.es/wp-content/uploads/2020/05/basilica_virgen_guadalupe.jpg"
       },
       {
         "actividad": "City Tour",
-        "imagen": "https://i.pinimg.com/564x/99/14/b2/9914b21e1070d121ff0fa194690fde38.jpg"
+        "imagen": "https://milenialtravel.com/wp-content/uploads/2023/06/City-Tour-CDMX.jpg"
       },
       {
         "actividad": "Xochimilco",
-        "imagen": "https://i.pinimg.com/564x/30/f0/3d/30f03de9024817f085bc729d68a3c1f2.jpg"
+        "imagen": "https://trajinerasxochimilco.info/wp-content/uploads/2021/09/las-trajineras-de-xochimilco.jpg"
       },
       {
         "actividad": "Palacio de Bellas Artes",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "imagen": "https://mymodernmet.com/wp/wp-content/uploads/2020/05/palacio-bellas-artes-1-1.jpg"
       },
       {
         "actividad": "Plaza Garibaldi",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "imagen": "https://i.pinimg.com/originals/7d/8a/b7/7d8ab719501349abda28d1decf25bcb2.jpg"
       },
       {
         "actividad": "Globos Aerostáticos",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/73/eb/8a/caption.jpg?w=500&h=400&s=1"
       }
     ],
     "informacion": [
@@ -569,7 +619,7 @@
     ],
     "url": "/destino/aruba",
     "banner": "/assets/internacionales/aruba_movil.jpeg",
-    "descripcion": "Cancun paraíso turístico con sus 17 kilómetros de arena blanca y brillantes agua turquesa, parques temáticos como el Xcaret,el Xplor, bares y discotecas donde podrás degustar autentico tequila, fiestas inigualables hacen que la vida nocturna en Cancun sea reconocida a nivel mundial, visita la pirámide de Chichen itza, los cenotes , la bella isla mujeres, disfruta de la rica gastronomía mexicana y las artesanías de la cultura de Mexico",
+    "descripcion": "Aruba, conocida como “La Isla más Feliz del Caribe”, es un destino único para tus vacaciones. Aruba es famosa por sus playas de aguas cristalinas. Desde Eagle Beach hasta Palm Beach, encontrarás arenas blancas y suaves, con un clima cálido y soleado durante todo el año perfectas para relajarte o practicar deportes acuáticos; cuando visites Aruba, vivirá contigo el efecto mágico de Aruba",
     "incluye": "Los planes desde 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, hoteles de playa, incluye alimentación completa tipo buffet, bebidas ilimitadas en el hotel, snacks todas las tardes en el hotel, eventos que organizan los hoteles para los huéspedes según el hotel, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria y contamos con una gran variedad de opciones de hoteles",
     "hoteles": [
       {
@@ -726,7 +776,7 @@
   },
   {
     "id": "curacao",
-    "titulo": "Curacao ",
+    "titulo": "Curaçao ",
     "viaje": "internacional",
     "destacado": [
       0,
@@ -735,7 +785,7 @@
     ],
     "url": "/destino/curacao",
     "banner": "/assets/internacionales/crucero.jpeg",
-    "descripcion": "Cancun paraíso turístico con sus 17 kilómetros de arena blanca y brillantes agua turquesa, parques temáticos como el Xcaret,el Xplor, bares y discotecas donde podrás degustar autentico tequila, fiestas inigualables hacen que la vida nocturna en Cancun sea reconocida a nivel mundial, visita la pirámide de Chichen itza, los cenotes , la bella isla mujeres, disfruta de la rica gastronomía mexicana y las artesanías de la cultura de Mexico",
+    "descripcion": "Curaçao, una hermosa isla en el Caribe, ofrece una experiencia única llena de sol, playas de aguas cristalinas y una rica cultura, Pasea por la famosa Handelskade en Willemstad, donde los edificios de colores vibrantes bordean el puerto. En sus playas disfrutaras de un magica vista, deportes como el kayak en las olas, windsurf, esquí acuático y jet ski. Este complejo en Bapor Kibra es un lugar popular para disfrutar de restaurantes, tiendas y vida nocturna. ¡No te lo pierdas!.",
     "incluye": "Los planes desde 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, hoteles de playa, incluye alimentación completa tipo buffet, bebidas ilimitadas en el hotel, snacks todas las tardes en el hotel, eventos que organizan los hoteles para los huéspedes según el hotel, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria y contamos con una gran variedad de opciones de hoteles",
     "hoteles": [
       {
@@ -818,7 +868,7 @@
     ],
     "url": "/destino/punta_cana",
     "banner": "/assets/internacionales/punta_cana.jpeg",
-    "descripcion": "Cancun paraíso turístico con sus 17 kilómetros de arena blanca y brillantes agua turquesa, parques temáticos como el Xcaret,el Xplor, bares y discotecas donde podrás degustar autentico tequila, fiestas inigualables hacen que la vida nocturna en Cancun sea reconocida a nivel mundial, visita la pirámide de Chichen itza, los cenotes , la bella isla mujeres, disfruta de la rica gastronomía mexicana y las artesanías de la cultura de Mexico",
+    "descripcion": "Punta Cana es un destino paradisíaco en la República Dominicana que ofrece una combinación perfecta de playas de arena blanca, aguas cristalinas, aventuras emocionantes y gastronomía deliciosa, playa Bávaro declarada como una de las mejores playas del mundo; el Hoyo Azul ubicado en Scape Park, un cenote de aguas turquesas donde podras nadar y disfrutar de la naturaleza, conoce el parque Ecológico Ojos indígenas y la isla Saona; Prueba de su gastronomia, una mezcla de influencias taina, española y africana, un rico recuerdo para tu paladar",
     "incluye": "Los planes desde 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, hoteles de playa, incluye alimentación completa tipo buffet, bebidas ilimitadas en el hotel, snacks todas las tardes en el hotel, eventos que organizan los hoteles para los huéspedes según el hotel, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria y contamos con una gran variedad de opciones de hoteles",
     "hoteles": [
       {
@@ -901,7 +951,7 @@
     ],
     "url": "/destino/panama",
     "banner": "/assets/internacionales/panama.jpeg",
-    "descripcion": "Cancun paraíso turístico con sus 17 kilómetros de arena blanca y brillantes agua turquesa, parques temáticos como el Xcaret,el Xplor, bares y discotecas donde podrás degustar autentico tequila, fiestas inigualables hacen que la vida nocturna en Cancun sea reconocida a nivel mundial, visita la pirámide de Chichen itza, los cenotes , la bella isla mujeres, disfruta de la rica gastronomía mexicana y las artesanías de la cultura de Mexico",
+    "descripcion": "Bienvenido a Panamá, un país que irradia vida, autenticidad y una mezcla perfecta de lo antiguo y lo nuevo. Aquí, los mundos del norte y del sur se conectan, y los paisajes cosmopolitas armonizan con las selvas tropicales, Este archipiélago en el Caribe es famoso por sus playas de aguas cristalinas, actividades acuáticas y vibrante vida nocturna, conoce el BioMuseo, la Basílica menoir Santiago Apóstol en la provincia de Coclé,la Isla Bastimentos y el parque nacional de Coiba, la isla mas grande de Panamá y con una biodiversidad asombrosa.",
     "incluye": "Los planes desde 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, hoteles de playa, incluye alimentación completa tipo buffet, bebidas ilimitadas en el hotel, snacks todas las tardes en el hotel, eventos que organizan los hoteles para los huéspedes según el hotel, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria y contamos con una gran variedad de opciones de hoteles",
     "hoteles": [
       {

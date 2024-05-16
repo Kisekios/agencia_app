@@ -43,7 +43,7 @@ main {
         scrollbar-width: auto;
 
         &>div {
-          min-width: 25rem;
+          min-width: 35rem;
           padding: 2rem;
           margin-block: 2rem;
           border-radius: 5%;
@@ -52,7 +52,7 @@ main {
               var(--color-azul), var(--color-morado-secundario));
 
           &>h4 {
-            border-bottom: .2rem solid var(--color-blanco) ;
+            border-bottom: .2rem solid var(--color-blanco);
           }
 
           &>h5 {
@@ -76,21 +76,26 @@ main {
     }
 
     &>section {
-      margin-top: 5rem;
-      width: 100%;
+      margin: 5rem auto 0;
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-around;
+      justify-content: space-between;
       gap: 1rem;
 
       &>div {
-        margin-bottom: 2rem;
+        margin-bottom: 5rem;
+        width: 26vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
 
         &>h3 {
           text-align: center;
           padding-block-end: .5rem;
           margin-bottom: 3rem;
           border-block-end: 4px solid white;
+          width: inherit;
         }
 
         &>img {
@@ -105,20 +110,30 @@ main {
 
   &>section:nth-of-type(3) {
     margin-top: 5rem;
+
     &>h2 {
       text-decoration: underline;
     }
 
-    &>div:nth-of-type(1),p {
+    &>div:nth-of-type(1),
+    p {
       margin-top: 3rem;
     }
 
-    &>p,li {
+    &>p,
+    li {
       font-size: 2rem;
     }
+
     &>div>ul>li {
       margin-bottom: .5rem;
     }
+  }
+}
+
+@media (max-width:1000px) {
+  main>section:nth-of-type(2)>section>div {
+    width: 35vw;
   }
 }
 
@@ -134,6 +149,10 @@ main {
         &>p {
           margin-top: 2rem;
         }
+
+        &>section>div {
+          min-width: 25rem;
+        }
       }
     }
 
@@ -142,6 +161,10 @@ main {
 
       &>h1 {
         border-bottom: none;
+      }
+
+      &>section>div {
+        width: 100%;
       }
     }
 
