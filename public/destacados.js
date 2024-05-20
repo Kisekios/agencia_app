@@ -25,7 +25,11 @@ fetch('http://192.168.0.16:1234/destinos.json')
 
       for (let i = 1; i < destacados.length + 1; i++) {
         const orden = destacados.find(x => x.destacado[n1] === i)
-        renderDestacados(orden.banner, orden.url)
+        if (n1 === 0 && orden.bannerGrande !== false){
+          renderDestacados(orden.bannerGrande, orden.url)
+        }else {
+          renderDestacados(orden.banner, orden.url)
+        }
       }
     }
 

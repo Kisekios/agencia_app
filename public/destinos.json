@@ -10,6 +10,7 @@
     ],
     "url": "/destino/san_andres",
     "banner": "/assets/nacionales/san_andres_movil.jpeg",
+    "bannerGrande": "/assets/nacionales/san_andres.jpg",
     "descripcion": "San Andrés es un auténtico paraíso ubicado en el Caribe colombiano, cuenta con algunas de las mejores playas del Caribe. Entre ellas se encuentra Spratt Bright, ubicada en el distrito comercial de San Andrés. Esta playa de más de 2 kilómetros invita a relajarse, tomar el sol y disfrutar de deportes acuáticos como el kitesurf o el jet ski. Otra joya es Cocoplum, con aguas cristalinas y protegida por un arrecife de coral. Desde allí, incluso puedes caminar hasta Rocky Cay, un islote rodeado de vida submarina. ",
     "incluye": "En los planes de San Andres contaras con los tiquetes aéreos ida y regreso, traslados del aeropuerto al hotel/hotel aeropuerto, ciclo de 4 noches 4 días, tour por el acuario de Hans Cay y manglares, alimentación completa tipo buffet, bebidas en el hotel en horarios establecidos y polizas de asistencia medica.",
     "hoteles": [
@@ -92,6 +93,7 @@
     ],
     "url": "/destino/cartagena",
     "banner": "/assets/nacionales/cartagena_movil.jpeg",
+    "bannerGrande": false,
     "descripcion": "Cartagena considerada como uno de los mejores destinos turísticos de Colombia, por su arquitectura, las diferentes de playas, el castillo de San Felipe, la torre del reloj, la muralla y su gran variedad de hoteles con vista a la playa de todas las categorías, en el centro histórico recorre sus calles empedradas, sus balcones de madera y casonas coloniales. Visita la isla de Baru",
     "incluye": "En los planes de Cartagena cuentas con los tiquetes aéreos de ida y regreso, alimentación completa, traslados aeropuerto-hotel/hotel-aeropuerto, tour de Baru con almuerzo incluido, y pólizas de asistencia medica",
     "hoteles": [
@@ -169,6 +171,7 @@
     ],
     "url": "/destino/santa_marta",
     "banner": "/assets/nacionales/santa_marta_movil.jpeg",
+    "bannerGrande": "/assets/nacionales/santa_marta.jpg",
     "descripcion": "Santa Marta ubicada en la costa caribeña de Colombia es un destino turístico imperdible, que combina historia, naturaleza y aventura, visita el museo del oro Tayrona, visita el callejón del correo, encontraras tiendas,cafes y una atmósfera colonial encantadora, la gran playa del rodadero,playa blanca con sus aguas cristalinas, visita la basilica de Santa Marta, la mas antigua de Colombia.",
     "incluye": "Los planes de 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, incluye desayuno y cena, tour a playa blanca con almuerzo incluido, pólizas de asistencia medica ",
     "hoteles": [
@@ -240,6 +243,7 @@
     ],
     "url": "/plan-turistico/eje_cafetero",
     "banner": "/assets/nacionales/eje_cafetero.jpeg",
+    "bannerGrande": false,
     "descripcion": "El Eje Cafetero es una de las regiones más bellas y turísticas de Colombia, con una gran variedad de atracciones y actividades para disfrutar. Disfruta de paisajes impresionantes, deliciosa gastronomía y actividades al aire libre en este hermoso destino",
     "incluye": "El planes de 4 días, 3 noches incluye el transporte, alojamiento, 4 desayunos,1 almuerzo y 3 cenas de comida típica de las fincas de la region, cuenta con 2 horas de cócteles seleccionados ilimitados de 8 PM a 10 PM, incluye traslados a los lugares mas populares del eje cafetero.",
     "hoteles": [
@@ -344,6 +348,7 @@
     ],
     "url": "/plan-turistico/hacienda_napoles",
     "banner": "/assets/nacionales/hacienda_napoles.jpeg",
+    "bannerGrande": false,
     "descripcion": " Disfruta de un emocionante viaje a la vibrante Medellín y la exótica Hacienda Nápoles. Explora la rica historia de Antioquia con visitas a la Piedra del Peñol, el colorido pueblo de Guatapé y el icónico Pueblito Paisa. Navega por la represa de Guatapé en lancha y sumérgete en la belleza del Santorini Colombiano. Vive la emoción del Parque Temático Hacienda Nápoles con su Pasaporte Safari, que incluye parques acuáticos y atracciones de vida silvestre",
     "incluye": "El plan incluye los transportes y traslados, pólizas de asistencia medica, coordinador de viaje, 5 desayunos y 4 cenas, recorrido en lancha por la represa de Guatapé con reseña historica, visita la piedra del Peñol, el publito Paisa, el Santorini Colombiano. Visitaras el parque Los Pies Descalzos, el parque Botero y la Hacienda Napoles, entre otras mas actividades para que tengas una experiencia completa",
     "hoteles": [
@@ -465,6 +470,7 @@
     ],
     "url": "/destino/cancun",
     "banner": "/assets/internacionales/cancun.jpeg",
+    "bannerGrande": "/assets/internacionales/cancun.jpeg",
     "descripcion": "Cancun paraíso turístico con sus 17 kilómetros de arena blanca y brillantes agua turquesa, parques temáticos como el Xcaret,el Xplor, bares y discotecas donde podrás degustar autentico tequila, fiestas inigualables hacen que la vida nocturna en Cancun sea reconocida a nivel mundial, visita la pirámide de Chichen itza, los cenotes , la bella isla mujeres, disfruta de la rica gastronomía mexicana y las artesanías de la cultura de Mexico",
     "incluye": "Los planes desde 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, hoteles de playa, incluye alimentación completa tipo buffet, bebidas ilimitadas en el hotel, snacks todas las tardes en el hotel, eventos que organizan los hoteles para los huéspedes según el hotel, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria y contamos con una gran variedad de opciones de hoteles",
     "hoteles": [
@@ -548,6 +554,7 @@
     ],
     "url": "/destino/ciudad_mexico",
     "banner": "/assets/internacionales/mexico.jpeg",
+    "bannerGrande": false,
     "descripcion": "La ciudad de Mexico es un destino turístico fascinante y lleno de riqueza cultural, visita las pirámides de Teotihuacan, la basilica de Guadalupe, el tour de Xochimilco , el tour en globos aerostáticos, el Angel de la independencia, el museo nacional de antropología y el palacio de bellas artes, ademas, su variada oferta gastronómica es un deleite para los amantes de la comida tradicional, visita la plaza Garibaldi conocida como la cuna de los mariachis",
     "incluye": "Los planes desde 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, hotel con desayuno, tour a basilica de Guadalupe y pirámides de Teotihuacan, un city tour por ciudad de Mexico, incluye pólizas de asistencia medica y asesoría para la documentación migratoria.",
     "hoteles": [
@@ -619,76 +626,50 @@
     ],
     "url": "/destino/aruba",
     "banner": "/assets/internacionales/aruba_movil.jpeg",
+    "bannerGrande": false,
     "descripcion": "Aruba, conocida como “La Isla más Feliz del Caribe”, es un destino único para tus vacaciones. Aruba es famosa por sus playas de aguas cristalinas. Desde Eagle Beach hasta Palm Beach, encontrarás arenas blancas y suaves, con un clima cálido y soleado durante todo el año perfectas para relajarte o practicar deportes acuáticos; cuando visites Aruba, vivirá contigo el efecto mágico de Aruba",
-    "incluye": "Los planes desde 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, hoteles de playa, incluye alimentación completa tipo buffet, bebidas ilimitadas en el hotel, snacks todas las tardes en el hotel, eventos que organizan los hoteles para los huéspedes según el hotel, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria y contamos con una gran variedad de opciones de hoteles",
+    "incluye": "Los planes de 5 días, 4 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria.",
     "hoteles": [
       {
-        "nombreHotel": "Imperial las Perlas",
+        "nombreHotel": "Coconut Inn",
         "ofrece": [
-          "Ubicado frente a la playa",
-          "Alimentación completa tipo buffet",
-          "Barra libre de 11AM a 11PM",
-          "Snacks todas las tardes",
-          "Dos piscinas"
-        ]
-      },
-      {
-        "nombreHotel": "El Solimar Resort",
-        "ofrece": [
-          "Ubicado al lado de playa delfines",
-          "Barra libre de 11AM a 11PM",
-          "Resort con amplia playa",
-          "Gran piscina",
-          "Buffet de alta calidad",
-          "Snacks todas las tardes",
-          "Amplias habitaciones con excelente vista al mar"
-        ]
-      },
-      {
-        "nombreHotel": "Dos Playas Faranda",
-        "ofrece": [
-          "Ubicado en el corazón de la zona hotelera",
-          "Restaurante comida Tailandesa, sushi bar, típica Mexicana",
-          "Barra libre de 11AM a 11PM",
-          "Animación nocturna",
-          "Deportes acuáticos",
-          "Disponible para tus eventos especiales"
+          "Hotel tipo cabañas",
+          "Piscina",
+          "Incluye el desayuno",
+          "Incluye cocina"
         ]
       }
     ],
     "actividades": [
       {
-        "actividad": "Chichen itza",
-        "imagen": "https://i.pinimg.com/736x/33/28/1b/33281bd75d32ec4b8cda5a44299e9072.jpg"
+        "actividad": "Baby Beach",
+        "imagen": "https://www.visitaruba.com/readBlob.do?id=5584&list=true"
       },
       {
-        "actividad": "Xcaret",
-        "imagen": "https://i.pinimg.com/564x/e4/98/10/e49810d09a13ec2e9ee0350ec92bc0d5.jpg"
+        "actividad": "Faro California",
+        "imagen": "https://www.shutterstock.com/image-photo/lighthouse-sunset-clouds-600nw-2207951139.jpg"
       },
       {
-        "actividad": "Xplorer",
-        "imagen": "https://i.pinimg.com/564x/99/14/b2/9914b21e1070d121ff0fa194690fde38.jpg"
+        "actividad": "Eagle Beach",
+        "imagen": "https://www.travelandleisure.com/thmb/yvQVFVLXIPtrS94fvNjExRgBWRw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-header-palapas-eagle-beach-aruba-EAGLEBEACH0323-24a748cfad1046268774807c3d915309.jpg"
       },
       {
-        "actividad": "Nado con delfines",
-        "imagen": "https://i.pinimg.com/564x/30/f0/3d/30f03de9024817f085bc729d68a3c1f2.jpg"
+        "actividad": "Oranjestad",
+        "imagen": "https://arubacaribe.com/wp-content/uploads/2018/05/Oranjestad.jpg"
       },
       {
-        "actividad": "Cenotes",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "actividad": "Capilla Alto Vista",
+        "imagen": "https://a.travel-assets.com/findyours-php/viewfinder/images/res40/116000/116413-Alto-Vista-Chapel.jpg"
       },
       {
-        "actividad": "Tour isla mujeres",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
-      },
-      {
-        "actividad": "Zona de antros",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "actividad": "Palm Beach",
+        "imagen": "https://media.tacdn.com/media/attractions-splice-spp-674x446/12/3f/b0/40.jpg"
       }
     ],
     "informacion": [
       "Pasaporte",
-      "El equipaje de mano es de máximo 10 kilogramos"
+      "El equipaje de mano es de máximo 10 kilogramos",
+      "Puedes alquilar un carro por $35 USD por dia para movilizarte por Aruba"
     ]
   },
   {
@@ -702,76 +683,119 @@
     ],
     "url": "/plan-turistico/crucero",
     "banner": "/assets/internacionales/crucero.jpeg",
-    "descripcion": "Cancun paraíso turístico con sus 17 kilómetros de arena blanca y brillantes agua turquesa, parques temáticos como el Xcaret,el Xplor, bares y discotecas donde podrás degustar autentico tequila, fiestas inigualables hacen que la vida nocturna en Cancun sea reconocida a nivel mundial, visita la pirámide de Chichen itza, los cenotes , la bella isla mujeres, disfruta de la rica gastronomía mexicana y las artesanías de la cultura de Mexico",
-    "incluye": "Los planes desde 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, hoteles de playa, incluye alimentación completa tipo buffet, bebidas ilimitadas en el hotel, snacks todas las tardes en el hotel, eventos que organizan los hoteles para los huéspedes según el hotel, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria y contamos con una gran variedad de opciones de hoteles",
+    "bannerGrande": "/assets/internacionales/crucero.jpeg",
+    "descripcion": "Combina la relajación del mar con la emoción de nuevas culturas y paisajes. Cada destino ofrece su propia magia y aventura, comienza tu aventura en el vibrante puerto de La Romana, donde abordarás un magnifico crucero, relájate y disfruta de las diferentes actividades a bordo. Descubre la historia y cultura junto a las aguas cristalinas de las playas de la isla Santa Lucia, Barbados, Guadalupe, Antigua y Tortola.",
+    "incluye": "El plan incluye los tiquetes aéreos ida y regreso, traslados del aeropuerto al muelle - muelle aeropuerto, alojamiento a bordo, alimentación completa, refrigerios y espectáculos/actividades a bordo",
     "hoteles": [
       {
         "dia": "Dia 1",
         "ofrece": [
-          "Ubicado frente a la playa",
-          "Alimentación completa tipo buffet",
-          "Barra libre de 11AM a 11PM",
-          "Snacks todas las tardes",
-          "Dos piscinas"
+          "Llegada a República Dominicana",
+          "Estadía en casa de campo hasta el abordaje",
+          "Abordar el crucero Costa Pacifica",
+          "Salida del puerto a las 11:59 PM"
         ]
       },
       {
         "dia": "Dia 2",
         "ofrece": [
-          "Ubicado al lado de playa delfines",
-          "Barra libre de 11AM a 11PM",
-          "Resort con amplia playa",
-          "Gran piscina",
-          "Buffet de alta calidad",
-          "Snacks todas las tardes",
-          "Amplias habitaciones con excelente vista al mar"
+          "Navegación con dirección Santa Lucia"
         ]
       },
       {
         "dia": "Dia 3",
         "ofrece": [
-          "Ubicado en el corazón de la zona hotelera",
-          "Restaurante comida Tailandesa, sushi bar, típica Mexicana",
-          "Barra libre de 11AM a 11PM",
-          "Animación nocturna",
-          "Deportes acuáticos",
-          "Disponible para tus eventos especiales"
+          "Llegada a Santa Lucia a las 9 AM",
+          "Salida del puerto a las 7PM",
+          "Navegación con dirección a Barbados"
+        ]
+      },
+      {
+        "dia": "Dia 4",
+        "ofrece": [
+          "Llegada a la isla Barbados a las 7 PM",
+          "Salida del puerto a las 6 PM",
+          "Navegación con dirección a Guadalupe"
+        ]
+      },
+      {
+        "dia": "Dia 5",
+        "ofrece": [
+          "Llegada a Guadalupe a las 9 AM",
+          "Salida del puerto a las 11 PM",
+          "Navegación con dirección a Antigua"
+        ]
+      },
+      {
+        "dia": "Dia 6",
+        "ofrece": [
+          "Llegada a Antigua 8 AM",
+          "Salida del puerto a las 6 PM",
+          "Navegación con dirección a Tortola"
+        ]
+      },
+      {
+        "dia": "Dia 7",
+        "ofrece": [
+          "Llegada a Tortola a las 7 AM",
+          "Salida del puerto a las 2 PM",
+          "Navegación con dirección a la Romana"
+        ]
+      },
+      {
+        "dia": "Dia 8",
+        "ofrece": [
+          "Llegada a La Romana a las 8 AM",
+          "De Regreso a Bogota"
         ]
       }
     ],
     "actividades": [
       {
-        "actividad": "Chichen itza",
-        "imagen": "https://i.pinimg.com/736x/33/28/1b/33281bd75d32ec4b8cda5a44299e9072.jpg"
+        "actividad": "Costa Fascinosa",
+        "imagen": "https://www.costacruises.fi/content/dam/costa/costa-asset/ships/fs/in-page/Ship_desktop_768x900_fascinosa_01_mobile.jpg.image.1125.1446.low.jpg"
       },
       {
-        "actividad": "Xcaret",
-        "imagen": "https://i.pinimg.com/564x/e4/98/10/e49810d09a13ec2e9ee0350ec92bc0d5.jpg"
+        "actividad": "La Romana",
+        "imagen": "https://noticiasaltiempo.com/wp-content/uploads/2024/01/AA69B9CB-80B2-4935-AA31-08B0E901A356.jpeg"
       },
       {
-        "actividad": "Xplorer",
-        "imagen": "https://i.pinimg.com/564x/99/14/b2/9914b21e1070d121ff0fa194690fde38.jpg"
+        "actividad": "Espectaculos a Bordo",
+        "imagen": "https://www.costacruceros.com/content/dam/costa/costa-asset/discovery/new-pillars-2021/Img_1_Top_Divertimento_Mobile_375x667.jpg.image.1125.1446.low.jpg"
       },
       {
-        "actividad": "Nado con delfines",
-        "imagen": "https://i.pinimg.com/564x/30/f0/3d/30f03de9024817f085bc729d68a3c1f2.jpg"
+        "actividad": "Bares/Discotecas",
+        "imagen": "https://www.cruisetricks.de//bilder/cache/costa-fascinosa/bars-lounges/discotheca-babylon-1605_700_thumb.jpg?cached=1367391253"
       },
       {
-        "actividad": "Cenotes",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "actividad": "Isla Santa Lucia",
+        "imagen": "https://www.cruisehive.com/wp-content/uploads/2018/11/stlucia-ships2.jpg"
       },
       {
-        "actividad": "Tour isla mujeres",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "actividad": "Isla Barbados",
+        "imagen": "https://www.costacruceros.com/content/dam/costa/costa-magazine/articles-magazine/beaches/barbados-beaches/barbados-spiagge_m.jpg.image.694.390.low.jpg"
       },
       {
-        "actividad": "Zona de antros",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "actividad": "Isla Guadalupe",
+        "imagen": "https://www.costacruceros.es/content/dam/costa/costa-magazine/articles-magazine/travel/guadalupa/2-guadalupa.jpg.image.1296.974.high.jpg"
+      },
+      {
+        "actividad": "Isla Antigua",
+        "imagen": "https://www.costacruceros.com/content/dam/costa/costa-magazine/articles-magazine/islands/antigua-island/antigua_m.jpg.image.694.390.low.jpg"
+      },
+      {
+        "actividad": "Isla Tortola",
+        "imagen": "https://www.costacruceros.com/content/dam/costa/inventory-assets/ports/TOV/tov-tortola-port-1.jpg"
       }
     ],
     "informacion": [
-      "Pasaporte",
-      "El equipaje de mano es de máximo 10 kilogramos"
+      "El equipaje de mano es de máximo 10 kilogramos",
+      "Se requiere tarjeta de turismo de USD 30 por persona (pago en migración Rep. Dominicana) ",
+      "Pasaporte con vigencia mínima de 6 meses al momento del viaje",
+      "No incluye servicios de Personal, USD 84 dólares por persona pago a bordo",
+      "El plan no incluye excursiones en los puertos",
+      "No incluye gastos personales como lavandería, llamadas telefónicas, tratamientos de Belleza y casino",
+      "No incluye seguros de cancelación de viaje."
     ]
   },
   {
@@ -784,77 +808,50 @@
       0
     ],
     "url": "/destino/curacao",
-    "banner": "/assets/internacionales/crucero.jpeg",
+    "banner": "/assets/internacionales/curacao.jpeg",
+    "bannerGrande": false,
     "descripcion": "Curaçao, una hermosa isla en el Caribe, ofrece una experiencia única llena de sol, playas de aguas cristalinas y una rica cultura, Pasea por la famosa Handelskade en Willemstad, donde los edificios de colores vibrantes bordean el puerto. En sus playas disfrutaras de un magica vista, deportes como el kayak en las olas, windsurf, esquí acuático y jet ski. Este complejo en Bapor Kibra es un lugar popular para disfrutar de restaurantes, tiendas y vida nocturna. ¡No te lo pierdas!.",
-    "incluye": "Los planes desde 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, hoteles de playa, incluye alimentación completa tipo buffet, bebidas ilimitadas en el hotel, snacks todas las tardes en el hotel, eventos que organizan los hoteles para los huéspedes según el hotel, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria y contamos con una gran variedad de opciones de hoteles",
+    "incluye": "Los planes desde 5 días, 4 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, incluye alimentación completa tipo buffet, bebidas ilimitadas en el hotel, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria.",
     "hoteles": [
       {
-        "nombreHotel": "Dia 1",
+        "nombreHotel": "Kunuku Aqua Resot",
         "ofrece": [
-          "Ubicado frente a la playa",
-          "Alimentación completa tipo buffet",
-          "Barra libre de 11AM a 11PM",
-          "Snacks todas las tardes",
-          "Dos piscinas"
-        ]
-      },
-      {
-        "nombreHotel": "Dia 2",
-        "ofrece": [
-          "Ubicado al lado de playa delfines",
-          "Barra libre de 11AM a 11PM",
-          "Resort con amplia playa",
-          "Gran piscina",
-          "Buffet de alta calidad",
-          "Snacks todas las tardes",
-          "Amplias habitaciones con excelente vista al mar"
-        ]
-      },
-      {
-        "nombreHotel": "Dia 3",
-        "ofrece": [
-          "Ubicado en el corazón de la zona hotelera",
-          "Restaurante comida Tailandesa, sushi bar, típica Mexicana",
-          "Barra libre de 11AM a 11PM",
-          "Animación nocturna",
-          "Deportes acuáticos",
-          "Disponible para tus eventos especiales"
+          "Alimentacion completa",
+          "Bebidas ilimitadas",
+          "Alquiler de carros"
         ]
       }
     ],
     "actividades": [
       {
-        "actividad": "Chichen itza",
-        "imagen": "https://i.pinimg.com/736x/33/28/1b/33281bd75d32ec4b8cda5a44299e9072.jpg"
+        "actividad": "Grote Knip Beach",
+        "imagen": "https://curacao-vacations-674702.c.cdn77.org/images/discover/beaches/Knip-Beach-Playa-Kenepa-Grandi/002-Groot.jpg"
       },
       {
-        "actividad": "Xcaret",
-        "imagen": "https://i.pinimg.com/564x/e4/98/10/e49810d09a13ec2e9ee0350ec92bc0d5.jpg"
+        "actividad": "Puente Movil Emma",
+        "imagen": "https://kleincuracaotrips.com/wp-content/uploads/2022/01/L4E10168A1W1024H684.jpeg"
       },
       {
-        "actividad": "Xplorer",
-        "imagen": "https://i.pinimg.com/564x/99/14/b2/9914b21e1070d121ff0fa194690fde38.jpg"
+        "actividad": "Willemstad",
+        "imagen": "https://images.ctfassets.net/m868ks80jg7q/7F3ttOasYxLVRJ8Abnxbfa/18feac2c6df4e1649c13a1e68126c046/punda_waterfront.jpg?w=600&h=415&fm=webp&fit=fill&q=75"
       },
       {
-        "actividad": "Nado con delfines",
-        "imagen": "https://i.pinimg.com/564x/30/f0/3d/30f03de9024817f085bc729d68a3c1f2.jpg"
+        "actividad": "Cas Abao Beach",
+        "imagen": "https://www.traveloffpath.com/wp-content/uploads/2024/03/Cas-Abao-Beach-Playa-Cas-Abao-Curacao.jpg"
       },
       {
-        "actividad": "Cenotes",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "actividad": "Porto Mari Beach",
+        "imagen": "https://curacaomyway.com/wp-content/uploads/2023/10/cc3bee3189651ff3a3f9c9c9b3adf018.jpg"
       },
       {
-        "actividad": "Tour isla mujeres",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
-      },
-      {
-        "actividad": "Zona de antros",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "actividad": "Actividades Acuaticas",
+        "imagen": "https://cdn.getyourguide.com/img/tour/639ba6324b88b.jpeg/145.jpg"
       }
     ],
     "informacion": [
       "Pasaporte",
-      "El equipaje de mano es de máximo 10 kilogramos"
+      "El equipaje de mano es de máximo 10 kilogramos",
+      "Se requiere la vacuna contra la fiebre amarilla"
     ]
   },
   {
@@ -868,71 +865,43 @@
     ],
     "url": "/destino/punta_cana",
     "banner": "/assets/internacionales/punta_cana.jpeg",
+    "bannerGrande": false,
     "descripcion": "Punta Cana es un destino paradisíaco en la República Dominicana que ofrece una combinación perfecta de playas de arena blanca, aguas cristalinas, aventuras emocionantes y gastronomía deliciosa, playa Bávaro declarada como una de las mejores playas del mundo; el Hoyo Azul ubicado en Scape Park, un cenote de aguas turquesas donde podras nadar y disfrutar de la naturaleza, conoce el parque Ecológico Ojos indígenas y la isla Saona; Prueba de su gastronomia, una mezcla de influencias taina, española y africana, un rico recuerdo para tu paladar",
-    "incluye": "Los planes desde 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, hoteles de playa, incluye alimentación completa tipo buffet, bebidas ilimitadas en el hotel, snacks todas las tardes en el hotel, eventos que organizan los hoteles para los huéspedes según el hotel, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria y contamos con una gran variedad de opciones de hoteles",
+    "incluye": "Los planes desde 5 días, 4 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, incluye alimentación completa tipo buffet, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria",
     "hoteles": [
       {
-        "nombreHotel": "Dia 1",
+        "nombreHotel": "Whala Bávaro",
         "ofrece": [
-          "Ubicado frente a la playa",
-          "Alimentación completa tipo buffet",
-          "Barra libre de 11AM a 11PM",
-          "Snacks todas las tardes",
-          "Dos piscinas"
-        ]
-      },
-      {
-        "nombreHotel": "Dia 2",
-        "ofrece": [
-          "Ubicado al lado de playa delfines",
-          "Barra libre de 11AM a 11PM",
-          "Resort con amplia playa",
-          "Gran piscina",
-          "Buffet de alta calidad",
-          "Snacks todas las tardes",
-          "Amplias habitaciones con excelente vista al mar"
-        ]
-      },
-      {
-        "nombreHotel": "Dia 3",
-        "ofrece": [
-          "Ubicado en el corazón de la zona hotelera",
-          "Restaurante comida Tailandesa, sushi bar, típica Mexicana",
-          "Barra libre de 11AM a 11PM",
-          "Animación nocturna",
-          "Deportes acuáticos",
-          "Disponible para tus eventos especiales"
+          "Hotel en la playa Bávaro",
+          "Alimentacion completa tipo buffet",
+          "Bebidas Ilimitadas en horarios establecidos"
         ]
       }
     ],
     "actividades": [
       {
-        "actividad": "Chichen itza",
-        "imagen": "https://i.pinimg.com/736x/33/28/1b/33281bd75d32ec4b8cda5a44299e9072.jpg"
+        "actividad": "Playa Bávaro",
+        "imagen": "https://assets-global.website-files.com/62697bd1c989d939564add63/62697bd1c989d9e3f24ae0e4_Playa%20Ba%CC%81varo%2C%20Punta%20Cana%20003.jpg"
       },
       {
-        "actividad": "Xcaret",
-        "imagen": "https://i.pinimg.com/564x/e4/98/10/e49810d09a13ec2e9ee0350ec92bc0d5.jpg"
+        "actividad": "Hoyo Azul",
+        "imagen": "https://www.puntacanaadventures.com/wp-content/uploads/2021/09/Hoyo-Azul-at-Scape-Park-in-Punta-Cana-Cenote.jpeg"
       },
       {
-        "actividad": "Xplorer",
-        "imagen": "https://i.pinimg.com/564x/99/14/b2/9914b21e1070d121ff0fa194690fde38.jpg"
+        "actividad": "Parque Ojos Indigenas",
+        "imagen": "https://conativetime.com/media/zoo/images/ojos-indigena_725213a11382ecff7a9a6cce2408dc3c.jpg"
       },
       {
-        "actividad": "Nado con delfines",
-        "imagen": "https://i.pinimg.com/564x/30/f0/3d/30f03de9024817f085bc729d68a3c1f2.jpg"
+        "actividad": "Isla Saona",
+        "imagen": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/fa/f7/8b.jpg"
       },
       {
-        "actividad": "Cenotes",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "actividad": "Excursiones",
+        "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/f7/90/ca/caption.jpg?w=500&h=400&s=1"
       },
       {
-        "actividad": "Tour isla mujeres",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
-      },
-      {
-        "actividad": "Zona de antros",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "actividad": "Actividades Acuaticas",
+        "imagen": "https://www.bestpuntacana.com/images/actividades-acuaticas/parasailing-punta-cana.jpg"
       }
     ],
     "informacion": [
@@ -951,71 +920,42 @@
     ],
     "url": "/destino/panama",
     "banner": "/assets/internacionales/panama.jpeg",
+    "bannerGrande": false,
     "descripcion": "Bienvenido a Panamá, un país que irradia vida, autenticidad y una mezcla perfecta de lo antiguo y lo nuevo. Aquí, los mundos del norte y del sur se conectan, y los paisajes cosmopolitas armonizan con las selvas tropicales, Este archipiélago en el Caribe es famoso por sus playas de aguas cristalinas, actividades acuáticas y vibrante vida nocturna, conoce el BioMuseo, la Basílica menoir Santiago Apóstol en la provincia de Coclé,la Isla Bastimentos y el parque nacional de Coiba, la isla mas grande de Panamá y con una biodiversidad asombrosa.",
-    "incluye": "Los planes desde 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, hoteles de playa, incluye alimentación completa tipo buffet, bebidas ilimitadas en el hotel, snacks todas las tardes en el hotel, eventos que organizan los hoteles para los huéspedes según el hotel, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria y contamos con una gran variedad de opciones de hoteles",
+    "incluye": "Los planes desde 5 días, 4 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria",
     "hoteles": [
       {
-        "nombreHotel": "Dia 1",
+        "nombreHotel": "Grand International",
         "ofrece": [
-          "Ubicado frente a la playa",
-          "Alimentación completa tipo buffet",
-          "Barra libre de 11AM a 11PM",
-          "Snacks todas las tardes",
-          "Dos piscinas"
-        ]
-      },
-      {
-        "nombreHotel": "Dia 2",
-        "ofrece": [
-          "Ubicado al lado de playa delfines",
-          "Barra libre de 11AM a 11PM",
-          "Resort con amplia playa",
-          "Gran piscina",
-          "Buffet de alta calidad",
-          "Snacks todas las tardes",
-          "Amplias habitaciones con excelente vista al mar"
-        ]
-      },
-      {
-        "nombreHotel": "Dia 3",
-        "ofrece": [
-          "Ubicado en el corazón de la zona hotelera",
-          "Restaurante comida Tailandesa, sushi bar, típica Mexicana",
-          "Barra libre de 11AM a 11PM",
-          "Animación nocturna",
-          "Deportes acuáticos",
-          "Disponible para tus eventos especiales"
+          "Ubicado en el centro de la ciudad",
+          "Desayunos"
         ]
       }
     ],
     "actividades": [
       {
-        "actividad": "Chichen itza",
-        "imagen": "https://i.pinimg.com/736x/33/28/1b/33281bd75d32ec4b8cda5a44299e9072.jpg"
+        "actividad": "Canal de Panama",
+        "imagen": "https://elfarodelcanal.com/wp-content/uploads/2022/03/centro-de-visitantes-agua-clara.jpg"
       },
       {
-        "actividad": "Xcaret",
-        "imagen": "https://i.pinimg.com/564x/e4/98/10/e49810d09a13ec2e9ee0350ec92bc0d5.jpg"
+        "actividad": "Isla Tavoga",
+        "imagen": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_767,q_100,w_640/v1/clients/panama/large_Taboga_Island_Panama_Province_a28bd5cc-abf8-45f2-82a9-736f8ec419e1.jpg"
       },
       {
-        "actividad": "Xplorer",
-        "imagen": "https://i.pinimg.com/564x/99/14/b2/9914b21e1070d121ff0fa194690fde38.jpg"
+        "actividad": "F&F Tower",
+        "imagen": "https://marketingsimulator.net/lorenamartinez/wp-content/uploads/sites/564/2017/07/TORMNILLO.jpg"
       },
       {
-        "actividad": "Nado con delfines",
-        "imagen": "https://i.pinimg.com/564x/30/f0/3d/30f03de9024817f085bc729d68a3c1f2.jpg"
+        "actividad": "Isla San Blas",
+        "imagen": "https://www.viajesyfotografia.com/wp-content/uploads/2015/08/san-blas-panama.jpg"
       },
       {
-        "actividad": "Cenotes",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "actividad": "Parque Nacional Coiba",
+        "imagen": "https://www.visitcentroamerica.com/wp-content/uploads/2017/11/ver-centroamerica-panama-parque-nacional-coiba-02.jpg"
       },
       {
-        "actividad": "Tour isla mujeres",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
-      },
-      {
-        "actividad": "Zona de antros",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "actividad": "Bocas del Toro",
+        "imagen": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_640,q_65,w_640/v1/clients/panama/temp_9960b2f3-7697-4d49-a913-bdded9e5fce9.jpg"
       }
     ],
     "informacion": [
@@ -1033,76 +973,231 @@
       6
     ],
     "url": "/plan-turistico/europa",
-    "banner": "/assets/internacionales/europa.jpeg",
-    "descripcion": "Cancun paraíso turístico con sus 17 kilómetros de arena blanca y brillantes agua turquesa, parques temáticos como el Xcaret,el Xplor, bares y discotecas donde podrás degustar autentico tequila, fiestas inigualables hacen que la vida nocturna en Cancun sea reconocida a nivel mundial, visita la pirámide de Chichen itza, los cenotes , la bella isla mujeres, disfruta de la rica gastronomía mexicana y las artesanías de la cultura de Mexico",
-    "incluye": "Los planes desde 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, hoteles de playa, incluye alimentación completa tipo buffet, bebidas ilimitadas en el hotel, snacks todas las tardes en el hotel, eventos que organizan los hoteles para los huéspedes según el hotel, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria y contamos con una gran variedad de opciones de hoteles",
+    "banner": "/assets/internacionales/europa_movil_2.jpeg",
+    "bannerGrande": "/assets/internacionales/europa.jpeg",
+    "descripcion": "Imagina un viaje que te lleva a través de la bella Europa, donde cada ciudad es una puerta a nuevas aventuras y descubrimientos. Desde el primer momento en que el avión aterriza en el viejo continente, te envuelve una sensación de emoción y alegria. Viviras sus diversas culturas y ambientaciones, y su historia, es un viaje a través de sabores, sonidos, arte y arquitectura. ",
+    "incluye": "El plan incluye los tiquetes aéreos ida y regreso con equpaje de bodega de 23 kg y uno de mano de 8 kg, visitas panorámicas con guías locales en ciudades seleccionadas y un guia durante todo el recorrido, alojamiento con desayunos incluidos, y polizas de asistencia medica",
     "hoteles": [
+      {
+        "dia": "Dia 0",
+        "ofrece": [
+          "Vuelo desde Bogota con destino a Madrid - España en horas de la noche"
+        ]
+      },
       {
         "dia": "Dia 1",
         "ofrece": [
-          "Ubicado frente a la playa",
-          "Alimentación completa tipo buffet",
-          "Barra libre de 11AM a 11PM",
-          "Snacks todas las tardes",
-          "Dos piscinas"
+          "Llegada a Madrid",
+          "Traaslado al hotel para Alojamiento"
         ]
       },
       {
         "dia": "Dia 2",
         "ofrece": [
-          "Ubicado al lado de playa delfines",
-          "Barra libre de 11AM a 11PM",
-          "Resort con amplia playa",
-          "Gran piscina",
-          "Buffet de alta calidad",
-          "Snacks todas las tardes",
-          "Amplias habitaciones con excelente vista al mar"
+          "Desayuno",
+          "Recorrido por la ciudad con el guia",
+          "Tarde libre para conocer",
+          "De regreso al hotel"
         ]
       },
       {
         "dia": "Dia 3",
         "ofrece": [
-          "Ubicado en el corazón de la zona hotelera",
-          "Restaurante comida Tailandesa, sushi bar, típica Mexicana",
-          "Barra libre de 11AM a 11PM",
-          "Animación nocturna",
-          "Deportes acuáticos",
-          "Disponible para tus eventos especiales"
+          "Desayuno",
+          "Salida hacia Burdeos",
+          "Se pasara por la ciudad de Burgos",
+          "Llegada a la frontera con Francia",
+          "Llegada a Burdeos",
+          "Alojamiento",
+          "Resto del dia libre"
+        ]
+      },
+      {
+        "dia": "Dia 4",
+        "ofrece": [
+          "Continuacion del trayecto hacia Paris",
+          "Parada en Blois",
+          "Tiempo libre para apreciar su arquitectura y castillos",
+          "Se reanuda el viaje a Paris",
+          "Llegada a Paris",
+          "Alojamiento y tiempo libre"
+        ]
+      },
+      {
+        "dia": "Dia 5",
+        "ofrece": [
+          "Desayuno",
+          "Recorrido por la Ciudad del Amor",
+          "Los Campos Eliseos",
+          "La Torre Eifel",
+          "El Arco del Triunfo",
+          "La Catedral de Notre Dame",
+          "Alojamiento"
+        ]
+      },
+      {
+        "dia": "Dia 6",
+        "ofrece": [
+          "Desayuno",
+          "Dia Libre",
+          "Alojamiento"
+        ]
+      },
+      {
+        "dia": "Dia 7",
+        "ofrece": [
+          "Desayuno",
+          "Salida hacia la frontera con Suiza",
+          "Parada en Lucerna",
+          "Tiempo libre",
+          "Continuacion del trayecto a Zúrich",
+          "Alojamiento"
+        ]
+      },
+      {
+        "dia": "Dia 8",
+        "ofrece": [
+          "Desayuno y salida hacia la frontera con Italia",
+          "Pasando por las proximidades de Milán",
+          "Llegada a la ciudad de Verona",
+          "Tiempo libre",
+          "Llegada a la Casa de Julieta",
+          "Continuacion del trayecto a Venecia",
+          "Llegada y Alojamiento"
+        ]
+      },
+      {
+        "dia": "Dia 9",
+        "ofrece": [
+          "Desayuno",
+          "Guia por la ciudad",
+          "Tiempo libre",
+          "Salida hacia Roma",
+          "Alojamiento"
+        ]
+      },
+      {
+        "dia": "Dia 10",
+        "ofrece": [
+          "Desayuno",
+          "Guia por la ciudad",
+          "El Coliseo",
+          "Circo Maximo",
+          "La Basílica de Santa María la Mayor",
+          "Llegada al Vaticano (excursion no incluida)",
+          "Tiempo libre",
+          "Alojamiento"
+        ]
+      },
+      {
+        "dia": "Dia 11",
+        "ofrece": [
+          "Desayuno",
+          "Dia Libre",
+          "Alojamiento"
+        ]
+      },
+      {
+        "dia": "Dia 12",
+        "ofrece": [
+          "Desayuno",
+          "Salida con destino a Florencia",
+          "A La llegada, guia por la ciudad",
+          "Catedral de ST María del Fiore",
+          "El Campanario de Giotto",
+          "Baptisterio",
+          "Basílica Franciscana",
+          "Tiempo libre",
+          "Alojamiento"
+        ]
+      },
+      {
+        "dia": "Dia 13",
+        "ofrece": [
+          "Desayuno",
+          "Salida con destino a Pisa",
+          "Llegada y tiempo libre por la ciudad",
+          "La Torre Inclinada",
+          "La Catedral",
+          "Baptisterio",
+          "Salida con destino a Costa Azul",
+          "Alojamiento"
+        ]
+      },
+      {
+        "dia": "Dia 14",
+        "ofrece": [
+          "Desayuno",
+          "Salida con destino a Barcelona",
+          "Guia por la ciudad",
+          "Sagrada Familia",
+          "Plaza Cataluña",
+          "Monumento a Colón",
+          "Tiempo libre",
+          "Alojamiento"
+        ]
+      },
+      {
+        "dia": "Dia 15",
+        "ofrece": [
+          "Desayuno",
+          "Salida con destino a Zaragoza",
+          "Parada para ver la Basílica de Nuestra Señora del Pilar",
+          "Salida con destino a Madrid",
+          "Llegada y Alojamiento"
+        ]
+      },
+      {
+        "dia": "Dia 16",
+        "ofrece": [
+          "Desayuno",
+          "Traslado al aeropuerto",
+          "Vuelo con destino a Bogota"
         ]
       }
     ],
     "actividades": [
       {
-        "actividad": "Chichen itza",
-        "imagen": "https://i.pinimg.com/736x/33/28/1b/33281bd75d32ec4b8cda5a44299e9072.jpg"
+        "actividad": "Madrid",
+        "imagen": "https://vivremadrid.com/wp-content/uploads/2020/05/cibeles-madrd-780x800.jpg"
       },
       {
-        "actividad": "Xcaret",
-        "imagen": "https://i.pinimg.com/564x/e4/98/10/e49810d09a13ec2e9ee0350ec92bc0d5.jpg"
+        "actividad": "Burdeos",
+        "imagen": "https://www.burdeos-turismo.es/sites/bordeaux_tourisme/files/styles/widget_slide/public/medias/widgets/misc/bourse-mobile.jpg.webp?itok=n-Cx_Wiy"
       },
       {
-        "actividad": "Xplorer",
-        "imagen": "https://i.pinimg.com/564x/99/14/b2/9914b21e1070d121ff0fa194690fde38.jpg"
+        "actividad": "Blois",
+        "imagen": "https://www.journeygourmet.com/continentes/Europa/Francia/Centro-Valle_de_Loira/Blois/imagenBig.jpg"
       },
       {
-        "actividad": "Nado con delfines",
-        "imagen": "https://i.pinimg.com/564x/30/f0/3d/30f03de9024817f085bc729d68a3c1f2.jpg"
+        "actividad": "Paris",
+        "imagen": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/03/1c/9c.jpg"
       },
       {
-        "actividad": "Cenotes",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "actividad": "Verona",
+        "imagen": "https://www.turismoenvenecia.com/wp-content/uploads/2021/05/Verona.jpg"
       },
       {
-        "actividad": "Tour isla mujeres",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "actividad": "Venecia",
+        "imagen": "https://forbes.es/wp-content/uploads/2023/02/venecia.jpg"
       },
       {
-        "actividad": "Zona de antros",
-        "imagen": "https://i.pinimg.com/564x/55/99/fa/5599fa4560628fffcafd99063a029827.jpg"
+        "actividad": "Roma",
+        "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2023/07/19/16897693387526.jpg"
+      },
+      {
+        "actividad": "Florencia",
+        "imagen": "https://tourismmedia.italia.it/is/image/mitur/20210401173629-firenze-toscana-gettyimages-1145040590-1?wid=1080&hei=660&fit=constrain,1&fmt=webp"
+      },
+      {
+        "actividad": "Pisa",
+        "imagen": "https://images.ecestaticos.com/tBYk7__v7boEZ-8tFczcHg8gtXI=/13x35:1797x2700/1440x1920/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F3b6%2Fddc%2F626%2F3b6ddc626fd6eb678ec9ac60e0b5317f.jpg"
       }
     ],
     "informacion": [
+      "Salidas en fechas establecidas",
       "Pasaporte",
+      "Excursiones adicionales opcionales (Costo adicional)",
       "El equipaje de mano es de máximo 10 kilogramos"
     ]
   }
