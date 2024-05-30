@@ -1,6 +1,6 @@
 const obtenerUrl = (globalThis.location.pathname).split('/')
 
-fetch('http://213.218.240.150/destinos.json')
+fetch('http://www.enmodovacaciones.com/destinos.json')
   .then(res => res.json())
   .then(response => {
     const destino = response.find(x => x.id === obtenerUrl[2])
