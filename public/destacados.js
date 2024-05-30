@@ -1,7 +1,7 @@
 const obtenerUrl = (globalThis.location.pathname).split('/')
 
 // Inyección de imagen y url de planes destacados/promociones
-fetch('http://192.168.0.16:1234/destinos.json')
+fetch('http://213.218.240.150/destinos.json')
   .then(res => res.json())
   .then(response => {
     const destacados = document.querySelector('.destacados')

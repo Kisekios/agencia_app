@@ -5,7 +5,7 @@ const path = require('path')
 
 const destinos = require('./public/destinos.json')
 
-const PORT = process.env.PORT ?? 1234
+const PORT = process.env.PORT || 3000
 app.disable('x-powered-by')
 app.use(express.json())
 
