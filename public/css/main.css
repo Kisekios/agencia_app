@@ -39,12 +39,10 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
-  background: linear-gradient(
-    260deg,
-    var(--color-rosa),
-    var(--color-morado),
-    var(--color-rosa)
-    );
+  background: linear-gradient(260deg,
+      var(--color-rosa),
+      var(--color-morado),
+      var(--color-rosa));
   overflow-y: auto;
   scrollbar-width: thin;
 
@@ -221,6 +219,17 @@ footer {
     &>div:nth-of-type(1) {
       grid-area: div1;
 
+      &>div {
+        &>a {
+          font-size: 5rem;
+          margin-inline-end: 4rem;
+          margin-block-end: 1.5rem;
+
+          &:nth-of-type(4) {
+            display: none;
+          }
+        }
+      }
 
       &>ul>li {
         margin-bottom: 1rem;
@@ -271,7 +280,7 @@ footer {
   }
 }
 
-/* ===========QUERIES=========== */
+/* ===========CLASES=========== */
 
 .inactive {
   display: none;
@@ -370,7 +379,7 @@ footer {
     margin: none;
 
     &>section {
-      width: 90dvw;
+      width: 90vw;
       grid-template-areas:
         "titulo"
         "div2"
@@ -387,8 +396,35 @@ footer {
         width: 90dvw;
       }
 
+      &>div:nth-of-type(1) {
+
+        &>div {
+          display: flex;
+          justify-content: space-between;
+
+          &>a {
+
+            margin-inline: 2rem;
+
+            &:nth-of-type(4) {
+              display: inline-block;
+            }
+          }
+        }
+        &>ul {
+          &>li {
+
+            list-style: none;
+            &:nth-of-type(2) {
+              display: none;
+            }
+          }
+        }
+      }
+
       &>div:nth-of-type(2) {
         margin: 3rem 0;
+        justify-content: space-around;
 
         &>article {
           margin-left: 0%;

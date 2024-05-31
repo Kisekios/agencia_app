@@ -338,19 +338,19 @@
     ]
   },
   {
-    "id": "hacienda_napoles",
-    "titulo": "La Hacienda Napoles",
+    "id": "medellin",
+    "titulo": "Medellin",
     "viaje": "nacional",
     "destacado": [
       0,
       5,
       0
     ],
-    "url": "/plan-turistico/hacienda_napoles",
-    "banner": "/assets/nacionales/hacienda_napoles.jpeg",
+    "url": "/plan-turistico/medellin",
+    "banner": "/assets/nacionales/medellin.jpg",
     "bannerGrande": false,
     "descripcion": " Disfruta de un emocionante viaje a la vibrante Medellín y la exótica Hacienda Nápoles. Explora la rica historia de Antioquia con visitas a la Piedra del Peñol, el colorido pueblo de Guatapé y el icónico Pueblito Paisa. Navega por la represa de Guatapé en lancha y sumérgete en la belleza del Santorini Colombiano. Vive la emoción del Parque Temático Hacienda Nápoles con su Pasaporte Safari, que incluye parques acuáticos y atracciones de vida silvestre",
-    "incluye": "El plan incluye los transportes y traslados, pólizas de asistencia medica, coordinador de viaje, 5 desayunos y 4 cenas, recorrido en lancha por la represa de Guatapé con reseña historica, visita la piedra del Peñol, el publito Paisa, el Santorini Colombiano. Visitaras el parque Los Pies Descalzos, el parque Botero y la Hacienda Napoles, entre otras mas actividades para que tengas una experiencia completa",
+    "incluye": "El plan incluye los transportes y traslados, pólizas de asistencia medica, coordinador de viaje, 4 desayunos, 3 cenas y 1 almuerzo, recorrido en lancha por la represa de Guatapé con reseña historica, visita la piedra del Peñol, el publito Paisa, el Santorini Colombiano. Visitaras el parque Los Pies Descalzos, el parque Botero y la Hacienda Napoles, entre otras mas actividades para que tengas una experiencia completa",
     "hoteles": [
       {
         "dia": "Dia 0",
@@ -573,7 +573,7 @@
         ]
       },
       {
-        "nombreHotel": "Laguniña",
+        "nombreHotel": "Lagunilla",
         "ofrece": [
           "Desayuno",
           "Cobertura Wi-fi"
@@ -973,7 +973,7 @@
       6
     ],
     "url": "/plan-turistico/europa",
-    "banner": "/assets/internacionales/europa_movil_2.jpeg",
+    "banner": "/assets/internacionales/europa.jpeg",
     "bannerGrande": "/assets/internacionales/europa.jpeg",
     "descripcion": "Imagina un viaje que te lleva a través de la bella Europa, donde cada ciudad es una puerta a nuevas aventuras y descubrimientos. Desde el primer momento en que el avión aterriza en el viejo continente, te envuelve una sensación de emoción y alegria. Viviras sus diversas culturas y ambientaciones, y su historia, es un viaje a través de sabores, sonidos, arte y arquitectura. ",
     "incluye": "El plan incluye los tiquetes aéreos ida y regreso con equpaje de bodega de 23 kg y uno de mano de 8 kg, visitas panorámicas con guías locales en ciudades seleccionadas y un guia durante todo el recorrido, alojamiento con desayunos incluidos, y polizas de asistencia medica",
@@ -988,7 +988,7 @@
         "dia": "Dia 1",
         "ofrece": [
           "Llegada a Madrid",
-          "Traaslado al hotel para Alojamiento"
+          "Traslado al hotel para Alojamiento"
         ]
       },
       {
