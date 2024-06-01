@@ -177,6 +177,7 @@ header {
       &>a {
         font-weight: bold;
         border-bottom: solid 0.2rem var(--color-blanco);
+        font-size: 2rem;
       }
 
       &>button {
@@ -242,7 +243,13 @@ footer {
           }
 
           &:nth-of-type(2) {
-            margin-top: .4rem;
+            display: inline;
+            margin-inline-start: 1rem;
+            letter-spacing: .05rem;
+          }
+
+          &:nth-of-type(3) {
+            margin-block: .5rem;
           }
         }
       }
@@ -258,6 +265,10 @@ footer {
         flex-direction: column;
         justify-content: center;
         margin-left: 40%;
+
+        &>h5 {
+          margin-block-end: .5rem;
+        }
       }
 
       &>img {
@@ -368,6 +379,7 @@ footer {
             display: block;
             margin: 1rem 0;
             font-weight: bold;
+            font-size: 1.8rem;
           }
         }
       }
@@ -376,7 +388,6 @@ footer {
 
   footer {
     margin-top: 7rem;
-    margin: none;
 
     &>section {
       width: 90vw;
@@ -411,10 +422,12 @@ footer {
             }
           }
         }
+
         &>ul {
           &>li {
 
             list-style: none;
+
             &:nth-of-type(2) {
               display: none;
             }
