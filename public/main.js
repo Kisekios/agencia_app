@@ -22,7 +22,7 @@ menuIconMovil.addEventListener('click', mostrarOpcionesMovil)
 /* ===========FOOTER=========== */
 /* Render de informacion footer */
 
-fetch('http://www.enmodovacaciones.com/informacion.json')
+fetch(globalThis.origin + '/informacion')
   .then(res => res.json())
   .then(response => {
     const informacion = response[0]

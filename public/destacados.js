@@ -1,7 +1,7 @@
 const obtenerUrl = (globalThis.location.pathname).split('/')
 
 // Inyección de imagen y url de planes destacados/promociones
-fetch('http://www.enmodovacaciones.com/destinos.json')
+fetch(globalThis.origin + '/destinos')
   .then(res => res.json())
   .then(response => {
     const destacados = document.querySelector('.destacados')
