@@ -1,6 +1,6 @@
 const obtenerUrl = (globalThis.location.pathname).split('/')
 
-fetch(globalThis + '/destinos')
+fetch(globalThis.origin + '/destinos')
   .then(res => res.json())
   .then(response => {
     const destino = response.find(x => x.id === obtenerUrl[2])
