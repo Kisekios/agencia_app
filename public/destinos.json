@@ -87,13 +87,13 @@
     "titulo": "Cartagena",
     "viaje": "nacional",
     "destacado": [
-      0,
+      6,
       2,
       0
     ],
     "url": "/destino/cartagena",
     "banner": "/assets/nacionales/cartagena_movil.jpeg",
-    "bannerGrande": false,
+    "bannerGrande": "/assets/nacionales/cartagena.jpg",
     "descripcion": "Cartagena considerada como uno de los mejores destinos turísticos de Colombia, por su arquitectura, las diferentes de playas, el castillo de San Felipe, la torre del reloj, la muralla y su gran variedad de hoteles con vista a la playa de todas las categorías, en el centro histórico recorre sus calles empedradas, sus balcones de madera y casonas coloniales. Visita la isla de Baru",
     "incluye": "En los planes de Cartagena cuentas con los tiquetes aéreos de ida y regreso, alimentación completa, traslados aeropuerto-hotel/hotel-aeropuerto, tour de Baru con almuerzo incluido, y pólizas de asistencia medica",
     "hoteles": [
