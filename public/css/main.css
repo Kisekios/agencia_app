@@ -5,11 +5,11 @@
 */
 
 :root {
-  --color-morado: #4e00cc;
+  --color-morado: rgb(84, 0, 219);
   --color-azul: #0142e5;
-  --color-rosa: #ce52e1;
+  --color-rosa: rgb(205, 82, 224);
   --color-blanco: #f1f1f1;
-  --color-morado-secundario: #4f0bc2;
+  --color-morado-secundario: #4e0bc2d2;
   --color-azul-claro: #25cfe9;
 
   & h1,
@@ -41,7 +41,10 @@ body {
   font-family: 'Roboto', sans-serif;
   background: linear-gradient(260deg,
       var(--color-rosa),
+      var(--color-morado-secundario),
       var(--color-morado),
+      var(--color-morado),
+      var(--color-morado-secundario),
       var(--color-rosa));
   overflow-y: auto;
   scrollbar-width: thin;
@@ -214,7 +217,7 @@ footer {
     }
 
     &>div {
-      width: 40dvw;
+      width: 40vw;
     }
 
     &>div:nth-of-type(1) {
@@ -314,7 +317,7 @@ footer {
 
 /* ===========QUERIES=========== */
 
-@media (max-width:500px) {
+@media (max-width:770px) {
   header {
     &>section {
       &>div:nth-of-type(2) {
@@ -329,10 +332,6 @@ footer {
     &>nav {
       &>section:nth-of-type(1) {
         margin-left: 1rem;
-
-        >a>img {
-          height: 7rem;
-        }
       }
 
       &>section:nth-of-type(2) {
@@ -387,6 +386,12 @@ footer {
     }
   }
 
+  footer>section>section:nth-of-type(1)>div>a {
+    margin-inline-end: 3.5rem;
+  }
+}
+
+@media (max-width:600px) {
   footer {
     margin-top: 7rem;
 
@@ -412,7 +417,7 @@ footer {
 
         &>div {
           display: flex;
-          justify-content: space-between;
+          justify-content: space-around;
 
           &>a {
 
@@ -449,5 +454,11 @@ footer {
         margin-top: 1rem;
       }
     }
+  }
+}
+
+@media (max-width:500px) {
+  header>nav>section:nth-of-type(1)>a>img {
+    height: 7rem;
   }
 }

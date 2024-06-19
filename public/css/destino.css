@@ -16,12 +16,12 @@ main {
     justify-content: space-around;
 
     &>img {
-      min-width: 30rem;
-      max-width: 35vw;
+      max-width: 40vw;
+      margin-block-end: auto;
     }
 
     &>article {
-      margin: 5rem 2rem;
+      padding: 5rem 2rem 0 4rem;
       width: 50vw;
 
       &>p {
@@ -34,33 +34,36 @@ main {
       }
 
       &>section {
-        display: flex;
         width: 100%;
-        gap: 1rem;
         overflow-x: auto;
-        scroll-snap-type: x mandatory;
         scrollbar-color: white transparent;
         scrollbar-width: auto;
 
         &>div {
-          min-width: 35rem;
-          padding: 2rem;
-          margin-block: 2rem;
-          border-radius: 5%;
-          scroll-snap-align: center;
-          background: linear-gradient(90deg,
-              var(--color-azul), var(--color-morado-secundario));
+          display: flex;
 
-          &>h4 {
-            border-bottom: .2rem solid var(--color-blanco);
-          }
+          &>article {
+            scroll-snap-align: center;
+            min-width: 48%;
+            padding: 2rem;
+            margin-block: 2rem;
+            margin-inline: 1%;
+            border-radius: 5%;
+            box-shadow: 1px 1px 5px 0px var(--color-blanco);
+            background: linear-gradient(90deg,
+                var(--color-azul), var(--color-morado-secundario));
 
-          &>h5 {
-            margin-block: 1rem;
-          }
+            &>h4 {
+              border-bottom: .2rem solid var(--color-blanco);
+            }
 
-          &>ul {
-            list-style-type: none;
+            &>h5 {
+              margin-block: 1rem;
+            }
+
+            &>ul {
+              list-style-type: none;
+            }
           }
         }
       }
@@ -131,27 +134,53 @@ main {
   }
 }
 
+@media (max-width:1150px) {
+  main>section:nth-of-type(1) {
+    flex-direction: column;
+    align-items: center;
+
+    &>img {
+      max-width: 60vw;
+    }
+
+    &>article {
+      width: 85vw;
+    }
+  }
+}
+
 @media (max-width:1000px) {
   main>section:nth-of-type(2)>section>div {
     width: 35vw;
   }
 }
 
-@media (max-width:500px) {
+@media (max-width:770px) {
+  main>section:nth-of-type(2)>section {
+    align-content: center;
+    flex-direction: column;
+  }
+}
+
+
+@media (max-width:600px) {
   main {
     &>section:nth-of-type(1) {
-      flex-direction: column;
-      align-items: center;
+
+      &>img {
+        max-width: 90vw;
+      }
 
       &>article {
-        width: 80vw;
+        margin: 5rem 0;
+        padding: 0;
 
         &>p {
           margin-top: 2rem;
         }
 
-        &>section>div {
-          min-width: 25rem;
+        &>section>div>article {
+          min-width: 99%;
         }
       }
     }
