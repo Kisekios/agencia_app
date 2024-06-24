@@ -242,7 +242,7 @@
       0
     ],
     "url": "/plan-turistico/eje_cafetero",
-    "banner": "/assets/nacionales/eje_cafetero.jpeg",
+    "banner": "/assets/nacionales/eje_cafetero_movil.jpeg",
     "bannerGrande": false,
     "descripcion": "El Eje Cafetero es una de las regiones más bellas y turísticas de Colombia, con una gran variedad de atracciones y actividades para disfrutar. Disfruta de paisajes impresionantes, deliciosa gastronomía y actividades al aire libre en este hermoso destino",
     "incluye": "El planes de 4 días, 3 noches incluye el transporte, alojamiento, 4 desayunos,1 almuerzo y 3 cenas de comida típica de las fincas de la region, cuenta con 2 horas de cócteles seleccionados ilimitados de 8 PM a 10 PM, incluye traslados a los lugares mas populares del eje cafetero.",
@@ -347,7 +347,7 @@
       0
     ],
     "url": "/plan-turistico/medellin",
-    "banner": "/assets/nacionales/medellin.jpg",
+    "banner": "/assets/nacionales/medellin_movil.jpeg",
     "bannerGrande": false,
     "descripcion": " Disfruta de un emocionante viaje a la vibrante Medellín y la exótica Hacienda Nápoles. Explora la rica historia de Antioquia con visitas a la Piedra del Peñol, el colorido pueblo de Guatapé y el icónico Pueblito Paisa. Navega por la represa de Guatapé en lancha y sumérgete en la belleza del Santorini Colombiano. Vive la emoción del Parque Temático Hacienda Nápoles con su Pasaporte Safari, que incluye parques acuáticos y atracciones de vida silvestre",
     "incluye": "El plan incluye los transportes y traslados, pólizas de asistencia medica, coordinador de viaje, 4 desayunos, 3 cenas y 1 almuerzo, recorrido en lancha por la represa de Guatapé con reseña historica, visita la piedra del Peñol, el publito Paisa, el Santorini Colombiano. Visitaras el parque Los Pies Descalzos, el parque Botero y la Hacienda Napoles, entre otras mas actividades para que tengas una experiencia completa",
@@ -485,7 +485,7 @@
         ]
       },
       {
-        "nombreHotel": "El Solimar Resort",
+        "nombreHotel": "El Solymar Resort",
         "ofrece": [
           "Ubicado al lado de playa delfines",
           "Barra libre de 11AM a 11PM",
@@ -553,8 +553,8 @@
       3
     ],
     "url": "/destino/ciudad_mexico",
-    "banner": "/assets/internacionales/mexico.jpeg",
-    "bannerGrande": false,
+    "banner": "/assets/internacionales/cdmx_movil.jpeg",
+    "bannerGrande": "/assets/internacionales/mexico.jpeg",
     "descripcion": "La ciudad de Mexico es un destino turístico fascinante y lleno de riqueza cultural, visita las pirámides de Teotihuacan, la basilica de Guadalupe, el tour de Xochimilco , el tour en globos aerostáticos, el Angel de la independencia, el museo nacional de antropología y el palacio de bellas artes, ademas, su variada oferta gastronómica es un deleite para los amantes de la comida tradicional, visita la plaza Garibaldi conocida como la cuna de los mariachis",
     "incluye": "Los planes desde 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, hotel con desayuno, tour a basilica de Guadalupe y pirámides de Teotihuacan, un city tour por ciudad de Mexico, incluye pólizas de asistencia medica y asesoría para la documentación migratoria.",
     "hoteles": [
@@ -626,7 +626,7 @@
     ],
     "url": "/destino/aruba",
     "banner": "/assets/internacionales/aruba_movil.jpeg",
-    "bannerGrande": false,
+    "bannerGrande": "/assets/internacionales/aruba.jpeg",
     "descripcion": "Aruba, conocida como “La Isla más Feliz del Caribe”, es un destino único para tus vacaciones. Aruba es famosa por sus playas de aguas cristalinas. Desde Eagle Beach hasta Palm Beach, encontrarás arenas blancas y suaves, con un clima cálido y soleado durante todo el año perfectas para relajarte o practicar deportes acuáticos; cuando visites Aruba, vivirá contigo el efecto mágico de Aruba",
     "incluye": "Los planes de 5 días, 4 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria.",
     "hoteles": [
@@ -682,7 +682,7 @@
       5
     ],
     "url": "/plan-turistico/crucero",
-    "banner": "/assets/internacionales/crucero.jpeg",
+    "banner": "/assets/internacionales/crucero_movil.jpeg",
     "bannerGrande": "/assets/internacionales/crucero.jpeg",
     "descripcion": "Combina la relajación del mar con la emoción de nuevas culturas y paisajes. Cada destino ofrece su propia magia y aventura, comienza tu aventura en el vibrante puerto de La Romana, donde abordarás un magnifico crucero, relájate y disfruta de las diferentes actividades a bordo. Descubre la historia y cultura junto a las aguas cristalinas de las playas de la isla Santa Lucia, Barbados, Guadalupe, Antigua y Tortola.",
     "incluye": "El plan incluye los tiquetes aéreos ida y regreso, traslados del aeropuerto al muelle - muelle aeropuerto, alojamiento a bordo, alimentación completa, refrigerios y espectáculos/actividades a bordo",
@@ -808,8 +808,8 @@
       0
     ],
     "url": "/destino/curacao",
-    "banner": "/assets/internacionales/curacao.jpeg",
-    "bannerGrande": false,
+    "banner": "/assets/internacionales/curacao_movil.jpeg",
+    "bannerGrande": "/assets/internacionales/curacao.jpeg",
     "descripcion": "Curaçao, una hermosa isla en el Caribe, ofrece una experiencia única llena de sol, playas de aguas cristalinas y una rica cultura, Pasea por la famosa Handelskade en Willemstad, donde los edificios de colores vibrantes bordean el puerto. En sus playas disfrutaras de un magica vista, deportes como el kayak en las olas, windsurf, esquí acuático y jet ski. Este complejo en Bapor Kibra es un lugar popular para disfrutar de restaurantes, tiendas y vida nocturna. ¡No te lo pierdas!.",
     "incluye": "Los planes desde 5 días, 4 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, incluye alimentación completa tipo buffet, bebidas ilimitadas en el hotel, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria.",
     "hoteles": [
@@ -864,8 +864,8 @@
       4
     ],
     "url": "/destino/punta_cana",
-    "banner": "/assets/internacionales/punta_cana.jpeg",
-    "bannerGrande": false,
+    "banner": "/assets/internacionales/punta_cana_movil.jpeg",
+    "bannerGrande": "/assets/internacionales/punta_cana.jpeg",
     "descripcion": "Punta Cana es un destino paradisíaco en la República Dominicana que ofrece una combinación perfecta de playas de arena blanca, aguas cristalinas, aventuras emocionantes y gastronomía deliciosa, playa Bávaro declarada como una de las mejores playas del mundo; el Hoyo Azul ubicado en Scape Park, un cenote de aguas turquesas donde podras nadar y disfrutar de la naturaleza, conoce el parque Ecológico Ojos indígenas y la isla Saona; Prueba de su gastronomia, una mezcla de influencias taina, española y africana, un rico recuerdo para tu paladar",
     "incluye": "Los planes desde 5 días, 4 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, incluye alimentación completa tipo buffet, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria",
     "hoteles": [
@@ -919,8 +919,8 @@
       0
     ],
     "url": "/destino/panama",
-    "banner": "/assets/internacionales/panama.jpeg",
-    "bannerGrande": false,
+    "banner": "/assets/internacionales/panama_movil.jpeg",
+    "bannerGrande": "/assets/internacionales/panama.jpeg",
     "descripcion": "Bienvenido a Panamá, un país que irradia vida, autenticidad y una mezcla perfecta de lo antiguo y lo nuevo. Aquí, los mundos del norte y del sur se conectan, y los paisajes cosmopolitas armonizan con las selvas tropicales, Este archipiélago en el Caribe es famoso por sus playas de aguas cristalinas, actividades acuáticas y vibrante vida nocturna, conoce el BioMuseo, la Basílica menoir Santiago Apóstol en la provincia de Coclé,la Isla Bastimentos y el parque nacional de Coiba, la isla mas grande de Panamá y con una biodiversidad asombrosa.",
     "incluye": "Los planes desde 5 días, 4 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria",
     "hoteles": [
@@ -973,7 +973,7 @@
       6
     ],
     "url": "/plan-turistico/europa",
-    "banner": "/assets/internacionales/europa.jpeg",
+    "banner": "/assets/internacionales/europa_movil.jpeg",
     "bannerGrande": "/assets/internacionales/europa.jpeg",
     "descripcion": "Imagina un viaje que te lleva a través de la bella Europa, donde cada ciudad es una puerta a nuevas aventuras y descubrimientos. Desde el primer momento en que el avión aterriza en el viejo continente, te envuelve una sensación de emoción y alegria. Viviras sus diversas culturas y ambientaciones, y su historia, es un viaje a través de sabores, sonidos, arte y arquitectura. ",
     "incluye": "El plan incluye los tiquetes aéreos ida y regreso con equpaje de bodega de 23 kg y uno de mano de 8 kg, visitas panorámicas con guías locales en ciudades seleccionadas y un guia durante todo el recorrido, alojamiento con desayunos incluidos, y polizas de asistencia medica",
