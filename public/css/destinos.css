@@ -8,7 +8,7 @@
 
 main {
   &>section {
-    width: 90dvw;
+    width: 90vw;
     margin-top: 5rem;
     margin-inline: auto;
   }
@@ -16,19 +16,20 @@ main {
   &>section:nth-of-type(1) {
     display: flex;
     gap: 1rem;
+    padding: 2rem 1rem;
+    overflow-x: scroll;
+    scrollbar-color: white transparent;
+    scrollbar-width: auto;
 
     &>a {
-      width: 20%;
-      display: inherit;
-
       &>img {
-        width: 0;
-        flex-grow: 1;
+        height: 80vh;
         object-fit: cover;
+        scroll-snap-align: center;
         transition: .1s ease;
 
         &:hover {
-          transform: scale(1.1);
+          transform: scale(105%);
         }
       }
     }
@@ -70,19 +71,18 @@ main {
     &>section:nth-of-type(1) {
       height: 75vh;
       overflow-x: scroll;
-      scroll-snap-type: x mandatory;
       scrollbar-color: white transparent;
       scrollbar-width: auto;
 
       &>a {
         padding-top: 1rem;
-        width: 92dvw;
+        width: 92vw;
         height: 70vh;
         &>img {
-          width: 90dvw;
+          width: 90vw;
           flex-grow:initial;
           scroll-snap-align: center;
-          margin-left: 5dvw;
+          margin-left: 5vw;
 
           &:hover{
             transform: none;

@@ -61,7 +61,7 @@ function descripcionHoteles(hoteles) {
     divContenedorCards.appendChild(hotelCard)
     hotelesDestino.appendChild(divContenedorCards)
   }
-  globalThis.onload = desplazamientoDivHoteles(hotelesDestino)
+  //globalThis.onload = desplazamientoDivHoteles(hotelesDestino)
 }
 
 function actividadesDestino(actividades) {
@@ -94,105 +94,4 @@ function informacionAdicionalDestino(informacion) {
     informacionAdicional.appendChild(notaAdicional)
   }
   informacionDestino.appendChild(informacionAdicional)
-}
-
-function desplazamientoDivHoteles(contenedor) {
-  let desplazamiento
-  let ajusteSegunPantalla
-  let posicion = 1
-  let scrollReverseX = false
-  let banderaX = false
-  let banderaY = false
-  let banderaIntervalo = false
-  let intervalo
-  let pausarDesplazamiento
-  let aumentarTiempoPausa
-
-  function ajustarDesplazamiento() {
-    let anchoPagina = globalThis.innerWidth;
-    if (anchoPagina <= 500) {
-      desplazamiento = 2;
-    } else {
-      desplazamiento = 1;
-    }
-  }
-
-  function iniciarIntervalo() {
-    if (!banderaX && !banderaY && !banderaIntervalo) {
-      banderaIntervalo = true
-      clearInterval(intervalo)
-      contenedor.style.scrollSnapType = "none"
-      setTimeout(() => {
-        intervalo = setInterval(function () {
-          let anchoDiv = contenedor.scrollWidth - contenedor.offsetWidth
-          if (posicion <= anchoDiv && !scrollReverseX) {
-            contenedor.scroll(posicion, 0)
-            posicion++
-          } else {
-
-            setTimeout(() => {
-              scrollReverseX = true
-            }, 1000)
-            posicion--
-            contenedor.scroll(posicion, 0)
-            if (posicion <= 1) {
-              setTimeout(() => {
-                scrollReverseX = false
-              }, 1000)
-            }
-          }
-        }, 30 / desplazamiento);
-      }, 1000)
-    }
-  }
-
-  function detenerIntervalo() {
-    if (!banderaX && !banderaY) {
-      banderaX = true
-      clearInterval(intervalo)
-      contenedor.style.scrollSnapType = "x mandatory"
-      pausarDesplazamiento = setTimeout(() => {
-        banderaX = false
-        reanudarDesplazamiento()
-      }, 5000)
-    } else {
-      if (banderaX) {
-        banderaY = true
-        clearTimeout(pausarDesplazamiento)
-        clearTimeout(aumentarTiempoPausa)
-        aumentarTiempoPausa = setTimeout(() => {
-          banderaX = false
-          banderaY = false
-          reanudarDesplazamiento()
-        }, 5000)
-      }
-    }
-  }
-
-  function reanudarDesplazamiento() {
-    clearInterval(intervalo)
-    if (!banderaX && !banderaY && banderaIntervalo) {
-      banderaIntervalo = false
-      posicion = contenedor.scrollLeft
-      ajustarDesplazamiento();
-      iniciarIntervalo();
-    }
-  }
-
-  contenedor.addEventListener('touchstart', detenerIntervalo);
-  contenedor.addEventListener('click', detenerIntervalo);
-
-  contenedor.addEventListener('scroll', () => {
-    if (Math.abs(contenedor.scrollLeft - posicion) > 5) {
-      detenerIntervalo()
-    }
-  })
-
-  ajustarDesplazamiento();
-  iniciarIntervalo();
-
-  window.addEventListener('resize', () => {
-    clearInterval(intervalo)
-    detenerIntervalo()
-  });
 }
