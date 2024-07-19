@@ -223,7 +223,7 @@ function desplazamientoDiv(contenedor) {
   contenedor.addEventListener('touchstart', detenerIntervalo);
   contenedor.addEventListener('click', detenerIntervalo);
 
-  globalThis.onload = contenedor.addEventListener('scroll', () => {
+  contenedor.addEventListener('scroll', () => {
     if (Math.abs(contenedor.scrollLeft - posicion) > 5) {
       detenerIntervalo()
     }
@@ -232,11 +232,15 @@ function desplazamientoDiv(contenedor) {
   ajustarDesplazamiento();
   iniciarIntervalo();
 
-  globalThis.onload = window.addEventListener('resize', () => {
+  window.addEventListener('resize', () => {
     clearInterval(intervalo)
     detenerIntervalo()
   });
 }
 
-globalThis.onload = iniciarDesplazamientoDiv(urlPath[1])
+globalThis.addEventListener('DOMContentLoaded', function () {
+  setTimeout(function () {
+    iniciarDesplazamientoDiv(urlPath[1]);
+  }, 1000);
+})
 

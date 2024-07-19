@@ -23,7 +23,7 @@ main {
 
     &>a {
       &>img {
-        height: 80vh;
+        width: 25vw;
         object-fit: cover;
         scroll-snap-align: center;
         transition: .1s ease;
@@ -69,20 +69,18 @@ main {
 @media (max-width:500px) {
   main {
     &>section:nth-of-type(1) {
-      height: 75vh;
-      overflow-x: scroll;
-      scrollbar-color: white transparent;
-      scrollbar-width: auto;
+      padding: 0;
+      gap: 0;
+      width: 90vw;
 
       &>a {
-        padding-top: 1rem;
-        width: 92vw;
-        height: 70vh;
+        width: 90vw;
+
         &>img {
-          width: 90vw;
-          flex-grow:initial;
+          width: 85vw;
           scroll-snap-align: center;
-          margin-left: 5vw;
+          margin: 1rem;
+          box-sizing: border-box;
 
           &:hover{
             transform: none;

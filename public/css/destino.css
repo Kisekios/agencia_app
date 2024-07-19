@@ -35,9 +35,9 @@ main {
 
       &>section {
         width: 100%;
-        overflow-x: auto;
+        overflow-x: scroll;
         scrollbar-color: white transparent;
-        scrollbar-width: auto;
+        scrollbar-width: scroll;
 
         &>div {
           display: flex;
