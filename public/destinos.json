@@ -42,39 +42,39 @@
     "actividades": [
       {
         "actividad": "Acuario",
-        "imagen": "/assets/nacionales/san_andres_acuario.jpeg"
+        "imagen": "/assets/nacionales/img_destinos_nac/san_andres_acuario.jpeg"
       },
       {
         "actividad": "Haynes Cay",
-        "imagen": "/assets/nacionales/san_andres_haynes_cay.webp"
+        "imagen": "/assets/nacionales/img_destinos_nac/san_andres_haynesCay.webp"
       },
       {
         "actividad": "Buceo",
-        "imagen": "https://turismoi.co/uploads/co/photo/photo_file/15379/IMG_20201228_074526_677.jpg"
+        "imagen": "/assets/nacionales/img_destinos_nac/san_andres_buceo.jpg"
       },
       {
         "actividad": "Parasail",
-        "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/bb/3e/0a/foto-de-nuestra-visitante.jpg?w=1200&h=-1&s=1"
+        "imagen": "/assets/nacionales/img_destinos_nac/san_andres_parasail.jpg"
       },
       {
         "actividad": "Vuelta a la isla",
-        "imagen": "https://jetsettravel.com.co/assets/images/media/61b3ec2b8b228.jpeg"
+        "imagen": "/assets/nacionales/img_destinos_nac/san_andres_caravana.jpeg"
       },
       {
         "actividad": "La noche Blanca",
-        "imagen": "https://rollingsanandres.com/wp-content/uploads/2020/01/Toures-San-andres.jpg"
+        "imagen": "/assets/nacionales/img_destinos_nac/san_andres_nocheBlanca.jpg"
       },
       {
         "actividad": "Hoyo soplador",
-        "imagen": "https://www.thearchipielagopress.co/wp-content/uploads/2021/03/HOYO-SOPLADOR.jpg"
+        "imagen": "/assets/nacionales/img_destinos_nac/san_andres_hoyoSoplador.webp"
       },
       {
         "actividad": "Rocky cay",
-        "imagen": "https://viajasanandres.com/wp-content/uploads/2019/11/rocky-cay.jpg"
+        "imagen": "/assets/nacionales/img_destinos_nac/san_andres_rockyCay.webp"
       },
       {
         "actividad": "Manglares",
-        "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/a3/a8/ee/ecofiwi-turismo-ecologico.jpg?w=1100&h=800&s=1"
+        "imagen": "/assets/nacionales/img_destinos_nac/san_andres_manglares.jpg"
       }
     ],
     "informacion": [
@@ -124,36 +124,32 @@
     ],
     "actividades": [
       {
-        "actividad": "Costa del Sol",
-        "imagen": "/assets/destinos_blogs/cartagena_hotel_costa_del_sol_blog.jpeg"
-      },
-      {
-        "actividad": "Castillo de San Felipe",
-        "imagen": "https://www.semana.com/resizer/rLZ2XSRmTjLpCgnCt4npS9VtoGU=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/GJEKTNS6RVDIDMVGVMG6UBBNEY.jpeg"
-      },
-      {
-        "actividad": "Las Murallas",
-        "imagen": "https://img.freepik.com/fotos-premium/muralla-ciudad-cartagena-colombia_146714-911.jpg"
-      },
-      {
-        "actividad": "Centro Histórico",
-        "imagen": "https://www.eluniversal.com.co/sites/default/files/201508/centro_0.jpg"
-      },
-      {
         "actividad": "Barú",
-        "imagen": "https://i0.wp.com/ramaporelmundo.com/wp-content/uploads/2020/04/IMG_20180617_051406-scaled.jpeg?fit=716%2C537&ssl=1"
-      },
-      {
-        "actividad": "La torre del reloj",
-        "imagen": "https://cdn.colombia.com/sdi/2015/10/18/torre-del-reloj-704593.jpg"
-      },
-      {
-        "actividad": "Los zapatos viejos",
-        "imagen": "https://i.pinimg.com/originals/90/0c/57/900c572bb9770d25a408d99ec6a5cc37.jpg"
+        "imagen": "/assets/nacionales/img_destinos_nac/cartagena_baru.webp"
       },
       {
         "actividad": "La India Catalina",
-        "imagen": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/df/b8/d0.jpg"
+        "imagen": "/assets/nacionales/img_destinos_nac/cartagena_indiaCatalina.jpg"
+      },
+      {
+        "actividad": "Castillo de San Felipe",
+        "imagen": "/assets/nacionales/img_destinos_nac/cartagena_castilloSanFelipe.avif"
+      },
+      {
+        "actividad": "Las Murallas",
+        "imagen": "/assets/nacionales/img_destinos_nac/cartagena_muralla.avif"
+      },
+      {
+        "actividad": "Centro Histórico",
+        "imagen": "/assets/nacionales/img_destinos_nac/cartagena_centroHistorico.jpg"
+      },
+      {
+        "actividad": "La torre del reloj",
+        "imagen": "/assets/nacionales/img_destinos_nac/cartagena_torreReloj.jpg"
+      },
+      {
+        "actividad": "Los zapatos viejos",
+        "imagen": "/assets/nacionales/img_destinos_nac/cartagena_zapatosViejos.jpg"
       }
     ],
     "informacion": [
@@ -201,31 +197,31 @@
     "actividades": [
       {
         "actividad": "Playa de Rodadero",
-        "imagen": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/349007021.jpg?k=cf6495b96ae6c30ee17a68de54562c00681f1a4832c90438eeb87200f5b63ad5&o=&hp=1"
+        "imagen": "/assets/nacionales/img_destinos_nac/santa_marta_playaRodadero.jpg"
       },
       {
         "actividad": "Playa Blanca",
-        "imagen": "https://www.visitsantamarta.com/storage/blogs/Playa%20blanca.jpg"
+        "imagen": "/assets/nacionales/img_destinos_nac/santa_marta_playaBlanca.jpg"
       },
       {
         "actividad": "Parque Tayrona",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/7/76/Cabo_San_Juan%2C_Colombia.jpg"
+        "imagen": "/assets/nacionales/img_destinos_nac/santa_marta_parqueTayrona.jpg"
       },
       {
         "actividad": "Centro Histórico",
-        "imagen": "https://www.santamarta.gov.co/sites/default/files/callejon_del_correo_-_santa_marta.jpg"
+        "imagen": "/assets/nacionales/img_destinos_nac/santa_marta_cemtroHistorico.jpg"
       },
       {
         "actividad": "Motos Acuáticas",
-        "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/64/41/ab/caption.jpg?w=1200&h=-1&s=1"
+        "imagen": "/assets/nacionales/img_destinos_nac/santa_marta_motosAcuaticas.jpg"
       },
       {
         "actividad": "Atardecer en velero",
-        "imagen": "https://santamartatrip.com/sites/default/files/cocoon/velero6_0.jpg"
+        "imagen": "/assets/nacionales/img_destinos_nac/santa_marta_velero.jpg"
       },
       {
         "actividad": "Tour Bahia Concha",
-        "imagen": "https://santamartatrip.com/sites/default/files/cocoon/velero5.jpg"
+        "imagen": "/assets/nacionales/img_destinos_nac/santa_marta_bahiaConcha.jpg"
       }
     ],
     "informacion": [
@@ -306,31 +302,31 @@
     "actividades": [
       {
         "actividad": "Santa Rosa de Cabal",
-        "imagen": "https://irp.cdn-website.com/088ca3db/dms3rep/multi/termales+de+santa+rosa+de+cabal.jpg"
+        "imagen": "/assets/nacionales/img_destinos_nac/eje_cafetero_termales.jpg"
       },
       {
         "actividad": "Bio Parque Ukumari",
-        "imagen": "https://minciencias.gov.co/sites/default/files/foto_ukumari.jpg"
+        "imagen": "/assets/nacionales/img_destinos_nac/eje_cafetero_bioparqueUkumari.jpg"
       },
       {
         "actividad": "Salento",
-        "imagen": "https://trayectoriasenviaje.com/wp-content/uploads/2022/09/que-hacer-salento-fb.jpg"
+        "imagen": "/assets/nacionales/img_destinos_nac/eje_cafetero_salento.jpg"
       },
       {
         "actividad": "Valle del Cocora",
-        "imagen": "https://www.lavanguardia.com/files/article_gallery_microformat/uploads/2021/12/10/61b336a52bca0.jpeg"
+        "imagen": "/assets/nacionales/img_destinos_nac/eje_cafetero_valleCocora.jpeg"
       },
       {
         "actividad": "Filandia",
-        "imagen": "https://imgs.elpais.com.uy/dims4/default/4799db4/2147483647/strip/true/crop/668x459+8+0/resize/1440x990!/quality/90/?url=https%3A%2F%2Fel-pais-uruguay-production-web.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fuploads%2F2022%2F06%2F27%2F62b9bae962dd9.jpeg"
+        "imagen": "/assets/nacionales/img_destinos_nac/eje_cafetero_filandia.jpg"
       },
       {
         "actividad": "Parque del Cafe",
-        "imagen": "https://fantasiasdeverano.com/wp-content/uploads/2019/02/atracciones-parque-del-cafe.jpg"
+        "imagen": "/assets/nacionales/img_destinos_nac/eje_cafetero_parqueDelCafe.jpg"
       },
       {
         "actividad": "Quimbaya",
-        "imagen": "https://rutasdelpaisajeculturalcafetero.com/wp-content/uploads/2018/03/Quimbaya1.jpg"
+        "imagen": "/assets/nacionales/img_destinos_nac/eje_cafetero_quimbaya.jpg"
       }
     ],
     "informacion": [
@@ -420,39 +416,39 @@
     "actividades": [
       {
         "actividad": "Piedra del Peñol",
-        "imagen": "https://telemedellin.tv/wp-content/uploads/2023/11/Piedra-del-Penol-1.jpg"
+        "imagen": "/assets/nacionales/img_destinos_nac/medellin_piedraDelPeñol.jpg"
       },
       {
         "actividad": "Guatape en lancha",
-        "imagen": "https://turismoi.co/uploads/co/photo/photo_file/14228/WhatsApp_Image_2021-02-22_at_5.16.49_PM.jpeg"
+        "imagen": "/assets/nacionales/img_destinos_nac/medellin_guatapeEnLancha.jpeg"
       },
       {
         "actividad": "Prk los Pies Descalzos",
-        "imagen": "https://as1.ftcdn.net/v2/jpg/01/42/97/34/1000_F_142973401_XjfgnNmV3sKqqngFvv5WH9tdQIiq4CvS.jpg"
+        "imagen": "/assets/nacionales/img_destinos_nac/medellin_parquePiesDescalzos.jpg"
       },
       {
         "actividad": "Pueblito Paisa",
-        "imagen": "https://blog.redbus.co/wp-content/uploads/2019/04/fixedw_large_4x-1.jpg"
+        "imagen": "/assets/nacionales/img_destinos_nac/medellin_publitoPaisa.jpg"
       },
       {
         "actividad": "Parque Botero",
-        "imagen": "https://terapiasderelajacionmedellin.com/wp-content/uploads/2022/07/Plaza-Botero.webp"
+        "imagen": "/assets/nacionales/img_destinos_nac/medellin_plazaBotero.webp"
       },
       {
         "actividad": "Santa fe de Antioqia",
-        "imagen": "https://www.comfenalcoantioquia.com.co/wcm/connect/357a64db-aca9-4812-a8c6-8c96b7ce12cb/Dise%C3%B1o+sin+t%C3%ADtulo+%2858%29.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE-357a64db-aca9-4812-a8c6-8c96b7ce12cb-oANgjp4"
+        "imagen": "/assets/nacionales/img_destinos_nac/medellin_santafeAntioquia.jpg"
       },
       {
         "actividad": "Santorini Colombiano",
-        "imagen": "https://revistadiners.com.co/wp-content/uploads/2020/12/laaldea_santorini_portada_.webp"
+        "imagen": "/assets/nacionales/img_destinos_nac/medellin_santorini.webp"
       },
       {
         "actividad": "Hacienda Napoles",
-        "imagen": "https://www.elpais.com.co/resizer/410XfSjp6rp29Z3AhcicH8p4Llw=/1280x1280/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/MML5MGE6N5BXLNFS75HJETKVJ4.jpeg"
+        "imagen": "/assets/nacionales/img_destinos_nac/medellin_haciendaNapoles.avif"
       },
       {
         "actividad": "Hacienda Napoles",
-        "imagen": "https://scontent.fbog3-1.fna.fbcdn.net/v/t1.6435-9/71478355_2489456921136563_2639339149504544768_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHmOIKxGeXVDelqHEUJA_N4im99OBUDLBuKb304FQMsG07e1-mNVV1XZObdJ_Ug17i_y8eAh9HFy-f1TwrUW0pC&_nc_ohc=D3mhzqkQZUEQ7kNvgH_tU62&_nc_ht=scontent.fbog3-1.fna&oh=00_AYAJlUSRN3ed48NQAbhw3ZnByY94SWvm0Dw20T3rUXCEYw&oe=666CA3AE"
+        "imagen": "/assets/nacionales/img_destinos_nac/medellin_haciendaNapoles.jpg"
       }
     ],
     "informacion": [
