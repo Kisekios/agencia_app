@@ -507,31 +507,31 @@
     "actividades": [
       {
         "actividad": "Chichen itza",
-        "imagen": "https://cdn.vallarta-adventures.com/sites/default/files/2021-05/CHichen10.jpeg"
+        "imagen": "/assets/internacionales/img_destinos_inter/cancun_chichenItza.jpeg"
       },
       {
         "actividad": "Xcaret",
-        "imagen": "https://www.marieldeviaje.com/wp-content/uploads/2019/09/Mariel-de-Viaje-Xcaret-gu%C3%ADa-b%C3%A1sica-2.jpeg"
+        "imagen": "/assets/internacionales/img_destinos_inter/cancun_xcaret.jpeg"
       },
       {
         "actividad": "Xplor",
-        "imagen": "https://i.pinimg.com/736x/1b/fb/e2/1bfbe24db53f177587fe68935dfc5c1f.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/cancun_xplor.jpg"
       },
       {
         "actividad": "Nado con delfines",
-        "imagen": "https://f.hubspotusercontent20.net/hubfs/1709370/Delph_Portada4_CuantoCuestaNadarConDelfines.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/cancun_nadoDelfines.jpg"
       },
       {
         "actividad": "Cenotes",
-        "imagen": "https://thecancunsun.com/wp-content/uploads/2022/11/The-Ultimate-Guide-To-Exploring-Top-Cenotes-Near-Cancun-1.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/cancun_cenotes.jpg"
       },
       {
         "actividad": "Tour isla mujeres",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Isla_Mujeres_aerial_%2829729604048%29.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/cancun_islaMujeres.jpg"
       },
       {
         "actividad": "Zona de antros",
-        "imagen": "https://hotelsotavento.info/wp-content/uploads/2022/10/Coco-Bongo-en-Cancu%CC%81n.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/cancun_zonaAntros.webp"
       }
     ],
     "informacion": [
@@ -579,31 +579,31 @@
     "actividades": [
       {
         "actividad": "Pirámides de Teotihuacan",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/2020-02-11_Teotihuacan_la_Avenida_de_los_Muertos_y_la_Pir%C3%A1mide_del_Sol.jpg/800px-2020-02-11_Teotihuacan_la_Avenida_de_los_Muertos_y_la_Pir%C3%A1mide_del_Sol.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/cdmx_piramidesTeotihuacan.jpg"
       },
       {
         "actividad": "La basilica de Guadalupe",
-        "imagen": "https://www.turismomexico.es/wp-content/uploads/2020/05/basilica_virgen_guadalupe.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/cdmx_basilicaGuadalupe.jpg"
       },
       {
         "actividad": "City Tour",
-        "imagen": "https://milenialtravel.com/wp-content/uploads/2023/06/City-Tour-CDMX.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/cdmx_cityTour.jpg"
       },
       {
         "actividad": "Xochimilco",
-        "imagen": "https://trajinerasxochimilco.info/wp-content/uploads/2021/09/las-trajineras-de-xochimilco.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/cdmx_xichimilco.jpg"
       },
       {
         "actividad": "Palacio de Bellas Artes",
-        "imagen": "https://mymodernmet.com/wp/wp-content/uploads/2020/05/palacio-bellas-artes-1-1.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/cdmx_palacioBellasArtes.jpg"
       },
       {
         "actividad": "Plaza Garibaldi",
-        "imagen": "https://i.pinimg.com/originals/7d/8a/b7/7d8ab719501349abda28d1decf25bcb2.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/cdmx_plazaGaribaldi.jpg"
       },
       {
         "actividad": "Globos Aerostáticos",
-        "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/73/eb/8a/caption.jpg?w=500&h=400&s=1"
+        "imagen": "/assets/internacionales/img_destinos_inter/cdmx_globosAerostaticos.jpg"
       }
     ],
     "informacion": [
@@ -639,27 +639,27 @@
     "actividades": [
       {
         "actividad": "Baby Beach",
-        "imagen": "https://www.visitaruba.com/readBlob.do?id=5584&list=true"
+        "imagen": "/assets/internacionales/img_destinos_inter/aruba_babyBeach.jpg"
       },
       {
         "actividad": "Faro California",
-        "imagen": "https://www.shutterstock.com/image-photo/lighthouse-sunset-clouds-600nw-2207951139.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/aruba_faroCalifornia.webp"
       },
       {
         "actividad": "Eagle Beach",
-        "imagen": "https://www.travelandleisure.com/thmb/yvQVFVLXIPtrS94fvNjExRgBWRw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-header-palapas-eagle-beach-aruba-EAGLEBEACH0323-24a748cfad1046268774807c3d915309.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/aruba_eagleBeach.jpg"
       },
       {
         "actividad": "Oranjestad",
-        "imagen": "https://arubacaribe.com/wp-content/uploads/2018/05/Oranjestad.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/aruba_oranjestad.jpg"
       },
       {
         "actividad": "Capilla Alto Vista",
-        "imagen": "https://a.travel-assets.com/findyours-php/viewfinder/images/res40/116000/116413-Alto-Vista-Chapel.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/aruba_capillaAltoVista.avif"
       },
       {
         "actividad": "Palm Beach",
-        "imagen": "https://media.tacdn.com/media/attractions-splice-spp-674x446/12/3f/b0/40.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/aruba_palmBeach.jpg"
       }
     ],
     "informacion": [
@@ -748,40 +748,40 @@
     ],
     "actividades": [
       {
-        "actividad": "Costa Fascinosa",
-        "imagen": "https://www.costacruises.fi/content/dam/costa/costa-asset/ships/fs/in-page/Ship_desktop_768x900_fascinosa_01_mobile.jpg.image.1125.1446.low.jpg"
+        "actividad": "Costa Cruceros",
+        "imagen": "/assets/internacionales/img_destinos_inter/crucero_costaCruceros.webp"
       },
       {
         "actividad": "La Romana",
-        "imagen": "https://noticiasaltiempo.com/wp-content/uploads/2024/01/AA69B9CB-80B2-4935-AA31-08B0E901A356.jpeg"
+        "imagen": "/assets/internacionales/img_destinos_inter/crucero_laRomana.jpeg"
       },
       {
         "actividad": "Espectaculos a Bordo",
-        "imagen": "https://www.costacruceros.com/content/dam/costa/costa-asset/discovery/new-pillars-2021/Img_1_Top_Divertimento_Mobile_375x667.jpg.image.1125.1446.low.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/crucero_espectaculos.webp"
       },
       {
         "actividad": "Bares/Discotecas",
-        "imagen": "https://www.cruisetricks.de//bilder/cache/costa-fascinosa/bars-lounges/discotheca-babylon-1605_700_thumb.jpg?cached=1367391253"
+        "imagen": "/assets/internacionales/img_destinos_inter/cruceros_baresYDiscotecas.webp"
       },
       {
         "actividad": "Isla Santa Lucia",
-        "imagen": "https://www.cruisehive.com/wp-content/uploads/2018/11/stlucia-ships2.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/crucero_islaSantaLucia.jpg"
       },
       {
         "actividad": "Isla Barbados",
-        "imagen": "https://www.costacruceros.com/content/dam/costa/costa-magazine/articles-magazine/beaches/barbados-beaches/barbados-spiagge_m.jpg.image.694.390.low.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/crucero_islaBarbados.jpg"
       },
       {
         "actividad": "Isla Guadalupe",
-        "imagen": "https://www.costacruceros.es/content/dam/costa/costa-magazine/articles-magazine/travel/guadalupa/2-guadalupa.jpg.image.1296.974.high.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/crucero_islaGuadalupe.jpg"
       },
       {
         "actividad": "Isla Antigua",
-        "imagen": "https://www.costacruceros.com/content/dam/costa/costa-magazine/articles-magazine/islands/antigua-island/antigua_m.jpg.image.694.390.low.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/cruceros_islaAntigua.jpg"
       },
       {
         "actividad": "Isla Tortola",
-        "imagen": "https://www.costacruceros.com/content/dam/costa/inventory-assets/ports/TOV/tov-tortola-port-1.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/cruceros_islaTortola.jpg"
       }
     ],
     "informacion": [
@@ -821,27 +821,27 @@
     "actividades": [
       {
         "actividad": "Grote Knip Beach",
-        "imagen": "https://curacao-vacations-674702.c.cdn77.org/images/discover/beaches/Knip-Beach-Playa-Kenepa-Grandi/002-Groot.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/curacao_groteKnipBeach.jpg"
       },
       {
         "actividad": "Puente Movil Emma",
-        "imagen": "https://kleincuracaotrips.com/wp-content/uploads/2022/01/L4E10168A1W1024H684.jpeg"
+        "imagen": "/assets/internacionales/img_destinos_inter/curacao_puenteMovilEmma.webp"
       },
       {
         "actividad": "Willemstad",
-        "imagen": "https://images.ctfassets.net/m868ks80jg7q/7F3ttOasYxLVRJ8Abnxbfa/18feac2c6df4e1649c13a1e68126c046/punda_waterfront.jpg?w=600&h=415&fm=webp&fit=fill&q=75"
+        "imagen": "/assets/internacionales/img_destinos_inter/curacao_willemstad.webp"
       },
       {
         "actividad": "Cas Abao Beach",
-        "imagen": "https://www.traveloffpath.com/wp-content/uploads/2024/03/Cas-Abao-Beach-Playa-Cas-Abao-Curacao.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/curacao_casAbaoBeach.webp"
       },
       {
         "actividad": "Porto Mari Beach",
-        "imagen": "https://curacaomyway.com/wp-content/uploads/2023/10/cc3bee3189651ff3a3f9c9c9b3adf018.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/curacao_portoMariBeach.jpg"
       },
       {
         "actividad": "Actividades Acuaticas",
-        "imagen": "https://cdn.getyourguide.com/img/tour/639ba6324b88b.jpeg/145.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/curacao_actividadesAcuaticas.jpg"
       }
     ],
     "informacion": [
@@ -877,27 +877,27 @@
     "actividades": [
       {
         "actividad": "Playa Bávaro",
-        "imagen": "https://assets-global.website-files.com/62697bd1c989d939564add63/62697bd1c989d9e3f24ae0e4_Playa%20Ba%CC%81varo%2C%20Punta%20Cana%20003.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/punta_cana_playaBavaro.jpg"
       },
       {
         "actividad": "Hoyo Azul",
-        "imagen": "https://www.puntacanaadventures.com/wp-content/uploads/2021/09/Hoyo-Azul-at-Scape-Park-in-Punta-Cana-Cenote.jpeg"
+        "imagen": "/assets/internacionales/img_destinos_inter/punta_cana_hoyoAzul.jpeg"
       },
       {
         "actividad": "Parque Ojos Indigenas",
-        "imagen": "https://conativetime.com/media/zoo/images/ojos-indigena_725213a11382ecff7a9a6cce2408dc3c.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/punta_cana_parqueOjosIndigenas.jpg"
       },
       {
         "actividad": "Isla Saona",
-        "imagen": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/fa/f7/8b.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/punta_cana_islaSaona.jpg"
       },
       {
         "actividad": "Excursiones",
-        "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/f7/90/ca/caption.jpg?w=500&h=400&s=1"
+        "imagen": "/assets/internacionales/img_destinos_inter/Punta_cana_excursiones.jpg"
       },
       {
         "actividad": "Actividades Acuaticas",
-        "imagen": "https://www.bestpuntacana.com/images/actividades-acuaticas/parasailing-punta-cana.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/punta_cana_actividadesAcuaticas.jpg"
       }
     ],
     "informacion": [
@@ -931,27 +931,27 @@
     "actividades": [
       {
         "actividad": "Canal de Panama",
-        "imagen": "https://elfarodelcanal.com/wp-content/uploads/2022/03/centro-de-visitantes-agua-clara.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/panama_canalDePanama.jpg"
       },
       {
         "actividad": "Isla Tavoga",
-        "imagen": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_767,q_100,w_640/v1/clients/panama/large_Taboga_Island_Panama_Province_a28bd5cc-abf8-45f2-82a9-736f8ec419e1.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/panama_islaTavoga.jpg"
       },
       {
         "actividad": "F&F Tower",
-        "imagen": "https://marketingsimulator.net/lorenamartinez/wp-content/uploads/sites/564/2017/07/TORMNILLO.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/panama_fyfTower.jpg"
       },
       {
         "actividad": "Isla San Blas",
-        "imagen": "https://www.viajesyfotografia.com/wp-content/uploads/2015/08/san-blas-panama.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/panama_islaSanBlas.webp"
       },
       {
         "actividad": "Parque Nacional Coiba",
-        "imagen": "https://www.visitcentroamerica.com/wp-content/uploads/2017/11/ver-centroamerica-panama-parque-nacional-coiba-02.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/panama_parqueCoiba.jpg"
       },
       {
         "actividad": "Bocas del Toro",
-        "imagen": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_640,q_65,w_640/v1/clients/panama/temp_9960b2f3-7697-4d49-a913-bdded9e5fce9.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/panama_bocasDelToro.jpg"
       }
     ],
     "informacion": [
@@ -1155,39 +1155,39 @@
     "actividades": [
       {
         "actividad": "Madrid",
-        "imagen": "https://vivremadrid.com/wp-content/uploads/2020/05/cibeles-madrd-780x800.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/europa_madrid.jpg"
       },
       {
         "actividad": "Burdeos",
-        "imagen": "https://www.burdeos-turismo.es/sites/bordeaux_tourisme/files/styles/widget_slide/public/medias/widgets/misc/bourse-mobile.jpg.webp?itok=n-Cx_Wiy"
+        "imagen": "/assets/internacionales/img_destinos_inter/europa_bordeos.webp"
       },
       {
         "actividad": "Blois",
-        "imagen": "https://www.journeygourmet.com/continentes/Europa/Francia/Centro-Valle_de_Loira/Blois/imagenBig.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/europa_blois.jpg"
       },
       {
         "actividad": "Paris",
-        "imagen": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/03/1c/9c.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/europa_paris.jpg"
       },
       {
         "actividad": "Verona",
-        "imagen": "https://www.turismoenvenecia.com/wp-content/uploads/2021/05/Verona.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/europa_verona.jpg"
       },
       {
         "actividad": "Venecia",
-        "imagen": "https://forbes.es/wp-content/uploads/2023/02/venecia.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/europa_venecia.webp"
       },
       {
         "actividad": "Roma",
-        "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2023/07/19/16897693387526.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/europa_roma.jpg"
       },
       {
         "actividad": "Florencia",
-        "imagen": "https://tourismmedia.italia.it/is/image/mitur/20210401173629-firenze-toscana-gettyimages-1145040590-1?wid=1080&hei=660&fit=constrain,1&fmt=webp"
+        "imagen": "/assets/internacionales/img_destinos_inter/europa_florencia.webp"
       },
       {
         "actividad": "Pisa",
-        "imagen": "https://images.ecestaticos.com/tBYk7__v7boEZ-8tFczcHg8gtXI=/13x35:1797x2700/1440x1920/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F3b6%2Fddc%2F626%2F3b6ddc626fd6eb678ec9ac60e0b5317f.jpg"
+        "imagen": "/assets/internacionales/img_destinos_inter/europa_pisa.jpg"
       }
     ],
     "informacion": [

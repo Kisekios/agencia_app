@@ -61,7 +61,6 @@ function descripcionHoteles(hoteles) {
     divContenedorCards.appendChild(hotelCard)
     hotelesDestino.appendChild(divContenedorCards)
   }
-  //globalThis.onload = desplazamientoDivHoteles(hotelesDestino)
 }
 
 function actividadesDestino(actividades) {
