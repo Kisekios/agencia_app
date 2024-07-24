@@ -46,8 +46,8 @@ body {
       var(--color-morado),
       var(--color-morado-secundario),
       var(--color-rosa));
-  overflow-y: auto;
-  scrollbar-width: thin;
+  overflow-y: scroll;
+  scrollbar-color:white transparent;
 
   & a {
     text-decoration: none;

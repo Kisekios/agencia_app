@@ -8,20 +8,56 @@
 
 main {
 
-  &>section {
+  &>section:nth-of-type(1n+2) {
     margin-inline: auto;
     width: 90vw;
     margin-top: 10rem;
   }
 
-  /* ===========M1=========== */
-  /* 
-  → section →  img*
-  → section →  div → a → img
-  → section →  h3,article...,a→button
-  */
-
   &>section:nth-of-type(1) {
+    position: relative;
+
+    &>button {
+      position: absolute;
+      margin-block: auto;
+      top: 50%;
+      
+      &:nth-of-type(1){
+        left: 0.5rem;
+      }
+
+      &:nth-of-type(2) {
+        right: 0.5rem;
+      }
+    }
+
+    &>div {
+      overflow-x: scroll;
+      scrollbar-width: none;
+      margin-block-start: 2rem;
+      width: 98.9vw;
+      margin-inline: auto;
+      scroll-snap-type: x mandatory;
+
+
+      &>div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+        &>a {
+          &>img {
+            margin-inline: auto;
+            width: 99vw;
+            aspect-ratio: 8/3;
+            scroll-snap-align: center;
+          }
+        }
+      }
+    }
+  }
+
+  &>section:nth-of-type(2) {
     margin-top: 6rem;
     padding: 2rem 1rem;
     gap: 1rem;
@@ -44,7 +80,7 @@ main {
     }
   }
 
-  &>section:nth-of-type(2) {
+  &>section:nth-of-type(3) {
     display: flex;
     justify-content: space-between;
 
@@ -59,7 +95,7 @@ main {
     }
   }
 
-  &>section:nth-of-type(3) {
+  &>section:nth-of-type(4) {
     display: flex;
     flex-direction: column;
 
@@ -93,11 +129,15 @@ main {
 
 @media (max-width:500px) {
   main {
-    &>section {
+    &>section:nth-of-type(1n+2) {
       margin-block: 5rem;
     }
 
     &>section:nth-of-type(1) {
+      &>div>a>img {}
+    }
+
+    &>section:nth-of-type(2) {
 
       &>a {
         &>img {
@@ -111,7 +151,7 @@ main {
       }
     }
 
-    &>section:nth-of-type(2) {
+    &>section:nth-of-type(3) {
       flex-direction: column;
       min-height: 70vh;
       gap: 4rem;
@@ -122,7 +162,7 @@ main {
       }
     }
 
-    &>section:nth-of-type(3) {
+    &>section:nth-of-type(4) {
 
       &>article {
         padding: 2rem 1.5rem 3rem;

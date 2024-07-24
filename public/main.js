@@ -136,7 +136,6 @@ function iniciarDesplazamientoDiv(ubicacion) {
 }
 
 function desplazamientoDiv(contenedor) {
-  console.log('iniciando proceso ')
   let desplazamiento
   let posicion = 1
   let scrollReverseX = false
@@ -186,9 +185,7 @@ function desplazamientoDiv(contenedor) {
   }
 
   function detenerIntervalo() {
-    console.log('detenido')
     if (!banderaX && !banderaY) {
-
       banderaX = true
       clearInterval(intervalo)
       contenedor.style.scrollSnapType = "x mandatory"
@@ -220,8 +217,11 @@ function desplazamientoDiv(contenedor) {
     }
   }
 
-  contenedor.addEventListener('touchstart', detenerIntervalo);
-  contenedor.addEventListener('click', detenerIntervalo);
+  if ('ontouchstart' in window) {
+    contenedor.addEventListener('touchstart', detenerIntervalo);
+  } else {
+    contenedor.addEventListener('click', detenerIntervalo);
+  }
 
   contenedor.addEventListener('scroll', () => {
     if (Math.abs(contenedor.scrollLeft - posicion) > 5) {
