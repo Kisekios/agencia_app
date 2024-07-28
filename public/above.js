@@ -8,6 +8,7 @@ let pausarIntervalo = false
 let desplazamientoAboveAutomatico
 let reanudandoProceso = false
 let contadorResetDesplazamiento
+let lecturaScrollEnTouch
 
 function iniciarDesplazamientoAbove() {
   desplazamientoAboveAutomatico = setInterval(function () {
@@ -17,7 +18,19 @@ function iniciarDesplazamientoAbove() {
 
 above.addEventListener('touchstart', () => {
   clearInterval(desplazamientoAboveAutomatico)
-  reanudarDesplazamientoAbove()
+
+  let medidaImagenAbove = above.scrollWidth / cantidadImagenes.length
+  let scrollBarXFinal
+
+  above.addEventListener('touchend',()=> {
+    clearTimeout(lecturaScrollEnTouch)
+    lecturaScrollEnTouch = setTimeout(()=>{
+      scrollBarXFinal = Math.round(above.scrollLeft / medidaImagenAbove)
+      indexAbove = scrollBarXFinal
+    },500)
+    reanudarDesplazamientoAbove()
+  })
+
 })
 
 botonIzquierdo.addEventListener('click', () => {
@@ -33,7 +46,6 @@ botonDerecho.addEventListener('click', () => {
 })
 
 function desplazamientoAbove(imagenAnterior) {
-  console.log('entro')
   if (imagenAnterior) {
     if (indexAbove === 0) {
       indexAbove = cantidadImagenes.length
@@ -60,8 +72,7 @@ function reanudarDesplazamientoAbove() {
     contadorResetDesplazamiento = setTimeout(() => {
       iniciarDesplazamientoAbove()
       reanudandoProceso = false
-      console.log('contando')
-    }, 5000)
+    }, 4000)
   } else {
     clearTimeout(contadorResetDesplazamiento)
     reanudandoProceso = false

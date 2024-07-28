@@ -18,16 +18,30 @@ main {
     position: relative;
 
     &>button {
+      font-size: 4vw;
+      height: 15%;
+      width: 3%;
       position: absolute;
       margin-block: auto;
       top: 50%;
-      
-      &:nth-of-type(1){
-        left: 0.5rem;
+      transform: translate(0, -50%);
+      color: rgb(255, 255, 255);
+      border: none;
+      background: rgba(255, 255, 255, 0.4);
+      box-shadow: 0px 0px 5px 3px rgb(255 255 255 / 40%);
+
+      &:hover {
+        background-color: white;
+        color: #09f;
+      }
+
+      &:nth-of-type(1) {
+        left: 0%;
+        
       }
 
       &:nth-of-type(2) {
-        right: 0.5rem;
+        right: 0%;
       }
     }
 
@@ -38,7 +52,7 @@ main {
       width: 98.9vw;
       margin-inline: auto;
       scroll-snap-type: x mandatory;
-
+      border-radius: 1rem;
 
       &>div {
         display: flex;
@@ -46,11 +60,14 @@ main {
         flex-wrap: nowrap;
 
         &>a {
-          &>img {
+          &>picture {
             margin-inline: auto;
-            width: 99vw;
-            aspect-ratio: 8/3;
-            scroll-snap-align: center;
+            &>img,source{
+              box-shadow: none;
+              width: 99vw;
+              aspect-ratio: 8/3;
+              scroll-snap-align: center;
+            }
           }
         }
       }
@@ -58,7 +75,6 @@ main {
   }
 
   &>section:nth-of-type(2) {
-    margin-top: 6rem;
     padding: 2rem 1rem;
     gap: 1rem;
     display: flex;
@@ -134,7 +150,9 @@ main {
     }
 
     &>section:nth-of-type(1) {
-      &>div>a>img {}
+      &>div>div>a>picture>img,source {
+        aspect-ratio: 9/7;
+      }
     }
 
     &>section:nth-of-type(2) {
