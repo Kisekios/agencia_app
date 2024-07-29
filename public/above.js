@@ -13,7 +13,7 @@ let lecturaScrollEnTouch
 function iniciarDesplazamientoAbove() {
   desplazamientoAboveAutomatico = setInterval(function () {
     desplazamientoAbove(false)
-  }, 3000)
+  }, 5000)
 }
 
 above.addEventListener('touchstart', () => {
