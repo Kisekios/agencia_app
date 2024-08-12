@@ -39,6 +39,28 @@ app.get('/destinos', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'destinos.json'))
 })
 
+app.get('/nosotros', (req, res) => {
+  const origin = req.header('origin')
+  if (ACCEPTED_ORIGINS.includes(origin) || !origin) {
+    res.header('Access-Control-Allow-Origin', origin)
+  }
+
+  const nosotros = require('./public/blog.json');
+
+  res.json(nosotros[0]);
+})
+
+app.get('/terminos-y-condiciones', (req, res) => {
+  const origin = req.header('origin')
+  if (ACCEPTED_ORIGINS.includes(origin) || !origin) {
+    res.header('Access-Control-Allow-Origin', origin)
+  }
+
+  const nosotros = require('./public/blog.json');
+
+  res.json(nosotros[1]);
+})
+
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'))
 })
@@ -68,7 +90,11 @@ app.get('/blog', (req, res) => {
 })
 
 app.get('/sobre-nosotros', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'en_proceso.html'))
+  res.sendFile(path.join(__dirname, 'public', 'blog.html'))
+})
+
+app.get('/TyC', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'blog.html'))
 })
 
 app.listen(PORT, () => {

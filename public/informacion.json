@@ -36,7 +36,7 @@
         "simbolo": "fa-phone"
       }
     ],
-    "terminos": "Términos y condiciones",
+    "terminos": "<a href='/TyC'>Términos y condiciones</a>",
     "derechos": "Todos los derechos reservados"
   }
 ]

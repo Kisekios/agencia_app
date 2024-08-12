@@ -11,15 +11,14 @@
     content="Somos Una agencia creada pensando en ti, queremos llevarte a #tudestinofavorito y con el fin de ayudarte a ponerte #enmodovacaciones con el mejor servicio y calidad, ve y disfruta tus vacaciones con nosotros">
   <meta property="og:title" content="En Modo Vacaciones">
   <meta property="og:type" content="website">
-  <meta property="og:description"
-    content="Agencia de viajes - Turismo - Vacaciones">
+  <meta property="og:description" content="Agencia de viajes - Turismo - Vacaciones">
   <meta property="og:image" content="http://enmodovacaciones.com/assets/img/logo.png">
   <meta property="og:image:alt" content="Logo de la agencia de viajes En Modo Vacaciones">
   <meta property="og:url" content="	http://enmodovacaciones.com/">
   <meta property="og:site_name" content="En Modo Vacaciones">
   <meta property="og:locale" content="es_la">
   <link rel="canonical" href="http://www.enmodovacaciones.com/">
-  <meta name="p:domain_verify" content="06a439e44a4d632e42eecae46d5e92df"/>
+  <meta name="p:domain_verify" content="06a439e44a4d632e42eecae46d5e92df" />
   <title>En Modo Vacaciones</title>
   <link rel="icon" type="logo/jpg" href="./assets/img/logo_pestaña.webp">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,63 +27,42 @@
     rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/blog.css">
+  <style>
+    main {
+      width: 75vw;
+      margin-inline: auto;
+      margin-block: 10vh 15vh;
+    }
+
+    @media (max-width:600px) {
+      main {
+        width: 85vw;
+      }
+    }
+  </style>
 </head>
 
 <body>
   <script>
-    window.fbAsyncInit = function() {
+    window.fbAsyncInit = function () {
       FB.init({
-        appId      : '447295668240911',
-        xfbml      : true,
-        version    : 'v20.0'
+        appId: '447295668240911',
+        xfbml: true,
+        version: 'v20.0'
       });
       FB.AppEvents.logPageView();
     };
-  
-    (function(d, s, id){
-       var js, fjs = d.getElementsByTagName(s)[0];
-       if (d.getElementById(id)) {return;}
-       js = d.createElement(s); js.id = id;
-       js.src = "https://connect.facebook.net/en_US/sdk.js";
-       fjs.parentNode.insertBefore(js, fjs);
-     }(document, 'script', 'facebook-jssdk'));
+
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) { return; }
+      js = d.createElement(s); js.id = id;
+      js.src = "https://connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
   </script>
   <header>
-    <section>
-      <div></div>
-      <div>
-        <a href="https://wa.me/+573219379621?text=Hola,%20estoy%20navegando%20el%20sitio%20web%20y%20quisiera%20m%C3%A1s%20informaci%C3%B3n..."
-          class="fa fa-whatsapp"></a> <!-- iconos de redes -->
-        <a href="https://www.facebook.com/people/En-Modo-Vacaciones-Porvenir/100088886881677/"
-          class="fa fa-facebook"></a> <!-- iconos de redes -->
-        <a href="tel:3219379621" class="fa fa-phone"></a> <!-- iconos de redes -->
-        <a href="mailto:enmodovacacionesporvenir@gmail.com?Subject=Información%20Para%20unas%20Vacaciones&body=Buen%20día,%20estoy%20interesad@%20en%20estar%20en%20Modo%20Vacaciones."
-          class="fa fa-envelope"></a> <!-- iconos de redes -->
-      </div>
-    </section>
-    <nav>
-      <section> <!-- Logo -->
-        <a href="/">
-          <img src="/assets/img/logo.png" alt="">
-        </a>
-      </section>
-      <section> <!-- Opciones de barra de navegación -->
-        <a href="/sobre-nosotros">Acerca de nosotros</a> <!-- Opciones de navegación -->
-        <a href="/blog">Blog</a> <!-- Opciones de navegación -->
-        <a href="/nacionales">Nacionales</a> <!-- Opciones de navegación -->
-        <a href="/internacionales">Internacionales</a> <!-- Opciones de navegación -->
-        <button class="menu-icon-movil">
-          <div></div>
-          <div></div>
-          <div></div>
-        </button>
-        <aside class="menu-opciones-movil inactive">
-          <a href="/blog">Blog</a> <!-- Opciones de navegación -->
-          <a href="/nacionales">Nacionales</a> <!-- Opciones de navegación -->
-          <a href="/internacionales">Internacionales</a> <!-- Opciones de navegación -->
-        </aside>
-      </section>
-    </nav>
   </header>
 
   <main>
@@ -92,8 +70,8 @@
 
   <footer>
   </footer>
-
   <script src="/main.js"></script>
+  <script src="/blog.js"></script>
 </body>
 
 </html>

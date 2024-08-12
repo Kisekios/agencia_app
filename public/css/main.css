@@ -47,7 +47,7 @@ body {
       var(--color-morado-secundario),
       var(--color-rosa));
   overflow-y: scroll;
-  scrollbar-color:white transparent;
+  scrollbar-color: white transparent;
 
   & a {
     text-decoration: none;
@@ -174,18 +174,59 @@ header {
       width: 80%;
       display: flex;
       justify-content: flex-end;
-      gap: 2rem;
-      margin: 3vw;
+      gap: 4rem;
+      margin-block: auto;
+      margin-inline-end: 5vw;
 
       &>a {
         font-weight: bold;
-        border-bottom: solid 0.2rem var(--color-blanco);
+        border-bottom: solid 0.4rem var(--color-blanco);
         font-size: 2rem;
       }
 
-      &>button {
-        display: none;
+      &>div {
+        border: 0.2rem solid white;
+        border-radius: 10%;
+        z-index: 2; /* borrar→ cuando se corriga el modo oscuro */
+
+        &>button {
+          display: flex;
+          flex-direction: column;
+          inline-size: 3.6rem;
+          block-size: 3rem;
+          padding-inline: .3rem;
+          border: none;
+          background-color: transparent;
+          justify-content: space-evenly;
+
+          &>div {
+            background-color: var(--color-blanco);
+            block-size: .3rem;
+            inline-size: 3rem;
+            border-radius: .5rem;
+            transition: all .5s;
+            transform-origin: left;
+          }
+        }
       }
+
+      &>aside {
+        z-index: 1;
+        margin-top: 3rem;
+        position: absolute;
+        background-color: var(--color-blanco);
+        padding: 1rem 2rem;
+        border-radius: 1%;
+
+        &>a {
+          color: var(--color-azul);
+          display: block;
+          margin: 1rem 0;
+          font-weight: bold;
+          font-size: 1.8rem;
+        }
+      }
+
     }
   }
 }
@@ -285,7 +326,12 @@ footer {
       text-align: center;
       margin-bottom: 2rem;
 
+      &>a {
+        border-bottom: 1px solid white;
+      }
+
       &>p {
+        margin-block-start: 0.5rem;
         font-size: 1.1rem;
         font-weight: lighter;
       }
@@ -300,16 +346,23 @@ footer {
   display: none;
 }
 
-.cambio {
-  >div:nth-of-type(1) {
+header>nav>section:nth-of-type(2)>div>.cambio {
+  background-color: var(--color-blanco);
+  &>div {
+    margin-inline: .6rem;
+    background-color: var(--color-azul);
+    inline-size: 2.35rem;
+  }
+
+  &>div:nth-of-type(1) {
     transform: rotate(45deg);
   }
 
-  >div:nth-of-type(2) {
+  &>div:nth-of-type(2) {
     opacity: 0;
   }
 
-  >div:nth-of-type(3) {
+  &>div:nth-of-type(3) {
     transform: rotate(-45deg);
 
   }
@@ -335,52 +388,18 @@ footer {
       }
 
       &>section:nth-of-type(2) {
+        margin-inline-end: 3vw;
+        gap: 2rem;
+
         &>a {
           display: none;
         }
 
-        &>a:nth-of-type(1),
-        button {
+        &>a:nth-of-type(1) {
           display: inline;
           border-bottom: none;
           text-decoration: underline;
           font-size: 1.8rem;
-        }
-
-        &>button {
-          display: flex;
-          flex-direction: column;
-          inline-size: 3rem;
-          block-size: 3rem;
-          border: none;
-          background-color: transparent;
-          gap: .85rem;
-
-          &>div {
-            background-color: var(--color-blanco);
-            block-size: .2rem;
-            inline-size: 100%;
-            border-radius: .5rem;
-            transition: all .5s;
-            transform-origin: left;
-          }
-        }
-
-        &>aside {
-          margin-top: 3rem;
-          position: absolute;
-          width: 50vw;
-          background-color: var(--color-blanco);
-          padding: 1rem;
-          border-radius: 5%;
-
-          &>a {
-            color: var(--color-azul);
-            display: block;
-            margin: 1rem 0;
-            font-weight: bold;
-            font-size: 1.8rem;
-          }
         }
       }
     }

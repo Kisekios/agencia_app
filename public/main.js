@@ -1,24 +1,22 @@
-/* ===========HEADER=========== */
+const urlPath = (globalThis.location.pathname).split('/')
 
-/* Llamada de los items de HTML */
+
+const header = document.querySelector('header')
+
+/* ===========HEADER=========== */
+/* Render header para todas las paginas */
+
+header.innerHTML = '<section><div></div><div><a href="https://wa.me/+573219379621?text=Hola,%20estoy%20navegando%20el%20sitio%20web%20y%20quisiera%20m%C3%A1s%20informaci%C3%B3n..."class="fa fa-whatsapp"></a><a href="https://www.facebook.com/profile.php?id=100088886881677" class="fa fa-facebook"></a><a href="tel:3219379621" class="fa fa-phone"></a><a href="mailto:enmodovacacionesporvenir@gmail.com?Subject=Información%20Para%20unas%20Vacaciones&body=Buen%20día,%20estoy%20interesad@%20en%20estar%20en%20Modo%20Vacaciones."class="fa fa-envelope"></a></div></section><nav><section><a href="/"><img src="/assets/img/logo.png" alt=""></a></section><section><a href="/sobre-nosotros">Acerca de nosotros</a><div><button class="menu-icon-movil"><div></div><div></div><div></div></button></div><aside class="menu-opciones-movil inactive"><a href="/nacionales">Nacionales</a><a href="/internacionales">Internacionales</a><a href="/blog">Blog</a><a href="/TyC">Términos y condiciones</a></aside></section></nav>';
 
 const menuIconMovil = document.querySelector('.menu-icon-movil')
 const menuOpcionesMovil = document.querySelector('.menu-opciones-movil')
 
-/* Variables */
-
-const urlPath = (globalThis.location.pathname).split('/')
-
-/* Funciones */
+menuIconMovil.addEventListener('click', mostrarOpcionesMovil)
 
 function mostrarOpcionesMovil() {
   menuOpcionesMovil.classList.toggle('inactive')
   menuIconMovil.classList.toggle('cambio')
 }
-
-/* Lectura de eventos del HTML */
-
-menuIconMovil.addEventListener('click', mostrarOpcionesMovil)
 
 
 /* ===========FOOTER=========== */
@@ -119,6 +117,9 @@ function renderItemsList(ubicacion, telefono, lista) {
 
   lista.appendChild(numeroDeTelefono)
 }
+
+/* ===========MAIN=========== */
+/* Desplazamiento en home y destinos nacionales e internacionales */
 
 function iniciarDesplazamientoDiv(ubicacion) {
   if (ubicacion === 'destino' || ubicacion === 'plan-turistico') {

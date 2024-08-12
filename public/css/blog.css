@@ -1,0 +1,11 @@
+main {
+  width: 75vw;
+  margin-inline: auto;
+  margin-block: 10vh 15vh;
+}
+
+@media (max-width:600px) {
+  main {
+    width: 85vw;
+  }
+}
