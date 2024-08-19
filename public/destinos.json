@@ -618,7 +618,7 @@
     "destacado": [
       0,
       0,
-      2
+      5
     ],
     "url": "/destino/aruba",
     "banner": "/assets/internacionales/aruba_movil.jpeg",
@@ -669,18 +669,18 @@
     ]
   },
   {
-    "id": "crucero",
-    "titulo": "Aventura Crucero ",
+    "id": "crucero_costa",
+    "titulo": "Crucero por el Caribe",
     "viaje": "internacional",
     "destacado": [
       1,
       0,
-      5
+      0
     ],
-    "url": "/plan-turistico/crucero",
-    "banner": "/assets/internacionales/crucero_movil.jpeg",
-    "bannerGrande": "/assets/internacionales/crucero.jpeg",
-    "descripcion": "Combina la relajación del mar con la emoción de nuevas culturas y paisajes. Cada destino ofrece su propia magia y aventura, comienza tu aventura en el vibrante puerto de La Romana, donde abordarás un magnifico crucero, relájate y disfruta de las diferentes actividades a bordo. Descubre la historia y cultura junto a las aguas cristalinas de las playas de la isla Santa Lucia, Barbados, Guadalupe, Antigua y Tortola.",
+    "url": "/plan-turistico/crucero_costa",
+    "banner": "/assets/internacionales/crucero_costa_movil.jpeg",
+    "bannerGrande": "/assets/internacionales/crucero_costa.jpeg",
+    "descripcion": "Combina la relajación del mar con la emoción de nuevas culturas y paisajes. Cada destino ofrece su propia magia y aventura, comienza tu aventura en el vibrante puerto de La Romana, donde abordarás un magnifico crucero de la empresa italiana <em>Costa</em>, relájate y disfruta de las diferentes actividades a bordo. Descubre la historia y cultura junto a las aguas cristalinas de las playas de la isla Santa Lucia, Barbados, Guadalupe, Antigua y Tortola.",
     "incluye": "El plan incluye los tiquetes aéreos ida y regreso, traslados del aeropuerto al muelle - muelle aeropuerto, alojamiento a bordo, alimentación completa, refrigerios y espectáculos/actividades a bordo",
     "hoteles": [
       {
@@ -695,7 +695,7 @@
       {
         "dia": "Dia 2",
         "ofrece": [
-          "Navegación con dirección Santa Lucia"
+          "Navegación con dirección a Santa Lucia"
         ]
       },
       {
@@ -792,6 +792,123 @@
       "El plan no incluye excursiones en los puertos",
       "No incluye gastos personales como lavandería, llamadas telefónicas, tratamientos de Belleza y casino",
       "No incluye seguros de cancelación de viaje."
+    ]
+  },
+  {
+    "id": "crucero_royal",
+    "titulo": "Crucero desde Cartagena",
+    "viaje": "internacional",
+    "destacado": [
+      0,
+      0,
+      2
+    ],
+    "url": "/plan-turistico/crucero_royal",
+    "banner": "/assets/internacionales/crucero_royal_movil.jpeg",
+    "bannerGrande": false,
+    "descripcion": "Descubre el paraíso en un crucero desde Cartagena con Royal Caribbean. Embárcate en una aventura inolvidable a bordo del Serenade of the Seas. Este crucero todo incluido te llevará a las exóticas islas de Aruba y Curazao, y también tendrás la oportunidad de conocer la provincia de Colón, ubicada cerca del canal de Panamá. Disfruta de días llenos de actividades turísticas y noches mágicas con cenas gourmet y espectáculos en vivo mientras navegas por el mar Caribe.",
+    "incluye": "El plan incluye alojamiento a bordo 7 noches, 8 dias, impuestos de puerto, alimentación completa, espectáculos o actividades a bordo segun tu eleccion, paquete de bebidas de hasta $ 13 USD como: cervezas, agua en botella con o sin gas, vino por copa, cócteles con o sin alcohol, bebidas espirituosas y jugos.",
+    "hoteles": [
+      {
+        "dia": "Dia 1",
+        "ofrece": [
+          "Abordar el crucero Serenade of the Seas",
+          "Salida del puerto a las 6pm",
+          "Navegación con dirección a Willemstad, Curazao"
+        ]
+      },
+      {
+        "dia": "Dia 2",
+        "ofrece": [
+          "Navegación con dirección a Willemstad, Curazao"
+        ]
+      },
+      {
+        "dia": "Dia 3",
+        "ofrece": [
+          "Llegada a Willemstad a las 8am",
+          "Tiempo para conocer Willemstad",
+          "Salida del puerto a las 6pm",
+          "Navegación con dirección a Oranjestad, Aruba"
+        ]
+      },
+      {
+        "dia": "Dia 4",
+        "ofrece": [
+          "Llegada a Oranjestad, Aruba a las 8am",
+          "Tiempo para conocer Oranjestad",
+          "Salida del puerto a las 11pm",
+          "Navegación con dirección a Panamá"
+        ]
+      },
+      {
+        "dia": "Dia 5",
+        "ofrece": [
+          "Navegación con dirección a Panamá"
+        ]
+      },
+      {
+        "dia": "Dia 6",
+        "ofrece": [
+          "Navegación con dirección a Panamá"
+        ]
+      },
+      {
+        "dia": "Dia 7",
+        "ofrece": [
+          "Llegada a Colón,Panamá a las 7am",
+          "Tiempo para conocer Colón",
+          "Salida del puerto a las 4pm",
+          "Navegación con dirección a Cartagena"
+        ]
+      },
+      {
+        "dia": "Dia 8",
+        "ofrece": [
+          "Llegada a Cartagena a las 9am"
+        ]
+      }
+    ],
+    "actividades": [
+      {
+        "actividad": "Serenade of the Seas",
+        "imagen": "https://gangwaze.supabase.co/storage/v1/render/image/public/system/ships/serenade-of-the-seas.jpg?width=800&resize=contain&quality=65"
+      },
+      {
+        "actividad": "Willemstad",
+        "imagen": "https://as2.ftcdn.net/v2/jpg/01/21/57/03/1000_F_121570382_zQ1QxYgvsqymX0t0T5I2ud3r78jiT2MJ.jpg"
+      },
+      {
+        "actividad": "Espectaculos a Bordo",
+        "imagen": "https://directlinecruises.com/images/shipimages-magicbox/rccl-serenade/Atrium.jpg"
+      },
+      {
+        "actividad": "Actividades a bordo",
+        "imagen": "https://img.cruisecritic.net/img-cc/image/10794393/image_800x_.jpg?auto=compress%2Cformat&fp-z=1&h=350&w=467&ar=4%3A3&dpr=2.625&q=15&ixlib=react-9.0.2"
+      },
+      {
+        "actividad": "Bares/Discotecas",
+        "imagen": "https://res.cloudinary.com/gangwaze-assets/image/upload/c_scale,w_640,f_auto/assets/venues/royal-caribbean/solarium-bar.jpg"
+      },
+      {
+        "actividad": "Oranjestad",
+        "imagen": "https://i.pinimg.com/564x/2f/c8/59/2fc859db1be3cd31ea4e0606c512428f.jpg"
+      },
+      {
+        "actividad": "Colón",
+        "imagen": "https://viajareapanama.com/wp-content/uploads/2020/06/1_imagen-puerto-colon.jpg"
+      }
+    ],
+    "informacion": [
+      "Pasaporte con vigencia mínima de 6 meses al momento del viaje",
+      "Se requiere vacuna contra la fiebre amararilla y demas disposiciones sanitarias",
+      "No incluye bebidas alcohólicas y no alcohólicas <strong> Premium o mini bar</strong>",
+      "No incluye impuesto de salida (pago nacional, $130.000 COP aproximado sin confirmar",
+      "No incluye el3% de cargo bancario para pagos en efectivo",
+      "No incluye tiquetes aéreos, traslados o excursiones",
+      "No incluye servicios de Personal, $126 dólares por persona pago a bordo",
+      "No incluye gastos personales como lavandería, llamadas telefónicas, tratamientos de Belleza y casino",
+      "No incluye seguros de cancelación de viaje y/o asistencia médica personal, pre o pos crucero."
     ]
   },
   {

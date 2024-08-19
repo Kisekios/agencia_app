@@ -1,42 +1,52 @@
 [
   {
-    "contacto": "<em>Contactanos</em>",
     "asesor": "Wilber Plaza",
     "cargo": "Ejecutivo Comercial",
     "foto": "/assets/img/user.png",
-    "telefono": {
-      "simbolo": "fa-phone",
-      "numero": "321 937 9621" 
-    },
+    "telefono": "321 937 9621",
     "ubicacion": {
-      "simbolo": "fa-map-marker",
       "sede": "Sede Bosa Porvenir:",
       "edificio": "Centro Comercial <em>Mi Centro Porvenir</em>",
       "direccion": "Calle 54f sur # 94 - 18 segundo piso"
     },
     "links": [
       {
-        "name": "WhatsApp",
-        "link": "https://wa.me/+573219379621?text=Hola,%20estoy%20navegando%20el%20sitio%20web%20y%20quisiera%20m%C3%A1s%20informaci%C3%B3n...",
-        "simbolo": "fa-whatsapp"
+        "whatsapp": "https://wa.me/+573219379621?text=Hola,%20estoy%20navegando%20el%20sitio%20web%20y%20quisiera%20m%C3%A1s%20informaci%C3%B3n..."
       },
       {
-        "name": "Facebook",
-        "link": "https://www.facebook.com/profile.php?id=100088886881677",
-        "simbolo": "fa-facebook-square"
+        "facebook": "https://www.facebook.com/profile.php?id=100088886881677"
       },
       {
-        "name": "Email",
-        "link": "mailto:enmodovacacionesporvenir@gmail.com?Subject=Información%20Para%20unas%20Vacaciones&body=Buen%20día,%20estoy%20interesad@%20en%20estar%20en%20Modo%20Vacaciones.",
-        "simbolo": "fa-envelope"
+        "email": "mailto:enmodovacacionesporvenir@gmail.com?Subject=Información%20Para%20unas%20Vacaciones&body=Buen%20día,%20estoy%20interesad@%20en%20estar%20en%20Modo%20Vacaciones."
       },
       {
-        "name": "Telefono",
-        "link": "tel:3219379621",
-        "simbolo": "fa-phone"
+        "telefono": "tel:3219379621"
       }
-    ],
-    "terminos": "<a href='/TyC'>Términos y condiciones</a>",
-    "derechos": "Todos los derechos reservados"
+    ]
+  },
+  {
+    "asesor": "Luz Mary Plaza",
+    "cargo": "Ejecutivo Comercial",
+    "foto": "/assets/img/logo_pestaña.webp",
+    "telefono":"305 784 4080",
+    "ubicacion": {
+      "sede": "Sede Engativa Las Ferias:",
+      "edificio": "Centro Comercial <em>Av. Calle 68</em>",
+      "direccion": "Av Calle 72 # 70D - 25 Local 201"
+    },
+    "links": [
+      {
+        "whatsapp": false
+      },
+      {
+        "facebook": false
+      },
+      {
+        "email": false
+      },
+      {
+        "telefono": false
+      }
+    ]
   }
 ]
