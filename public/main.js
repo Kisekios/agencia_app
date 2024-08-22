@@ -110,7 +110,6 @@ btnSedeSurFooter.addEventListener('click', mostrarInformacionFooter)
 function mostrarInformacionFooter(mensaje) {
 
   if (!mensaje) {
-    console.log('inicio')
     btnSedeNorteFooter.removeAttribute('style')
     btnSedeSurFooter.style.backgroundColor = "var(--color-blanco)"
     btnSedeSurFooter.style.color = "var(--color-azul)"
@@ -144,18 +143,20 @@ function mostrarInformacionFooter(mensaje) {
     .then(response => {
       if (sedeFooterSeleccionada === 'norte') {
         informacionSede = response[1]
-      } else{
+      } else {
         informacionSede = response[0]
       }
       sede.innerHTML = informacionSede.ubicacion.sede
       edificio.innerHTML = informacionSede.ubicacion.edificio
       direccion.innerHTML = informacionSede.ubicacion.direccion
       telefono.innerHTML = informacionSede.telefono
-      foto.src =informacionSede.foto
+      foto.src = informacionSede.foto
       asesor.innerHTML = informacionSede.asesor
       cargo.innerHTML = informacionSede.cargo
     })
 }
+
+mostrarInformacionFooter()
 
 /* ===========MAIN=========== */
 /* Desplazamiento en home y destinos nacionales e internacionales */
@@ -278,11 +279,4 @@ function desplazamientoDiv(contenedor) {
   });
 }
 
-globalThis.addEventListener('DOMContentLoaded', function () {
-  setTimeout(function () {
-    iniciarDesplazamientoDiv(urlPath[1]);
-
-  }, 1000);
-})
-
-mostrarInformacionFooter()
+  globalThis.onload = iniciarDesplazamientoDiv(urlPath[1])
