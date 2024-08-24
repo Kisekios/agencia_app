@@ -53,7 +53,7 @@ main {
       margin-inline: auto;
       scroll-snap-type: x mandatory;
       border-radius: 1rem;
-      width: 98vw;
+      width: 98.5vw;
 
       &>div {
         display: flex;
@@ -67,7 +67,7 @@ main {
             &>img,
             source {
               box-shadow: none;
-              width: 98vw;
+              width: 98.5vw;
               aspect-ratio: 8/3;
               scroll-snap-align: center;
             }
@@ -79,8 +79,9 @@ main {
 
   &>div {
     width: 100%;
-    padding-block: 10rem 2rem;
+    padding-block: 6rem 2rem;
     box-shadow: inset 0px 15px 25px -15px var(--color-blanco);
+    
 
     &>img {
       display: block;
@@ -161,6 +162,15 @@ main {
         cursor: pointer;
 
       }
+    }
+  }
+}
+
+@media(max-width:1000px){
+  main>section:nth-of-type(1)>div{
+    width: 98vw;
+    &>div>a>picture>img, source {
+      width: 98vw;
     }
   }
 }

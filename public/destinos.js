@@ -28,8 +28,6 @@ fetch(globalThis.origin + '/destinos')
 
 function descripcionHoteles(hoteles) {
   const hotelesDestino = document.querySelector('.destino-hoteles')
-  const divContenedorCards = document.createElement('div')
-  divContenedorCards.classList.add('div-tag')
 
   for (const hotel of hoteles) {
     const hotelCard = document.createElement('article')
@@ -58,8 +56,7 @@ function descripcionHoteles(hoteles) {
     hotelCard.appendChild(hotelName)
     hotelCard.appendChild(hotelDescripcion)
     hotelCard.appendChild(hotelOfrece)
-    divContenedorCards.appendChild(hotelCard)
-    hotelesDestino.appendChild(divContenedorCards)
+    hotelesDestino.appendChild(hotelCard)
   }
 }
 

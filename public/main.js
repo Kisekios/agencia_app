@@ -125,7 +125,6 @@ function mostrarInformacionFooter(mensaje) {
     btnSedeSurFooter.style.color = "var(--color-azul)"
     sedeFooterSeleccionada = 'sur'
   } else {
-    console.log('salir')
     return
   }
 
@@ -161,122 +160,89 @@ mostrarInformacionFooter()
 /* ===========MAIN=========== */
 /* Desplazamiento en home y destinos nacionales e internacionales */
 
+let timeLecturaMedidasDiv
+let timeLecturaEventosClickOrTouch
+let timeIniciarDesplazamiento
+let intervalDesplazandoContain
+let direccionDesplazamientoContain = true
+let posicionScroll = 0
+
 function iniciarDesplazamientoDiv(ubicacion) {
   if (ubicacion === 'destino' || ubicacion === 'plan-turistico') {
     const hotelesODias = document.querySelector('.destino-hoteles')
-    desplazamientoDiv(hotelesODias)
+    tomaMedidasDivDesplazamiento(hotelesODias)
   } else if (ubicacion === 'nacionales' || ubicacion === 'internacionales') {
     const nacionalesOInternacionales = document.querySelector('.destacados')
-    desplazamientoDiv(nacionalesOInternacionales)
+    tomaMedidasDivDesplazamiento(nacionalesOInternacionales)
   } else if (ubicacion === '') {
     const homeDestacados = document.querySelector('.destacados')
-    desplazamientoDiv(homeDestacados)
-  } else {
-    console.log('sitio no configurado')
+    tomaMedidasDivDesplazamiento(homeDestacados)
   }
 }
 
-function desplazamientoDiv(contenedor) {
-  let desplazamiento
-  let posicion = 1
-  let scrollReverseX = false
-  let banderaX = false
-  let banderaY = false
-  let banderaIntervalo = false
-  let intervalo
-  let pausarDesplazamiento
-  let aumentarTiempoPausa
+function tomaMedidasDivDesplazamiento(contenedor) {
+  contenedor.style.scrollSnapType = "x mandatory"
+  clearTimeout(timeLecturaMedidasDiv)
+  lecturasAddEventListener(contenedor)
+  timeLecturaMedidasDiv = setTimeout(() => {
+    let velocidadDesplazamiento
+    posicionScroll = contenedor.scrollLeft
+    globalThis.innerWidth <= 1024 ? velocidadDesplazamiento = 20 : velocidadDesplazamiento = 25
+    desplazamientoContenedor((contenedor.scrollWidth - contenedor.offsetWidth), velocidadDesplazamiento, contenedor)
+  }, 500)
+}
 
-  function ajustarDesplazamiento() {
-    let anchoPagina = globalThis.innerWidth;
-    if (anchoPagina <= 500) {
-      desplazamiento = 2;
-    } else {
-      desplazamiento = 1;
-    }
-  }
-
-  function iniciarIntervalo() {
-    if (!banderaX && !banderaY && !banderaIntervalo) {
-      banderaIntervalo = true
-      contenedor.style.scrollSnapType = "none"
-      clearInterval(intervalo)
-      setTimeout(() => {
-        intervalo = setInterval(function () {
-          let anchoDiv = contenedor.scrollWidth - contenedor.offsetWidth
-          if (posicion <= anchoDiv && !scrollReverseX) {
-            contenedor.scroll(posicion, 0)
-            posicion++
-          } else {
-
-            setTimeout(() => {
-              scrollReverseX = true
-            }, 1000)
-            posicion--
-            contenedor.scroll(posicion, 0)
-            if (posicion <= 1) {
-              setTimeout(() => {
-                scrollReverseX = false
-              }, 1000)
-            }
-          }
-        }, 30 / desplazamiento);
-      }, 1000)
-    }
-  }
-
-  function detenerIntervalo() {
-    if (!banderaX && !banderaY) {
-      banderaX = true
-      clearInterval(intervalo)
-      contenedor.style.scrollSnapType = "x mandatory"
-      pausarDesplazamiento = setTimeout(() => {
-        banderaX = false
-        reanudarDesplazamiento()
-      }, 5000)
-    } else {
-      if (banderaX) {
-        banderaY = true
-        clearTimeout(pausarDesplazamiento)
-        clearTimeout(aumentarTiempoPausa)
-        aumentarTiempoPausa = setTimeout(() => {
-          banderaX = false
-          banderaY = false
-          reanudarDesplazamiento()
-        }, 5000)
+function lecturasAddEventListener(contenedor) {
+  clearTimeout(timeLecturaEventosClickOrTouch)
+  let banderaEventos = true
+  timeLecturaEventosClickOrTouch = setTimeout(() => {
+    contenedor.addEventListener('scroll', () => {
+      if (Math.abs(contenedor.scrollLeft - posicionScroll) > 5 && banderaEventos === true) {
+        banderaEventos = false
+        clearInterval(intervalDesplazandoContain)
+        return iniciarDesplazamientoDiv(urlPath[1])
       }
-    }
-  }
+    })
+    contenedor.addEventListener('click', () => {
+      if (banderaEventos === true) {
+        banderaEventos = false
+        clearInterval(intervalDesplazandoContain)
+        return iniciarDesplazamientoDiv(urlPath[1])
+      }
+    });
 
-  function reanudarDesplazamiento() {
-    clearInterval(intervalo)
-    if (!banderaX && !banderaY && banderaIntervalo) {
-      banderaIntervalo = false
-      posicion = contenedor.scrollLeft
-      ajustarDesplazamiento();
-      iniciarIntervalo();
-    }
-  }
-
-  if ('ontouchstart' in window) {
-    contenedor.addEventListener('touchstart', detenerIntervalo);
-  } else {
-    contenedor.addEventListener('click', detenerIntervalo);
-  }
-
-  contenedor.addEventListener('scroll', () => {
-    if (Math.abs(contenedor.scrollLeft - posicion) > 5) {
-      detenerIntervalo()
-    }
-  })
-
-  ajustarDesplazamiento();
-  iniciarIntervalo();
-
-  window.addEventListener('resize', () => {
-    clearInterval(intervalo)
-    detenerIntervalo()
-  });
+  }, 50)
 }
 
-  globalThis.onload = iniciarDesplazamientoDiv(urlPath[1])
+function desplazamientoContenedor(limiteBarra, velocidadContain, contenedor) {
+  clearTimeout(timeIniciarDesplazamiento)
+  timeIniciarDesplazamiento = setTimeout(() => {
+    contenedor.style.scrollSnapType = "none"
+    intervalDesplazandoContain = setInterval(() => {
+      if (direccionDesplazamientoContain === true) {
+        posicionScroll++
+        contenedor.scroll((posicionScroll), 0)
+        if (posicionScroll >= limiteBarra - 1) pausaDesplazamientoContain(false)
+      } else {
+        direccionDesplazamientoContain = false
+        posicionScroll <= 0 ? direccionDesplazamientoContain = true : direccionDesplazamientoContain = false
+        posicionScroll--
+        contenedor.scroll(posicionScroll, 0)
+        if (posicionScroll <= 0) pausaDesplazamientoContain(true)
+      }
+    },velocidadContain)
+  }, 3000)
+}
+
+function pausaDesplazamientoContain(cambio) {
+  direccionDesplazamientoContain = cambio
+  clearInterval(intervalDesplazandoContain)
+  setTimeout(iniciarDesplazamientoDiv(urlPath[1]), 1500)
+}
+
+window.addEventListener('resize', () => {
+  clearInterval(intervalDesplazandoContain)
+  iniciarDesplazamientoDiv(urlPath[1])
+});
+
+globalThis.onload = iniciarDesplazamientoDiv(urlPath[1])

@@ -1,5 +1,6 @@
+//cSpell: Disable
 const above = document.querySelector('.above')
-const cantidadImagenes = above.querySelectorAll('a')
+const cantidadImagenesAbove = above.querySelectorAll('a')
 const botonIzquierdo = document.querySelector('#above-anterior')
 const botonDerecho = document.querySelector('#above-siguiente')
 
@@ -19,7 +20,7 @@ function iniciarDesplazamientoAbove() {
 above.addEventListener('touchstart', () => {
   clearInterval(desplazamientoAboveAutomatico)
 
-  let medidaImagenAbove = above.scrollWidth / cantidadImagenes.length
+  let medidaImagenAbove = above.scrollWidth / cantidadImagenesAbove.length
   let scrollBarXFinal
 
   above.addEventListener('touchend',()=> {
@@ -48,16 +49,16 @@ botonDerecho.addEventListener('click', () => {
 function desplazamientoAbove(imagenAnterior) {
   if (imagenAnterior) {
     if (indexAbove === 0) {
-      indexAbove = cantidadImagenes.length
+      indexAbove = cantidadImagenesAbove.length
     }
     indexAbove--
   } else {
     indexAbove++
   }
-  if (indexAbove >= cantidadImagenes.length) {
+  if (indexAbove >= cantidadImagenesAbove.length) {
     indexAbove = 0
   }
-  let medidaImagenAbove = above.scrollWidth / cantidadImagenes.length
+  let medidaImagenAbove = above.scrollWidth / cantidadImagenesAbove.length
   let desplazamiento = indexAbove * medidaImagenAbove
   above.scroll({
     left: desplazamiento,

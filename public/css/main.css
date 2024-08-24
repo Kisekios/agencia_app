@@ -465,7 +465,7 @@ header>nav>section:nth-of-type(2)>div>.cambio {
       }
 
       &>div:nth-of-type(1) {
-        width: 100vw;
+        width: 96vw;
         flex-direction: row;
         border-block-end: 3px solid var(--color-blanco);
         align-items: flex-start;
