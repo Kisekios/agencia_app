@@ -13,6 +13,8 @@ const header = document.querySelector('header')
 header.innerHTML = `
   <section id="header">
     <div>
+      <h2>3 AÑOS</h2>
+      <h2>3 AÑOS</h2>
     </div>
     <div>
       <a href="https://wa.me/+573219379621?text=Hola,%20estoy%20navegando%20el%20sitio%20web%20y%20quisiera%20m%C3%A1s%20informaci%C3%B3n..."class="fa fa-whatsapp"></a>
@@ -231,7 +233,7 @@ function desplazamientoContenedor(limiteBarra, velocidadContain, contenedor) {
         if (posicionScroll <= 0) pausaDesplazamientoContain(true)
       }
     },velocidadContain)
-  }, 3000)
+  }, 2000)
 }
 
 function pausaDesplazamientoContain(cambio) {

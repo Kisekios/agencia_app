@@ -16,7 +16,8 @@ main {
 
   &>section:nth-of-type(1) {
     position: relative;
-    box-shadow: inset 0px -20px 25px -17px var(--color-blanco);;
+    box-shadow: inset 0px -20px 25px -17px var(--color-blanco);
+    ;
 
     &>button {
       font-size: 4vw;
@@ -81,7 +82,7 @@ main {
     width: 100%;
     padding-block: 6rem 2rem;
     box-shadow: inset 0px 15px 25px -15px var(--color-blanco);
-    
+
 
     &>img {
       display: block;
@@ -123,6 +124,9 @@ main {
   &>section:nth-of-type(3) {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 3rem;
+    align-items: center;
 
     &>div {
       width: 48%;
@@ -133,16 +137,66 @@ main {
         }
       }
     }
+
+    &>article {
+      width: 48%;
+
+      & strong {
+        color: yellow;
+      }
+      & i{
+        color: rgb(153, 214, 255);
+      }
+      & e {
+        color:greenyellow;
+      }
+
+      &>h2,
+      h4 {
+        font-style: italic;
+        text-shadow: 1px 1px var(--color-azul),
+          1px -1px var(--color-azul),
+          -1px 1px var(--color-azul),
+          -1px -1px var(--color-azul);
+      }
+
+      &>p,
+      h4 {
+        padding-inline: 1.5rem;
+        margin-block-start: 1rem;
+      }
+
+      &>h2{
+        border-bottom: solid 2px var(--color-blanco);
+      }
+
+      &>h4{
+        color:beige;
+      }
+
+      &>p {
+        font-size: 2rem;
+        font-weight: 550;
+        padding-inline-start: 2.5rem;
+      }
+    }
   }
 
   &>section:nth-of-type(4) {
     display: flex;
     flex-direction: column;
 
+    &>h3 {
+      border-block-end: solid 2px white;
+    }
+
     &>article {
       padding: 2rem 5rem;
 
-      &>h5 {}
+      &>p{
+        font-size: 2rem;
+        font-weight: 550;
+      }
     }
 
     &>a {
@@ -166,18 +220,51 @@ main {
   }
 }
 
-@media(max-width:1000px){
-  main>section:nth-of-type(1)>div{
+@media(max-width:1000px) {
+  main>section:nth-of-type(1)>div {
     width: 98vw;
-    &>div>a>picture>img, source {
+
+    &>div>a>picture>img,
+    source {
       width: 98vw;
     }
   }
 }
 
-@media (max-width:800px){
-  main>div>img{
-    max-width:80vw;
+@media (max-width:800px) {
+  main>div>img {
+    max-width: 80vw;
+  }
+}
+
+@media(max-width:750px) {
+  main {
+    &>section:nth-of-type(3) {
+      min-height: 70vh;
+      /* borrar → si no se encuentra utilidad */
+      width: 85vw;
+
+      &>div {
+        min-width: 300px;
+        width: 55%;
+      }
+
+      &>article {
+        width: 40%;
+
+        & b {
+          display: none;
+        }
+
+        &>h4 {
+          padding-inline: unset;
+        }
+
+        &>p {
+          padding-inline: 1rem 0;
+        }
+      }
+    }
   }
 }
 
@@ -194,6 +281,7 @@ main {
 
     &>div {
       padding-block: 5rem 1.5rem;
+
       &>img {
         max-width: 98vw;
       }
@@ -213,13 +301,38 @@ main {
     }
 
     &>section:nth-of-type(3) {
-      flex-direction: column;
-      min-height: 70vh;
-      gap: 4rem;
-      width: 85vw;
+      display: grid;
+      grid-template-areas:
+        "nacional"
+        "link_nacional"
+        "internacional"
+        "link_internacional";
 
       &>div {
+        width: 90%;
+        margin-inline: auto;
+
+        &:nth-of-type(1) {
+          grid-area: link_nacional;
+        }
+
+        &:nth-of-type(2) {
+          grid-area: link_internacional;
+        }
+      }
+
+      &>article {
         width: 100%;
+
+        &:nth-of-type(1) {
+          grid-area: nacional;
+        }
+
+        &:nth-of-type(2) {
+          grid-area: internacional;
+          margin-block-start: 2rem;
+        }
+
       }
     }
 
@@ -228,7 +341,7 @@ main {
       &>article {
         padding: 2rem 1.5rem 3rem;
 
-        &>h5:nth-of-type(2) {
+        &>p:nth-of-type(2) {
           display: none;
         }
       }
