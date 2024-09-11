@@ -27,13 +27,13 @@ main {
       margin-block: auto;
       top: 50%;
       transform: translate(0, -50%);
-      color: rgb(255, 255, 255);
+      color: light-dark(rgb(255, 255, 255), var(--color-azul-claro));
       border: none;
-      background: rgba(255, 255, 255, 0.4);
-      box-shadow: 0px 0px 5px 3px rgb(255 255 255 / 40%);
+      background: light-dark(rgba(255, 255, 255, 0.4), var(--color-azul-opaco));
+      box-shadow: 0px 0px 5px 3px light-dark(rgb(255 255 255 / 40%), var(--color-azul-opaco));
 
       &:hover {
-        background-color: white;
+        background-color: light-dark(white, var(--color-azul-opaco));
         color: #09f;
       }
 
@@ -104,7 +104,6 @@ main {
     gap: 1rem;
     display: flex;
     overflow-x: scroll;
-    scrollbar-color: white transparent;
     scrollbar-width: auto;
 
     &>a {
@@ -144,20 +143,20 @@ main {
       & strong {
         color: yellow;
       }
-      & i{
+
+      & i {
         color: rgb(153, 214, 255);
       }
+
       & e {
-        color:greenyellow;
+        color: rgb(94 255 26);
       }
 
       &>h2,
       h4 {
         font-style: italic;
-        text-shadow: 1px 1px var(--color-azul),
-          1px -1px var(--color-azul),
-          -1px 1px var(--color-azul),
-          -1px -1px var(--color-azul);
+        letter-spacing: 1px;
+        color: light-dark(white, white);
       }
 
       &>p,
@@ -166,16 +165,11 @@ main {
         margin-block-start: 1rem;
       }
 
-      &>h2{
-        border-bottom: solid 2px var(--color-blanco);
-      }
-
-      &>h4{
-        color:beige;
+      &>h2 {
+        border-bottom: solid 2px light-dark(var(--color-azul), var(--color-blanco));
       }
 
       &>p {
-        font-size: 2rem;
         font-weight: 550;
         padding-inline-start: 2.5rem;
       }
@@ -186,15 +180,15 @@ main {
     display: flex;
     flex-direction: column;
 
-    &>h3 {
-      border-block-end: solid 2px white;
+    &>h2 {
+      border-block-end: solid 2px light-dark(var(--color-azul), var(--color-blanco));
+      letter-spacing: 2px;
     }
 
     &>article {
       padding: 2rem 5rem;
 
-      &>p{
-        font-size: 2rem;
+      &>p {
         font-weight: 550;
       }
     }
@@ -206,13 +200,13 @@ main {
       &>button {
         inline-size: 10rem;
         block-size: 4rem;
-        background-color: var(--color-blanco);
+        background-color: light-dark(var(--color-azul), azure);
         box-shadow: 0 0 1rem .4rem var(--color-azul-claro);
         border: none;
         border-radius: 5%;
         font-size: 2rem;
         font-weight: 600;
-        color: var(--color-azul);
+        color: light-dark(azure, var(--color-azul));
         cursor: pointer;
 
       }
@@ -344,6 +338,21 @@ main {
         &>p:nth-of-type(2) {
           display: none;
         }
+      }
+    }
+  }
+}
+
+@media(prefers-color-scheme:dark) {
+  body.light.device {
+    color-scheme: dark;
+
+    &>main>section {
+      &:nth-of-type(3)>article>h2 {
+        border-bottom: solid 2px var(--color-azul)
+      }
+      &:nth-of-type(4)>h2 {
+        border-block-end: solid 2px var(--color-azul)
       }
     }
   }

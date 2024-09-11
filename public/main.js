@@ -2,6 +2,17 @@ const urlPath = (globalThis.location.pathname).split('/')
 
 //cSpell: disable
 
+function detectarDispositivo() {
+  const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+  // Detectar Android
+  if (/android/i.test(userAgent) || (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream)) {
+      document.body.classList.add('device');
+  }
+}
+
+detectarDispositivo();
+
 
 
 /* ===========HEADER=========== */
@@ -42,15 +53,71 @@ header.innerHTML = `
         <a href="/internacionales">Internacionales</a>
         <a href="/blog">Blog</a>
         <a href="/TyC">Términos y condiciones</a>
+        <ol>
+          <li class="switcher active">
+            <i class="fa fa-sun-o" aria-hidden="true"></i>
+            <i class="fa fa-moon-o" aria-hidden="true"></i>
+          </li>
+        </ol>
       </aside>
     </section>
   </nav>`;
 
 const menuIconMovil = document.querySelector('.menu-icon-movil')
 const menuOpcionesMovil = document.querySelector('.menu-opciones-movil')
+const switchModoLightDark = document.querySelector('.switcher')
+const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
 
+function preferenciaModoLD() {
+  console.log(localStorage)
+  if (localStorage.theme === 'light' && document.body.classList.contains('light') == false) {
+    switchModoLightDark.classList.toggle('active')
+    document.body.classList.contains('dark') ? document.body.classList.toggle('dark') : document.body.classList.remove('dark')
+    document.body.classList.toggle('light')
+    console.log('cambio a claro')
+  } else if ((localStorage.theme === 'dark' && document.body.classList.contains('dark') == false) || localStorage.theme == undefined) {
+    document.body.classList.toggle('dark')
+    document.body.classList.contains('light') === true ? document.body.classList.toggle('light') : document.body.classList.remove('light')
+    console.log('cambio a oscuro')
+  }
+}
+
+mediaQuery.addEventListener('change', handleColorSchemeChange);
+
+function handleColorSchemeChange() {
+  console.log('entro al prefers')
+  if (globalThis.matchMedia("(prefers-color-scheme: dark)").matches && document.body.classList.contains('light')) {
+    switchModoLightDark.classList.toggle('active')
+    document.body.classList.toggle('dark')
+    document.body.classList.toggle('light')
+    localStorage.setItem('theme', 'dark')
+    localStorage.setItem('dark-mode', true)
+    localStorage.setItem('light-mode', false)
+  } else if (globalThis.matchMedia("(prefers-color-scheme: light)").matches && document.body.classList.contains('dark')) {
+    switchModoLightDark.classList.toggle('active')
+    document.body.classList.toggle('dark')
+    document.body.classList.toggle('light')
+    localStorage.setItem('theme', 'light')
+    localStorage.setItem('light-mode', true)
+    localStorage.setItem('dark-mode', false)
+  }
+}
 
 menuIconMovil.addEventListener('click', mostrarOpcionesMovil)
+switchModoLightDark.addEventListener('click', () => {
+  switchModoLightDark.classList.toggle('active')
+  document.body.classList.toggle('dark')
+  document.body.classList.toggle('light')
+  if (document.body.classList.contains('dark') === true) {
+    localStorage.setItem('theme', 'dark')
+    localStorage.setItem('dark-mode', true)
+    localStorage.setItem('light-mode', false)
+  } else {
+    localStorage.setItem('theme', 'light')
+    localStorage.setItem('light-mode', true)
+    localStorage.setItem('dark-mode', false)
+  }
+})
 
 
 function mostrarOpcionesMovil() {
@@ -110,7 +177,6 @@ btnSedeNorteFooter.addEventListener('click', mostrarInformacionFooter)
 btnSedeSurFooter.addEventListener('click', mostrarInformacionFooter)
 
 function mostrarInformacionFooter(mensaje) {
-
   if (!mensaje) {
     btnSedeNorteFooter.removeAttribute('style')
     btnSedeSurFooter.style.backgroundColor = "var(--color-blanco)"
@@ -232,7 +298,7 @@ function desplazamientoContenedor(limiteBarra, velocidadContain, contenedor) {
         contenedor.scroll(posicionScroll, 0)
         if (posicionScroll <= 0) pausaDesplazamientoContain(true)
       }
-    },velocidadContain)
+    }, velocidadContain)
   }, 2000)
 }
 
@@ -247,4 +313,5 @@ window.addEventListener('resize', () => {
   iniciarDesplazamientoDiv(urlPath[1])
 });
 
+globalThis.onload = preferenciaModoLD()
 globalThis.onload = iniciarDesplazamientoDiv(urlPath[1])

@@ -903,27 +903,27 @@
       "Pasaporte con vigencia mínima de 6 meses al momento del viaje",
       "Se requiere vacuna contra la fiebre amararilla y demas disposiciones sanitarias",
       "No incluye bebidas alcohólicas y no alcohólicas <strong> Premium o mini bar</strong>",
-      "No incluye impuesto de salida (pago nacional, $130.000 COP aproximado sin confirmar",
+      "No incluye impuesto de salida (pago nacional, $130.000 COP aproximado sin confirmar)",
       "No incluye el 3% de cargo bancario para pagos en efectivo",
       "No incluye tiquetes aéreos, traslados o excursiones",
       "No incluye servicios de Personal, $126 dólares por persona pago a bordo",
       "No incluye gastos personales como lavandería, llamadas telefónicas, tratamientos de Belleza y casino",
-      "No incluye seguros de cancelación de viaje y/o asistencia médica personal, pre o pos crucero."
+      "No incluye seguros de cancelación de viaje y/o asistencia médica personal, pre o pos crucero"
     ]
   },
   {
-    "id": "curacao",
-    "titulo": "Curaçao ",
+    "id": "curazao",
+    "titulo": "Curazao ",
     "viaje": "internacional",
     "destacado": [
       0,
       0,
       0
     ],
-    "url": "/destino/curacao",
+    "url": "/destino/curazao",
     "banner": "/assets/internacionales/curacao_movil.jpeg",
     "bannerGrande": "/assets/internacionales/curacao.jpeg",
-    "descripcion": "Curaçao, una hermosa isla en el Caribe, ofrece una experiencia única llena de sol, playas de aguas cristalinas y una rica cultura, Pasea por la famosa Handelskade en Willemstad, donde los edificios de colores vibrantes bordean el puerto. En sus playas disfrutaras de un magica vista, deportes como el kayak en las olas, windsurf, esquí acuático y jet ski. Este complejo en Bapor Kibra es un lugar popular para disfrutar de restaurantes, tiendas y vida nocturna. ¡No te lo pierdas!.",
+    "descripcion": "Curazao, una hermosa isla en el Caribe, ofrece una experiencia única llena de sol, playas de aguas cristalinas y una rica cultura, Pasea por la famosa Handelskade en Willemstad, donde los edificios de colores vibrantes bordean el puerto. En sus playas disfrutaras de un magica vista, deportes como el kayak en las olas, windsurf, esquí acuático y jet ski. Este complejo en Bapor Kibra es un lugar popular para disfrutar de restaurantes, tiendas y vida nocturna. ¡No te lo pierdas!.",
     "incluye": "Los planes desde 5 días, 4 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, incluye alimentación completa tipo buffet, bebidas ilimitadas en el hotel, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria.",
     "hoteles": [
       {

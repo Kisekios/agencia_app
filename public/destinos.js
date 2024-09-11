@@ -14,7 +14,7 @@ fetch(globalThis.origin + '/destinos')
     descripcionDestino.innerHTML = destino.descripcion
     incluyeDestino.innerHTML = destino.incluye
     if (obtenerUrl[1] === 'destino') {
-      (document.querySelector('.presentation-destino-titulo')).innerHTML = '<em>Que puedes encontrar en ' + destino.titulo;
+      (document.querySelector('.presentation-destino-titulo')).innerHTML = '<em>Que puedes encontrar en <strong>' + destino.titulo + '</strong></em>';
       (document.querySelector('.hoteles-planes-descripcion')).innerHTML = 'Hoteles con tarifa especial'
     } else {
       (document.querySelector('.presentation-destino-titulo')).innerHTML = '<em>Visitaras y disfrutaras de';
