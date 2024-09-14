@@ -3,21 +3,15 @@ const urlPath = (globalThis.location.pathname).split('/')
 //cSpell: disable
 
 function detectarDispositivo() {
-  const userAgent = navigator.userAgent || navigator.vendor || window.opera;
-
-  // Detectar Android
+  const userAgent = navigator.userAgent || window.opera;
   if (/android/i.test(userAgent) || (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream)) {
-      document.body.classList.add('device');
+    document.body.classList.add('device');
   }
 }
 
 detectarDispositivo();
 
-
-
 /* ===========HEADER=========== */
-/* Render header para todas las paginas */
-
 
 const header = document.querySelector('header')
 
@@ -68,66 +62,59 @@ const menuOpcionesMovil = document.querySelector('.menu-opciones-movil')
 const switchModoLightDark = document.querySelector('.switcher')
 const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
 
-function preferenciaModoLD() {
-  console.log(localStorage)
-  if (localStorage.theme === 'light' && document.body.classList.contains('light') == false) {
-    switchModoLightDark.classList.toggle('active')
-    document.body.classList.contains('dark') ? document.body.classList.toggle('dark') : document.body.classList.remove('dark')
-    document.body.classList.toggle('light')
-    console.log('cambio a claro')
-  } else if ((localStorage.theme === 'dark' && document.body.classList.contains('dark') == false) || localStorage.theme == undefined) {
-    document.body.classList.toggle('dark')
-    document.body.classList.contains('light') === true ? document.body.classList.toggle('light') : document.body.classList.remove('light')
-    console.log('cambio a oscuro')
-  }
-}
+mediaQuery.addEventListener('change', () => { setTimeout(handleColorSchemeChange,500) });
 
-mediaQuery.addEventListener('change', handleColorSchemeChange);
-
-function handleColorSchemeChange() {
-  console.log('entro al prefers')
-  if (globalThis.matchMedia("(prefers-color-scheme: dark)").matches && document.body.classList.contains('light')) {
-    switchModoLightDark.classList.toggle('active')
-    document.body.classList.toggle('dark')
-    document.body.classList.toggle('light')
-    localStorage.setItem('theme', 'dark')
-    localStorage.setItem('dark-mode', true)
-    localStorage.setItem('light-mode', false)
-  } else if (globalThis.matchMedia("(prefers-color-scheme: light)").matches && document.body.classList.contains('dark')) {
-    switchModoLightDark.classList.toggle('active')
-    document.body.classList.toggle('dark')
-    document.body.classList.toggle('light')
-    localStorage.setItem('theme', 'light')
-    localStorage.setItem('light-mode', true)
-    localStorage.setItem('dark-mode', false)
-  }
-}
-
-menuIconMovil.addEventListener('click', mostrarOpcionesMovil)
 switchModoLightDark.addEventListener('click', () => {
-  switchModoLightDark.classList.toggle('active')
-  document.body.classList.toggle('dark')
-  document.body.classList.toggle('light')
+  toggleModoLD ()
   if (document.body.classList.contains('dark') === true) {
-    localStorage.setItem('theme', 'dark')
-    localStorage.setItem('dark-mode', true)
-    localStorage.setItem('light-mode', false)
+    cambioModoLD('dark', false)
   } else {
-    localStorage.setItem('theme', 'light')
-    localStorage.setItem('light-mode', true)
-    localStorage.setItem('dark-mode', false)
+    cambioModoLD('light', true)
   }
 })
 
+menuIconMovil.addEventListener('click', mostrarOpcionesMovil)
 
 function mostrarOpcionesMovil() {
   menuOpcionesMovil.classList.toggle('inactive')
   menuIconMovil.classList.toggle('cambio')
 }
 
+function preferenciaModoLD() {
+  if (localStorage.theme === 'light' && document.body.classList.contains('light') == false) {
+    switchModoLightDark.classList.toggle('active')
+    document.body.classList.contains('dark') ? document.body.classList.toggle('dark') : document.body.classList.remove('dark')
+    document.body.classList.toggle('light')
+  } else if ((localStorage.theme === 'dark' && document.body.classList.contains('dark') == false) || localStorage.theme == undefined) {
+    document.body.classList.toggle('dark')
+    document.body.classList.contains('light') === true ? document.body.classList.toggle('light') : document.body.classList.remove('light')
+  }
+}
+
+function handleColorSchemeChange() {
+  if (globalThis.matchMedia("(prefers-color-scheme: dark)").matches && document.body.classList.contains('light')) {
+    toggleModoLD ()
+    cambioModoLD('dark', false)
+  } else if (globalThis.matchMedia("(prefers-color-scheme: light)").matches && document.body.classList.contains('dark')) {
+    toggleModoLD ()
+    cambioModoLD('light', true)
+  }
+}
+
+function cambioModoLD(LightDark, setLDBool) {
+  localStorage.setItem('theme', LightDark)
+  localStorage.setItem('dark-mode', !setLDBool)
+  localStorage.setItem('light-mode', setLDBool)
+  console.log('Tema: ' + LightDark + ' Bool: ' + setLDBool)
+}
+
+function toggleModoLD () {
+  switchModoLightDark.classList.toggle('active')
+  document.body.classList.toggle('dark')
+  document.body.classList.toggle('light')
+}
 
 /* ===========FOOTER=========== */
-/* Render de informacion footer para todas las paginas*/
 
 const footer = document.querySelector('footer')
 let sedeFooterSeleccionada = 'sur'
@@ -226,7 +213,6 @@ function mostrarInformacionFooter(mensaje) {
 mostrarInformacionFooter()
 
 /* ===========MAIN=========== */
-/* Desplazamiento en home y destinos nacionales e internacionales */
 
 let timeLecturaMedidasDiv
 let timeLecturaEventosClickOrTouch
