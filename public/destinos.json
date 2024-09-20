@@ -4,9 +4,8 @@
     "titulo": "San Andres",
     "viaje": "nacional",
     "destacado": [
-      2,
-      1,
-      0
+      true,
+      true
     ],
     "url": "/destino/san_andres",
     "banner": "/assets/nacionales/san_andres_movil.jpeg",
@@ -87,9 +86,8 @@
     "titulo": "Cartagena",
     "viaje": "nacional",
     "destacado": [
-      6,
-      2,
-      0
+      true,
+      true
     ],
     "url": "/destino/cartagena",
     "banner": "/assets/nacionales/cartagena_movil.jpeg",
@@ -161,9 +159,8 @@
     "titulo": "Santa Marta",
     "viaje": "nacional",
     "destacado": [
-      4,
-      3,
-      0
+      true,
+      true
     ],
     "url": "/destino/santa_marta",
     "banner": "/assets/nacionales/santa_marta_movil.jpeg",
@@ -233,9 +230,8 @@
     "titulo": "El Eje Cafetero",
     "viaje": "nacional",
     "destacado": [
-      0,
-      4,
-      0
+      false,
+      true
     ],
     "url": "/plan-turistico/eje_cafetero",
     "banner": "/assets/nacionales/eje_cafetero_movil.jpeg",
@@ -338,9 +334,8 @@
     "titulo": "Medellin",
     "viaje": "nacional",
     "destacado": [
-      0,
-      5,
-      0
+      false,
+      true
     ],
     "url": "/plan-turistico/medellin",
     "banner": "/assets/nacionales/medellin_movil.jpeg",
@@ -460,9 +455,8 @@
     "titulo": "Cancun",
     "viaje": "internacional",
     "destacado": [
-      3,
-      0,
-      1
+      true,
+      true
     ],
     "url": "/destino/cancun",
     "banner": "/assets/internacionales/cancun_movil.jpeg",
@@ -544,9 +538,8 @@
     "titulo": "Ciudad de Mexico",
     "viaje": "internacional",
     "destacado": [
-      0,
-      0,
-      3
+      false,
+      true
     ],
     "url": "/destino/ciudad_mexico",
     "banner": "/assets/internacionales/cdmx_movil.jpeg",
@@ -616,9 +609,8 @@
     "titulo": "Aruba",
     "viaje": "internacional",
     "destacado": [
-      0,
-      0,
-      5
+      false,
+      true
     ],
     "url": "/destino/aruba",
     "banner": "/assets/internacionales/aruba_movil.jpeg",
@@ -673,9 +665,8 @@
     "titulo": "Crucero por el Caribe",
     "viaje": "internacional",
     "destacado": [
-      1,
-      0,
-      0
+      true,
+      false
     ],
     "url": "/plan-turistico/crucero_costa",
     "banner": "/assets/internacionales/crucero_costa_movil.jpeg",
@@ -799,9 +790,8 @@
     "titulo": "Crucero desde Cartagena",
     "viaje": "internacional",
     "destacado": [
-      0,
-      0,
-      2
+      false,
+      true
     ],
     "url": "/plan-turistico/crucero_royal",
     "banner": "/assets/internacionales/crucero_royal_movil.jpeg",
@@ -916,9 +906,8 @@
     "titulo": "Curazao ",
     "viaje": "internacional",
     "destacado": [
-      0,
-      0,
-      0
+      false,
+      false
     ],
     "url": "/destino/curazao",
     "banner": "/assets/internacionales/curacao_movil.jpeg",
@@ -972,9 +961,8 @@
     "titulo": "Punta Cana ",
     "viaje": "internacional",
     "destacado": [
-      0,
-      0,
-      4
+      false,
+      true
     ],
     "url": "/destino/punta_cana",
     "banner": "/assets/internacionales/punta_cana_movil.jpeg",
@@ -1027,9 +1015,8 @@
     "titulo": "Panama",
     "viaje": "internacional",
     "destacado": [
-      0,
-      0,
-      0
+      false,
+      false
     ],
     "url": "/destino/panama",
     "banner": "/assets/internacionales/panama_movil.jpeg",
@@ -1081,9 +1068,8 @@
     "titulo": "Europa",
     "viaje": "internacional",
     "destacado": [
-      5,
-      0,
-      6
+      true,
+      true
     ],
     "url": "/plan-turistico/europa",
     "banner": "/assets/internacionales/europa_movil.jpeg",

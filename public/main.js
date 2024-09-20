@@ -105,7 +105,6 @@ function cambioModoLD(LightDark, setLDBool) {
   localStorage.setItem('theme', LightDark)
   localStorage.setItem('dark-mode', !setLDBool)
   localStorage.setItem('light-mode', setLDBool)
-  console.log('Tema: ' + LightDark + ' Bool: ' + setLDBool)
 }
 
 function toggleModoLD () {
@@ -223,14 +222,18 @@ let posicionScroll = 0
 
 function iniciarDesplazamientoDiv(ubicacion) {
   if (ubicacion === 'destino' || ubicacion === 'plan-turistico') {
-    const hotelesODias = document.querySelector('.destino-hoteles')
-    tomaMedidasDivDesplazamiento(hotelesODias)
-  } else if (ubicacion === 'nacionales' || ubicacion === 'internacionales') {
-    const nacionalesOInternacionales = document.querySelector('.destacados')
-    tomaMedidasDivDesplazamiento(nacionalesOInternacionales)
-  } else if (ubicacion === '') {
-    const homeDestacados = document.querySelector('.destacados')
-    tomaMedidasDivDesplazamiento(homeDestacados)
+    const checkElement = () => {
+      const hotelesODias = document.querySelector('.destino-hoteles');
+      if (hotelesODias) {
+        tomaMedidasDivDesplazamiento(hotelesODias);
+      } else {
+        setTimeout(checkElement, 100);
+      }
+    };
+    checkElement();
+  } else if (ubicacion === 'nacionales' || ubicacion === 'internacionales' || ubicacion === '') {
+    const destacados = document.querySelector('.destacados')
+    tomaMedidasDivDesplazamiento(destacados)
   }
 }
 

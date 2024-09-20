@@ -1,29 +1,58 @@
 const obtenerUrl = (globalThis.location.pathname).split('/')
 //cSpell: disable
-fetch(globalThis.origin + '/destinos')
+
+fetch(globalThis.origin + '/destino-' + obtenerUrl[2])
   .then(res => res.json())
   .then(response => {
-    const destino = response.find(x => x.id === obtenerUrl[2])
-    const imagen = document.querySelector('.imagen')
-    const nameDestino = document.querySelector('.destino-name')
-    const descripcionDestino = document.querySelector('.destino-descripcion')
-    const incluyeDestino = document.querySelector('.destino-incluye')
+    const containMain = document.querySelector('main')
+    let subtitulos = []
 
-    imagen.setAttribute('src', destino.banner)
-    nameDestino.innerHTML = destino.titulo
-    descripcionDestino.innerHTML = destino.descripcion
-    incluyeDestino.innerHTML = destino.incluye
     if (obtenerUrl[1] === 'destino') {
-      (document.querySelector('.presentation-destino-titulo')).innerHTML = '<em>Que puedes encontrar en <strong>' + destino.titulo + '</strong></em>';
-      (document.querySelector('.hoteles-planes-descripcion')).innerHTML = 'Hoteles con tarifa especial'
+      subtitulos[0] = 'Hoteles con tarifa especial'
+      subtitulos[1] = `<em>Que puedes encontrar en <strong>${response.titulo}</strong></em>`
     } else {
-      (document.querySelector('.presentation-destino-titulo')).innerHTML = '<em>Visitaras y disfrutaras de';
-      (document.querySelector('.hoteles-planes-descripcion')).innerHTML = 'Como es el itinerario'
+      subtitulos[0] = 'Itinerario de viaje'
+      subtitulos[1] = 'Visitaras y disfrutaras de'
     }
 
-    descripcionHoteles(destino.hoteles)
-    actividadesDestino(destino.actividades)
-    informacionAdicionalDestino(destino.informacion)
+    containMain.innerHTML = `<section>
+      <img class="imagen" src="${response.banner}">
+      <article>
+        <h1>${response.titulo}</h1>
+        <p>${response.descripcion}</p>
+        <h3>Que Incluye?</h3>
+        <p>${response.incluye}</p>
+        <h3>${subtitulos[0]}</h3>
+        <section class="destino-hoteles"></section>
+        <h3>Buscas otro plan?</h3>
+        <p>Disponemos de la gran mayoría de hoteles en el destino, Comunícate con nosotros y te ayudaremos a encontrar tus vacaciones como las sueñas</p>
+      </article>
+    </section>
+    <section>
+      <h1>${subtitulos[1]}</h1>
+      <section class="destino-actividades"></section>
+    </section>
+    <section>
+      <h2>Informacion Adicional</h2>
+      <div class="informacion-destino"></div>
+      <div>
+        <ul>
+          <li>Puedes reservar mínimo con el 30%, paga el saldo a cuotas, a 30 días antes del viaje debes tener el total
+            del viaje pago</li>
+          <li>Niños menores de 2 años no tiene costo, solo paga póliza de asistencia medica</li>
+          <li>
+            Niños mayores de 3 años pagan la totalidad del plan
+          </li>
+          <li>El plan incluye póliza de asistencia medica en caso de cualquier eventualidad</li>
+        </ul>
+      </div>
+      <p>Si tienes alguna duda, comunícate con nosotros y te brindaremos la Información para responder a tus dudas</p>
+    </section>
+    `
+
+    descripcionHoteles(response.hoteles)
+    actividadesDestino(response.actividades)
+    informacionAdicionalDestino(response.informacion)
   })
 
 function descripcionHoteles(hoteles) {
@@ -31,9 +60,7 @@ function descripcionHoteles(hoteles) {
 
   for (const hotel of hoteles) {
     const hotelCard = document.createElement('article')
-
     const hotelName = document.createElement('h4')
-
     const hotelDescripcion = document.createElement('h5')
 
     if (hotel.nombreHotel) {
@@ -49,7 +76,6 @@ function descripcionHoteles(hoteles) {
     hotel.ofrece.forEach(element => {
       const puntoOfreceHotel = document.createElement('li')
       puntoOfreceHotel.innerHTML = '→ ' + element
-
       hotelOfrece.appendChild(puntoOfreceHotel)
     })
 
