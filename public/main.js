@@ -13,6 +13,7 @@ detectarDispositivo();
 
 /* ===========HEADER=========== */
 
+
 const header = document.querySelector('header')
 
 header.innerHTML = `

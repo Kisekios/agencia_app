@@ -1,5 +1,69 @@
 [
   {
+    "id": "guajira",
+    "titulo": "Guajira",
+    "viaje": "nacional",
+    "destacado": [
+      false,
+      false
+    ],
+    "url": "/destino/guajira",
+    "banner": false,
+    "bannerGrande": false,
+    "descripcion": "Descripcion",
+    "incluye": "incluye",
+    "hoteles": [
+      {
+        "nombreHotel": "hotel",
+        "ofrece": [
+          "test",
+          "test"
+        ]
+      }
+    ],
+    "actividades": [
+      {
+        "actividad": "actividad",
+        "imagen": false
+      }
+    ],
+    "informacion": [
+      "El equipaje de mano es de máximo 10 kilogramos"
+    ]
+  },
+  {
+    "id": "amazonas",
+    "titulo": "Amazonas",
+    "viaje": "nacional",
+    "destacado": [
+      false,
+      false
+    ],
+    "url": "/destino/amazonas",
+    "banner": false,
+    "bannerGrande": false,
+    "descripcion": "Descripcion",
+    "incluye": "incluye",
+    "hoteles": [
+      {
+        "nombreHotel": "hotel",
+        "ofrece": [
+          "test",
+          "test"
+        ]
+      }
+    ],
+    "actividades": [
+      {
+        "actividad": "actividad",
+        "imagen": false
+      }
+    ],
+    "informacion": [
+      "El equipaje de mano es de máximo 10 kilogramos"
+    ]
+  },
+  {
     "id": "san_andres",
     "titulo": "San Andres",
     "viaje": "nacional",
@@ -1297,6 +1361,39 @@
       "Salidas en fechas establecidas",
       "Pasaporte",
       "Excursiones adicionales opcionales (Costo adicional)",
+      "El equipaje de mano es de máximo 10 kilogramos"
+    ]
+  },
+  {
+    "id": "puerto_plata",
+    "titulo": "Puerto Plata",
+    "viaje": "internacional",
+    "destacado": [
+      false,
+      false
+    ],
+    "url": "/destino/puerto_plata",
+    "banner": false,
+    "bannerGrande": false,
+    "descripcion": "Descripcion",
+    "incluye": "incluye",
+    "hoteles": [
+      {
+        "nombreHotel": "Dia 0",
+        "ofrece": [
+          "test",
+          "test"
+        ]
+      }
+    ],
+    "actividades": [
+      {
+        "actividad": "actividad",
+        "imagen": false
+      }
+    ],
+    "informacion": [
+      "Pasaporte",
       "El equipaje de mano es de máximo 10 kilogramos"
     ]
   }
