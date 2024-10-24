@@ -165,6 +165,10 @@ main {
         margin-block-start: 1rem;
       }
 
+      &>p{
+        margin-block-start: 2rem;
+      }
+
       &>h2 {
         border-bottom: solid 2px light-dark(var(--color-azul), var(--color-blanco));
       }
@@ -186,7 +190,7 @@ main {
     }
 
     &>article {
-      padding: 2rem 5rem;
+      padding: 3rem 5rem 2rem;
 
       &>p {
         font-weight: 550;
@@ -333,7 +337,7 @@ main {
     &>section:nth-of-type(4) {
 
       &>article {
-        padding: 2rem 1.5rem 3rem;
+        padding: 3rem 1.5rem;
 
         &>p:nth-of-type(2) {
           display: none;

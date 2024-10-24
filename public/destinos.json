@@ -8,23 +8,30 @@
       false
     ],
     "url": "/destino/guajira",
-    "banner": false,
+    "banner": "/assets/nacionales/san_andres_movil.jpeg",
     "bannerGrande": false,
-    "descripcion": "Descripcion",
-    "incluye": "incluye",
+    "descripcion": "Embárcate en una aventura en uno de los destinos más exóticos y vibrantes de Colombia. La Guajira te espera con sus paisajes deslumbrantes y su rica cultura.<br><br>Explora las majestuosas dunas de Taroa y siente la adrenalina al deslizarte por sus arenas doradas. Navega por las aguas cristalinas de Cabo de la Vela y maravíllate con sus impresionantes atardeceres. Conéctate con la naturaleza en el Parque Nacional Natural Macuira, un oasis en medio del desierto.<br><br>¡No esperes más! Vive una experiencia única en La Guajira.",
+    "incluye": "En los planes de la Guajira cuentas con los tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto,alojamiento de 4 noches, alimentación completa y pólizas de asistencia medica",
     "hoteles": [
       {
-        "nombreHotel": "hotel",
+        "nombreHotel": "Wayira Beach",
         "ofrece": [
-          "test3",
-          "test3"
+          "Bebidas y cocteles"
         ]
       }
     ],
     "actividades": [
       {
-        "actividad": "actividad",
-        "imagen": false
+        "actividad": "Dunas de Taroa",
+        "imagen": "https://i.pinimg.com/564x/3b/9f/82/3b9f82d82b028773ffb3dbb9d9412b1c.jpg"
+      },
+      {
+        "actividad": "Cabo de la Vela",
+        "imagen": "https://i.pinimg.com/564x/a6/10/db/a610dbff8334b66e252b8f083ef4063a.jpg"
+      },
+      {
+        "actividad": "Parque Natural Macuira",
+        "imagen": "https://i.pinimg.com/564x/8b/f8/24/8bf82410960633f54ef225129feec498.jpg"
       }
     ],
     "informacion": [
@@ -40,23 +47,31 @@
       false
     ],
     "url": "/destino/amazonas",
-    "banner": false,
+    "banner": "/assets/nacionales/san_andres_movil.jpeg",
     "bannerGrande": false,
-    "descripcion": "Descripcion",
-    "incluye": "incluye",
+    "descripcion": "Sumérgete en la exuberante belleza del Amazonas y vive una experiencia cercana a la naturaleza. Despierta cada mañana rodeado de la selva tropical, con el canto de aves exóticas y el susurro del río Amazonas. <br><br>Explora senderos naturales, descubre la flora y fauna local y déjate maravillar por la biodiversidad de uno de los ecosistemas más ricos del planeta. <br><br>Termina tus días con espectaculares atardeceres sobre el río Amazonas, una experiencia que te dejará sin aliento y con recuerdos para toda la vida.",
+    "incluye": "En los planes de la Guajira cuentas con los tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto,alojamiento de 4 noches, alimentación completa, y pólizas de asistencia medica",
     "hoteles": [
       {
-        "nombreHotel": "hotel",
+        "nombreHotel": "Amazon",
         "ofrece": [
-          "test",
-          "test"
+          "bebidas y cocteles",
+          "equipaje de bodega"
         ]
       }
     ],
     "actividades": [
       {
-        "actividad": "actividad",
-        "imagen": false
+        "actividad": "Rio Amazonas <br>en lancha",
+        "imagen": "https://i.pinimg.com/564x/f9/74/a2/f974a2eecd2fb9f52954f69e08d6effb.jpg"
+      },
+      {
+        "actividad": "Recorridos <br>por la selva",
+        "imagen": "https://i.pinimg.com/564x/13/bd/67/13bd67263d929a4753d896883d57eed4.jpg"
+      },
+      {
+        "actividad": "Atardecer en<br> el Amazonas",
+        "imagen": "https://i.pinimg.com/564x/71/11/be/7111be4c7594045dcd7812c75d2b244c.jpg"
       }
     ],
     "informacion": [
@@ -74,8 +89,8 @@
     "url": "/destino/san_andres",
     "banner": "/assets/nacionales/san_andres_movil.jpeg",
     "bannerGrande": "/assets/nacionales/san_andres.jpeg",
-    "descripcion": "San Andrés es un auténtico paraíso ubicado en el Caribe colombiano, cuenta con algunas de las mejores playas del Caribe. Entre ellas se encuentra Spratt Bright, ubicada en el distrito comercial de San Andrés. Esta playa de más de 2 kilómetros invita a relajarse, tomar el sol y disfrutar de deportes acuáticos como el kitesurf o el jet ski. Otra joya es Cocoplum, con aguas cristalinas y protegida por un arrecife de coral. Desde allí, incluso puedes caminar hasta Rocky Cay, un islote rodeado de vida submarina. ",
-    "incluye": "En los planes de San Andres contaras con los tiquetes aéreos ida y regreso, traslados del aeropuerto al hotel/hotel aeropuerto, ciclo de 4 noches 4 días, tour por el acuario de Hans Cay y manglares, alimentación completa tipo buffet, bebidas en el hotel en horarios establecidos y polizas de asistencia medica.",
+    "descripcion": "San Andrés es un auténtico paraíso ubicado en el Caribe colombiano, cuenta con algunas de las mejores playas del Caribe. Entre ellas se encuentra Spratt Bright, ubicada en el distrito comercial de San Andrés. Esta playa de más de 2 kilómetros invita a relajarse, tomar el sol y disfrutar de deportes acuáticos como el kitesurf o el jet ski.<br><br>Otra joya es Cocoplum, con aguas cristalinas y protegida por un arrecife de coral. Desde allí, incluso puedes caminar hasta Rocky Cay, un islote rodeado de vida submarina. ",
+    "incluye": "Incluye los tiquetes aéreos ida y regreso, traslados del aeropuerto al hotel/hotel aeropuerto, ciclo de 4 noches 4 días, tour por el acuario de Hans Cay y manglares, alimentación completa tipo buffet, bebidas en el hotel en horarios establecidos y polizas de asistencia medica.",
     "hoteles": [
       {
         "nombreHotel": "Tower",
@@ -156,7 +171,7 @@
     "url": "/destino/cartagena",
     "banner": "/assets/nacionales/cartagena_movil.jpeg",
     "bannerGrande": "/assets/nacionales/cartagena.jpeg",
-    "descripcion": "Cartagena considerada como uno de los mejores destinos turísticos de Colombia, por su arquitectura, las diferentes de playas, el castillo de San Felipe, la torre del reloj, la muralla y su gran variedad de hoteles con vista a la playa de todas las categorías, en el centro histórico recorre sus calles empedradas, sus balcones de madera y casonas coloniales. Visita la isla de Baru",
+    "descripcion": "Sumérgete en la magia de Cartagena de Indias, donde la historia y el mar se entrelazan en un escenario de ensueño.<br><br>Relájate en las cristalinas aguas de Playa Blanca o embárcate en una aventura hacia la paradisíaca Isla Barú, donde podrás disfrutar de un tour inolvidable, explorando sus playas de arena blanca y aguas turquesas.<br><br>Cartagena te espera con los brazos abiertos. ¡Haz tus maletas y ven a vivir una experiencia inolvidable!",
     "incluye": "En los planes de Cartagena cuentas con los tiquetes aéreos de ida y regreso, alimentación completa, traslados aeropuerto-hotel/hotel-aeropuerto, tour de Baru con almuerzo incluido, y pólizas de asistencia medica",
     "hoteles": [
       {
@@ -229,8 +244,8 @@
     "url": "/destino/santa_marta",
     "banner": "/assets/nacionales/santa_marta_movil.jpeg",
     "bannerGrande": "/assets/nacionales/santa_marta.jpg",
-    "descripcion": "Santa Marta ubicada en la costa caribeña de Colombia es un destino turístico imperdible, que combina historia, naturaleza y aventura, visita el museo del oro Tayrona, visita el callejón del correo, encontraras tiendas,cafes y una atmósfera colonial encantadora, la gran playa del rodadero,playa blanca con sus aguas cristalinas, visita la basilica de Santa Marta, la mas antigua de Colombia.",
-    "incluye": "Los planes de 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, incluye desayuno y cena, tour a playa blanca con almuerzo incluido, pólizas de asistencia medica ",
+    "descripcion": "Santa Marta te espera con sus playas doradas y montañas verdes. Explora el Parque Nacional Natural Tayrona, relájate en las aguas cristalinas de Playa Blanca y embárcate en una expedición a ciudad en pie mas antigua de Colombia.<br><br>Desde el vibrante Centro Histórico hasta las cascadas de Minca, cada rincón de Santa Marta ofrece una nueva aventura. Ven y vive la magia de este destino único, donde cada día es una oportunidad para crear recuerdos inolvidables.",
+    "incluye": "Los planes de 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, incluye desayuno y cena, tour a playa blanca con almuerzo incluido y pólizas de asistencia medica.",
     "hoteles": [
       {
         "nombreHotel": "SanSiraka",
@@ -300,7 +315,7 @@
     "url": "/plan-turistico/eje_cafetero",
     "banner": "/assets/nacionales/eje_cafetero_movil.jpeg",
     "bannerGrande": false,
-    "descripcion": "El Eje Cafetero es una de las regiones más bellas y turísticas de Colombia, con una gran variedad de atracciones y actividades para disfrutar. Disfruta de paisajes impresionantes, deliciosa gastronomía y actividades al aire libre en este hermoso destino",
+    "descripcion": "¡Descubre el encanto del Eje Cafetero, el corazón verde de Colombia! 🌿🌞 Sumérgete en un paisaje de montañas ondulantes y cafetales infinitos.<br><br>Relájate en los termales de Santa Rosa de Cabal y siente la serenidad de este paraíso natural. Conéctate con la naturaleza y la fauna en el Bio Parque Ukumari, un entorno único y educativo. Disfruta de la arquitectura colorida y el ambiente acogedor de Filandia, y vive la adrenalina y la diversión en el Parque del Café.<br><br>El Eje Cafetero esta listo para ofrecerte una experiencia inolvidable llena de sabor, aventura y paisajes de ensueño.",
     "incluye": "El planes de 4 días, 3 noches incluye el transporte, alojamiento, 4 desayunos,1 almuerzo y 3 cenas de comida típica de las fincas de la region, cuenta con 2 horas de cócteles seleccionados ilimitados de 8 PM a 10 PM, incluye traslados a los lugares mas populares del eje cafetero.",
     "hoteles": [
       {
@@ -404,8 +419,8 @@
     "url": "/plan-turistico/medellin",
     "banner": "/assets/nacionales/medellin_movil.jpeg",
     "bannerGrande": false,
-    "descripcion": " Disfruta de un emocionante viaje a la vibrante Medellín y la exótica Hacienda Nápoles. Explora la rica historia de Antioquia con visitas a la Piedra del Peñol, el colorido pueblo de Guatapé y el icónico Pueblito Paisa. Navega por la represa de Guatapé en lancha y sumérgete en la belleza del Santorini Colombiano. Vive la emoción del Parque Temático Hacienda Nápoles con su Pasaporte Safari, que incluye parques acuáticos y atracciones de vida silvestre",
-    "incluye": "El plan incluye los transportes y traslados, pólizas de asistencia medica, coordinador de viaje, 4 desayunos, 3 cenas y 1 almuerzo, recorrido en lancha por la represa de Guatapé con reseña historica, visita la piedra del Peñol, el publito Paisa, el Santorini Colombiano. Visitaras el parque Los Pies Descalzos, el parque Botero y la Hacienda Napoles, entre otras mas actividades para que tengas una experiencia completa",
+    "descripcion": "Disfruta de un emocionante viaje a la vibrante Medellín y la exótica Hacienda Nápoles.<br><br>Explora la rica historia de Antioquia con visitas a la Piedra del Peñol, el colorido pueblo de Guatapé y el icónico Pueblito Paisa. Navega por la represa de Guatapé en lancha y sumérgete en la belleza del Santorini Colombiano. Vive la emoción del Parque Temático Hacienda Nápoles con su Pasaporte Safari, que incluye parques acuáticos y atracciones de vida silvestre.<br><br>La Ciudad de la Eterna Primavera te espera con sus paisajes y su cultura distintiva de Colombia.",
+    "incluye": "El plan incluye los transportes y traslados, pólizas de asistencia medica, coordinador de viaje, 4 desayunos, 3 cenas y 1 almuerzo.<br><br>Incluye recorrido en lancha por la represa de Guatapé con reseña historica, visitas a varios lugares emblematicos y la Hacienda Napoles, entre otras mas actividades para que tengas una experiencia completa.",
     "hoteles": [
       {
         "dia": "Dia 0",
@@ -525,8 +540,8 @@
     "url": "/destino/cancun",
     "banner": "/assets/internacionales/cancun_movil.jpeg",
     "bannerGrande": "/assets/internacionales/cancun.jpeg",
-    "descripcion": "Cancun paraíso turístico con sus 17 kilómetros de arena blanca y brillantes agua turquesa, parques temáticos como el Xcaret,el Xplor, bares y discotecas donde podrás degustar autentico tequila, fiestas inigualables hacen que la vida nocturna en Cancun sea reconocida a nivel mundial, visita la pirámide de Chichen itza, los cenotes , la bella isla mujeres, disfruta de la rica gastronomía mexicana y las artesanías de la cultura de Mexico",
-    "incluye": "Los planes desde 5 días, 4 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, hoteles de playa, incluye alimentación completa tipo buffet, bebidas ilimitadas en el hotel, snacks todas las tardes en el hotel, eventos que organizan los hoteles para los huéspedes según el hotel, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria y contamos con una gran variedad de opciones de hoteles",
+    "descripcion": "Cancun es un paraíso turístico de Mexico con sus 17 kilómetros de arena blanca y brillantes agua turquesa, parques temáticos como el Xcaret,el Xplor, bares y discotecas donde podrás degustar autentico tequila, fiestas inigualables hacen que la vida nocturna en Cancun sea reconocida a nivel mundial.<br><br>Visita la pirámide de Chichen itza, los cenotes , la bella isla mujeres, disfruta de la rica gastronomía mexicana y las artesanías de la cultura de Mexico.",
+    "incluye": "Los planes desde 5 días, 4 noches cuentan con: tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, alimentación completa tipo buffet, bebidas ilimitadas en el hotel, incluye pólizas de asistencia medica y asesoría al momento de diligenciar la documentación migratoria.",
     "hoteles": [
       {
         "nombreHotel": "Imperial las Perlas",
@@ -593,7 +608,7 @@
       }
     ],
     "informacion": [
-      "Pasaporte",
+      "Se requiere pasaporte preferiblemente no estar proximo a espirar (6 meses)",
       "El equipaje de mano es de máximo 10 kilogramos"
     ]
   },
@@ -608,7 +623,7 @@
     "url": "/destino/ciudad_mexico",
     "banner": "/assets/internacionales/cdmx_movil.jpeg",
     "bannerGrande": "/assets/internacionales/mexico.jpeg",
-    "descripcion": "La ciudad de Mexico es un destino turístico fascinante y lleno de riqueza cultural, visita las pirámides de Teotihuacan, la basilica de Guadalupe, el tour de Xochimilco , el tour en globos aerostáticos, el Angel de la independencia, el museo nacional de antropología y el palacio de bellas artes, ademas, su variada oferta gastronómica es un deleite para los amantes de la comida tradicional, visita la plaza Garibaldi conocida como la cuna de los mariachis",
+    "descripcion": "Embárcate en una aventura inolvidable en la vibrante Ciudad de México, un destino turístico que rebosa de historia y cultura.<br><br>Un destino turístico fascinante y lleno de riqueza cultural, visita las pirámides de Teotihuacan, la basilica de Guadalupe, el tour de Xochimilco , el tour en globos aerostáticos, el Angel de la independencia, el museo nacional de antropología y el palacio de bellas artes, ademas, su variada oferta gastronómica es un deleite para los amantes de la comida tradicional, visita la plaza Garibaldi conocida como la cuna de los mariachis.",
     "incluye": "Los planes desde 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, hotel con desayuno, tour a basilica de Guadalupe y pirámides de Teotihuacan, un city tour por ciudad de Mexico, incluye pólizas de asistencia medica y asesoría para la documentación migratoria.",
     "hoteles": [
       {
@@ -679,7 +694,7 @@
     "url": "/destino/aruba",
     "banner": "/assets/internacionales/aruba_movil.jpeg",
     "bannerGrande": "/assets/internacionales/aruba.jpeg",
-    "descripcion": "Aruba, conocida como “La Isla más Feliz del Caribe”, es un destino único para tus vacaciones. Aruba es famosa por sus playas de aguas cristalinas. Desde Eagle Beach hasta Palm Beach, encontrarás arenas blancas y suaves, con un clima cálido y soleado durante todo el año perfectas para relajarte o practicar deportes acuáticos; cuando visites Aruba, vivirá contigo el efecto mágico de Aruba",
+    "descripcion": "Conocida como “La Isla más Feliz del Caribe”, Aruba es el destino perfecto para tus próximas vacaciones. Sus playas de aguas cristalinas, como Eagle Beach y Palm Beach, te invitan a relajarte en sus arenas blancas y suaves, mientras disfrutas de un clima cálido y soleado durante todo el año. Ya sea que prefieras descansar bajo el sol o practicar emocionantes deportes acuáticos, Aruba tiene algo para todos.<br><br>Cada momento en Aruba está lleno de alegría y descubrimiento. Ven y vive el efecto mágico de Aruba, donde cada día es una celebración de la vida.",
     "incluye": "Los planes de 5 días, 4 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria.",
     "hoteles": [
       {
@@ -735,8 +750,8 @@
     "url": "/plan-turistico/crucero_costa",
     "banner": "/assets/internacionales/crucero_costa_movil.jpeg",
     "bannerGrande": "/assets/internacionales/crucero_costa.jpeg",
-    "descripcion": "Combina la relajación del mar con la emoción de nuevas culturas y paisajes. Cada destino ofrece su propia magia y aventura, comienza tu aventura en el vibrante puerto de La Romana, donde abordarás un magnifico crucero de la empresa italiana <em>Costa</em>, relájate y disfruta de las diferentes actividades a bordo. Descubre la historia y cultura junto a las aguas cristalinas de las playas de la isla Santa Lucia, Barbados, Guadalupe, Antigua y Tortola.",
-    "incluye": "El plan incluye los tiquetes aéreos ida y regreso, traslados del aeropuerto al muelle - muelle aeropuerto, alojamiento a bordo, alimentación completa, refrigerios y espectáculos/actividades a bordo",
+    "descripcion": "Combina la relajación del mar con la emoción de descubrir nuevas culturas y paisajes en un crucero por el Caribe. Comienza tu aventura en el vibrante puerto de La Romana, donde abordarás un magnífico crucero de la prestigiosa empresa italiana Costa. Relájate y disfruta de una variedad de actividades a bordo, diseñadas para ofrecerte el máximo confort y entretenimiento.<br><br>Descubre la rica historia y cultura de las islas mientras te sumerges en las aguas cristalinas de Santa Lucía, Barbados, Guadalupe, Antigua y Tórtola. Desde playas paradisíacas hasta mercados locales llenos de vida, cada parada te brinda una experiencia única e inolvidable.",
+    "incluye": "El plan incluye los tiquetes aéreos ida y regreso, traslados del aeropuerto al muelle - muelle aeropuerto, alojamiento a bordo, alimentación completa, refrigerios y espectáculos/actividades a bordo.",
     "hoteles": [
       {
         "dia": "Dia 1",
@@ -860,8 +875,8 @@
     "url": "/plan-turistico/crucero_royal",
     "banner": "/assets/internacionales/crucero_royal_movil.jpeg",
     "bannerGrande": false,
-    "descripcion": "Descubre el paraíso en un crucero desde Cartagena con Royal Caribbean. Embárcate en una aventura inolvidable a bordo del Serenade of the Seas. Este crucero todo incluido te llevará a las exóticas islas de Aruba y Curazao, y también tendrás la oportunidad de conocer la provincia de Colón, ubicada cerca del canal de Panamá. Disfruta de días llenos de actividades turísticas y noches mágicas con cenas gourmet y espectáculos en vivo mientras navegas por el mar Caribe.",
-    "incluye": "El plan incluye alojamiento a bordo 7 noches, 8 dias, impuestos de puerto, alimentación completa, espectáculos o actividades a bordo segun tu eleccion, paquete de bebidas de hasta $ 13 USD como: cervezas, agua en botella con o sin gas, vino por copa, cócteles con o sin alcohol, bebidas espirituosas y jugos.",
+    "descripcion": "Descubre el paraíso en un crucero desde la histórica ciudad de Cartagena con Royal Caribbean. A bordo del lujoso Serenade of the Seas, te espera una aventura inolvidable. <br><br>Este crucero todo incluido te llevará a las exóticas islas de Aruba y Curazao, donde podrás disfrutar de playas de ensueño y vibrante vida local. Además, tendrás la oportunidad de explorar la fascinante provincia de Colón, cerca del famoso canal de Panamá.<br><br>Cada momento a bordo está diseñado para ofrecerte el máximo confort y entretenimiento, haciendo de este viaje una experiencia verdaderamente inolvidable.",
+    "incluye": "El plan incluye alojamiento a bordo 7 noches, 8 dias, impuestos de puerto, alimentación completa, espectáculos o actividades a bordo, paquete de bebidas de hasta $ 13 USD como: cervezas, agua en botella con o sin gas, vino por copa, cócteles con o sin alcohol, bebidas espirituosas y jugos.",
     "hoteles": [
       {
         "dia": "Dia 1",
@@ -976,8 +991,8 @@
     "url": "/destino/curazao",
     "banner": "/assets/internacionales/curacao_movil.jpeg",
     "bannerGrande": "/assets/internacionales/curacao.jpeg",
-    "descripcion": "Curazao, una hermosa isla en el Caribe, ofrece una experiencia única llena de sol, playas de aguas cristalinas y una rica cultura, Pasea por la famosa Handelskade en Willemstad, donde los edificios de colores vibrantes bordean el puerto. En sus playas disfrutaras de un magica vista, deportes como el kayak en las olas, windsurf, esquí acuático y jet ski. Este complejo en Bapor Kibra es un lugar popular para disfrutar de restaurantes, tiendas y vida nocturna. ¡No te lo pierdas!.",
-    "incluye": "Los planes desde 5 días, 4 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, incluye alimentación completa tipo buffet, bebidas ilimitadas en el hotel, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria.",
+    "descripcion": "Curazao, una joya del Caribe, te ofrece una experiencia única llena de sol, playas de aguas cristalinas y una rica cultura. Pasea por la famosa Handelskade en Willemstad, donde los edificios de colores vibrantes bordean el puerto, creando un paisaje pintoresco y lleno de vida.<br><br>En sus playas, disfrutarás de vistas mágicas y una amplia gama de deportes acuáticos como kayak, windsurf, esquí acuático y jet ski.¡Curazao te espera con los brazos abiertos para una aventura inolvidable!",
+    "incluye": "Los planes desde 5 días, 4 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, incluye alimentación completa tipo buffet, bebidas ilimitadas en el hotel, incluye pólizas de asistencia medica, asesoría al momento de diligenciar la documentación migratoria.",
     "hoteles": [
       {
         "nombreHotel": "Kunuku Aqua Resot",
@@ -1031,8 +1046,8 @@
     "url": "/destino/punta_cana",
     "banner": "/assets/internacionales/punta_cana_movil.jpeg",
     "bannerGrande": "/assets/internacionales/punta_cana.jpeg",
-    "descripcion": "Punta Cana es un destino paradisíaco en la República Dominicana que ofrece una combinación perfecta de playas de arena blanca, aguas cristalinas, aventuras emocionantes y gastronomía deliciosa, playa Bávaro declarada como una de las mejores playas del mundo; el Hoyo Azul ubicado en Scape Park, un cenote de aguas turquesas donde podras nadar y disfrutar de la naturaleza, conoce el parque Ecológico Ojos indígenas y la isla Saona; Prueba de su gastronomia, una mezcla de influencias taina, española y africana, un rico recuerdo para tu paladar",
-    "incluye": "Los planes desde 5 días, 4 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, incluye alimentación completa tipo buffet, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria",
+    "descripcion": "¡Embárcate en una escapada de ensueño a Punta Cana, el paraíso tropical de la República Dominicana! Imagina relajarte en Playa Bávaro, una de las mejores playas del mundo, con su arena blanca y aguas cristalinas que te invitan a sumergirte y disfrutar del sol caribeño.<br><br>Explora el fascinante Hoyo Azul en Scape Park, un cenote de aguas turquesas donde podrás nadar y maravillarte con la naturaleza. Aventúrate en el Parque Ecológico Ojos Indígenas y descubre la biodiversidad única de la región, o navega hasta la impresionante Isla Saona para vivir una experiencia inolvidable.",
+    "incluye": "Los planes desde 5 días, 4 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, incluye alimentación completa tipo buffet, incluye pólizas de asistencia medica y asesoría al momento de diligenciar la documentación migratoria.",
     "hoteles": [
       {
         "nombreHotel": "Whala Bávaro",
@@ -1085,14 +1100,14 @@
     "url": "/destino/panama",
     "banner": "/assets/internacionales/panama_movil.jpeg",
     "bannerGrande": "/assets/internacionales/panama.jpeg",
-    "descripcion": "Bienvenido a Panamá, un país que irradia vida, autenticidad y una mezcla perfecta de lo antiguo y lo nuevo. Aquí, los mundos del norte y del sur se conectan, y los paisajes cosmopolitas armonizan con las selvas tropicales, Este archipiélago en el Caribe es famoso por sus playas de aguas cristalinas, actividades acuáticas y vibrante vida nocturna, conoce el BioMuseo, la Basílica menoir Santiago Apóstol en la provincia de Coclé,la Isla Bastimentos y el parque nacional de Coiba, la isla mas grande de Panamá y con una biodiversidad asombrosa.",
-    "incluye": "Los planes desde 5 días, 4 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, incluye pólizas de asistencia medica, los tours son opcionales que se pueden adquirir en el hotel, asesoría al momento de diligenciar la documentación migratoria",
+    "descripcion": "¡Bienvenido a Panamá! Un destino donde lo antiguo y lo moderno se encuentran en perfecta armonía. Disfruta de playas de aguas cristalinas, selvas tropicales y una vibrante vida nocturna.<br><br>Explora el BioMuseo, la Basílica Menor Santiago Apóstol en Coclé, y la impresionante Isla Bastimentos. No te pierdas el Parque Nacional Coiba, la isla más grande de Panamá, famosa por su biodiversidad y aguas perfectas para el buceo.<br><br>Panamá te espera con aventuras inolvidables y una cultura rica y diversa.¡Ven y descubre este paraíso tropical! ",
+    "incluye": "El plan de 5 días, 4 noches cuentan con tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, alojamiento, incluye pólizas de asistencia medica y asesoría al momento de diligenciar la documentación migratoria",
     "hoteles": [
       {
         "nombreHotel": "Grand International",
         "ofrece": [
           "Ubicado en el centro de la ciudad",
-          "Desayunos"
+          "Incluye desayunos"
         ]
       }
     ],
@@ -1138,8 +1153,8 @@
     "url": "/plan-turistico/europa",
     "banner": "/assets/internacionales/europa_movil.jpeg",
     "bannerGrande": "/assets/internacionales/europa.jpeg",
-    "descripcion": "Imagina un viaje que te lleva a través de la bella Europa, donde cada ciudad es una puerta a nuevas aventuras y descubrimientos. Desde el primer momento en que el avión aterriza en el viejo continente, te envuelve una sensación de emoción y alegria. Viviras sus diversas culturas y ambientaciones, y su historia, es un viaje a través de sabores, sonidos, arte y arquitectura. ",
-    "incluye": "El plan incluye los tiquetes aéreos ida y regreso con equpaje de bodega de 23 kg y uno de mano de 8 kg, visitas panorámicas con guías locales en ciudades seleccionadas y un guia durante todo el recorrido, alojamiento con desayunos incluidos, y polizas de asistencia medica",
+    "descripcion": "Imagina un viaje a través de la encantadora Europa, donde cada ciudad te abre las puertas a nuevas aventuras y descubrimientos. Desde el momento en que aterrizas en el viejo continente, te envuelve una sensación de emoción y alegría.<br><br>Sumérgete en la diversidad cultural y los paisajes únicos de cada destino. Disfruta de la rica historia, los sabores exquisitos, los sonidos vibrantes, y la impresionante arquitectura que hacen de Europa un lugar mágico.<br><br>Europa te espera con experiencias inolvidables y una mezcla perfecta de tradición y modernidad.",
+    "incluye": "El plan incluye los tiquetes aéreos ida y regreso con equipaje de bodega de 23 kg y uno de mano de 8 kg; visitas panorámicas con guías locales en ciudades seleccionadas y un guia durante todo el recorrido, alojamiento con desayunos incluidos, y polizas de asistencia medica.",
     "hoteles": [
       {
         "dia": "Dia 0",
@@ -1373,24 +1388,57 @@
       false
     ],
     "url": "/destino/puerto_plata",
-    "banner": false,
+    "banner": "/assets/nacionales/san_andres_movil.jpeg",
     "bannerGrande": false,
-    "descripcion": "Descripcion",
-    "incluye": "incluye",
+    "descripcion": "Descubre el encanto de Puerto Plata, un destino paradisíaco en la costa norte de la República Dominicana. Con sus playas de arena dorada, aguas cristalinas y una rica historia, Puerto Plata es el lugar perfecto para tus próximas vacaciones.<br><br>Puerto Plata te ofrece una mezcla única de belleza natural y actividades emocionantes. Desde relajarte en playas de ensueño hasta explorar vibrantes arrecifes de coral, cada rincón de este destino te invita a vivir experiencias inolvidables.",
+    "incluye": "En los planes incluyen con los tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto,alojamiento de 6 dias-5 noches, alimentación completa tipo buffet, y pólizas de asistencia medica",
     "hoteles": [
       {
-        "nombreHotel": "Dia 0",
+        "nombreHotel": "Tangerin Resort",
         "ofrece": [
-          "test",
-          "test"
+          "Bebidas y licores",
+          "Snacks en el hotel"
         ]
       }
     ],
     "actividades": [
       {
-        "actividad": "actividad",
+        "actividad": "Playa de Sosua",
+        "imagen": "https://assets.simpleviewinc.com/simpleview/image/upload/crm/dominicanrepublic/playa-sosua-puerto-plata3-1800x1080_78c1486a-c3f8-4ac8-a12166158f3e80ec.jpg"
+      },
+      {
+        "actividad": "Playa de Alicia",
+        "imagen": "https://scontent-bog2-2.xx.fbcdn.net/v/t1.6435-9/107354855_1007251459695701_3465572940351058633_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=U28jHWPoqhIQ7kNvgFB2bgr&_nc_zt=23&_nc_ht=scontent-bog2-2.xx&_nc_gid=ALn6WcJsSq9WWsAB3X2LK1K&oh=00_AYDgHsgUASoGI9RQmEGIrqAgpoOA-Ws5xFC74bjLlsKvrA&oe=673A7963"
+      },
+      {
+        "actividad": "Snorkel",
+        "imagen": false
+      },
+      {
+        "actividad": "Buceo",
+        "imagen": false
+      },
+      {
+        "actividad": "Paseo en catamarán",
+        "imagen": false
+      },
+      {
+        "actividad": "Pico Isabel de Torres",
+        "imagen": false
+      },
+      {
+        "actividad": "Fuerte de San Felipe",
+        "imagen": false
+      },
+      {
+        "actividad": "Museo del Ámbar",
+        "imagen": false
+      },
+      {
+        "actividad": "Cataratas de Damajagua",
         "imagen": false
       }
+
     ],
     "informacion": [
       "Pasaporte",

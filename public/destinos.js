@@ -16,7 +16,9 @@ fetch(globalThis.origin + '/destino-' + obtenerUrl[2])
     }
 
     containMain.innerHTML = `<section>
-      <img class="imagen" src="${response.banner}">
+      <div>
+        <img class="imagen" src="${response.banner}">
+      </div>
       <article>
         <h1>${response.titulo}</h1>
         <p>${response.descripcion}</p>
@@ -25,7 +27,7 @@ fetch(globalThis.origin + '/destino-' + obtenerUrl[2])
         <h3>${subtitulos[0]}</h3>
         <section class="destino-hoteles"></section>
         <h3>Buscas otro plan?</h3>
-        <p>Disponemos de la gran mayoría de hoteles en el destino, Comunícate con nosotros y te ayudaremos a encontrar tus vacaciones como las sueñas</p>
+        <p>Disponemos de la gran mayoría de hoteles en el destino, Comunícate con nosotros y te ayudaremos a encontrar tus vacaciones como las sueñas.</p>
       </article>
     </section>
     <section>
