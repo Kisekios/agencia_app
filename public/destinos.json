@@ -1,14 +1,14 @@
 [
   {
     "id": "guajira",
-    "titulo": "Guajira",
+    "titulo": "la Guajira",
     "viaje": "nacional",
     "destacado": [
       false,
       false
     ],
     "url": "/destino/guajira",
-    "banner": "/assets/nacionales/san_andres_movil.jpeg",
+    "banner": "/assets/nacionales/guajira_movil.jpeg",
     "bannerGrande": false,
     "descripcion": "Embárcate en una aventura en uno de los destinos más exóticos y vibrantes de Colombia. La Guajira te espera con sus paisajes deslumbrantes y su rica cultura.<br><br>Explora las majestuosas dunas de Taroa y siente la adrenalina al deslizarte por sus arenas doradas. Navega por las aguas cristalinas de Cabo de la Vela y maravíllate con sus impresionantes atardeceres. Conéctate con la naturaleza en el Parque Nacional Natural Macuira, un oasis en medio del desierto.<br><br>¡No esperes más! Vive una experiencia única en La Guajira.",
     "incluye": "En los planes de la Guajira cuentas con los tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto,alojamiento de 4 noches, alimentación completa y pólizas de asistencia medica",
@@ -32,7 +32,19 @@
       {
         "actividad": "Parque Natural Macuira",
         "imagen": "https://i.pinimg.com/564x/8b/f8/24/8bf82410960633f54ef225129feec498.jpg"
-      }
+      },       
+      {
+        "actividad": "Playa de Mayapo",
+        "imagen": "https://playasencolombia.com/wp-content/uploads/2023/10/mapa-1.webp"
+      },       
+      {
+        "actividad": "Recorrido en Cuatrimoto",
+        "imagen": "https://i.pinimg.com/736x/bf/56/1b/bf561b8bd406c09f9ae12dbaede52208.jpg"
+      },       
+      {
+        "actividad": "Excursiones a caballo",
+        "imagen": "https://i.pinimg.com/564x/f5/c3/ce/f5c3ce8093a2c774adb6b15f3d14b3d3.jpg"
+      }       
     ],
     "informacion": [
       "El equipaje de mano es de máximo 10 kilogramos"
@@ -47,16 +59,16 @@
       false
     ],
     "url": "/destino/amazonas",
-    "banner": "/assets/nacionales/san_andres_movil.jpeg",
+    "banner": "/assets/nacionales/amazonas_movil.jpeg",
     "bannerGrande": false,
     "descripcion": "Sumérgete en la exuberante belleza del Amazonas y vive una experiencia cercana a la naturaleza. Despierta cada mañana rodeado de la selva tropical, con el canto de aves exóticas y el susurro del río Amazonas. <br><br>Explora senderos naturales, descubre la flora y fauna local y déjate maravillar por la biodiversidad de uno de los ecosistemas más ricos del planeta. <br><br>Termina tus días con espectaculares atardeceres sobre el río Amazonas, una experiencia que te dejará sin aliento y con recuerdos para toda la vida.",
-    "incluye": "En los planes de la Guajira cuentas con los tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto,alojamiento de 4 noches, alimentación completa, y pólizas de asistencia medica",
+    "incluye": "En los planes de la Guajira cuentas con los tiquetes aéreos de ida y regreso, traslados en lancha por el amazonas aeropuerto-hotel/hotel-aeropuerto,alojamiento de 4 noches, alimentación completa, y pólizas de asistencia medica",
     "hoteles": [
       {
         "nombreHotel": "Amazon",
         "ofrece": [
           "bebidas y cocteles",
-          "equipaje de bodega"
+          "hotel frente al rio amazonas"
         ]
       }
     ],
@@ -72,6 +84,15 @@
       {
         "actividad": "Atardecer en<br> el Amazonas",
         "imagen": "https://i.pinimg.com/564x/71/11/be/7111be4c7594045dcd7812c75d2b244c.jpg"
+      },
+      { "actividad": "Delfines Rosados",
+        "imagen": "https://i.pinimg.com/564x/d4/f9/77/d4f97779a60691b51fe7525baf4cd5a7.jpg"
+      },
+      { "actividad": "Canopy",
+        "imagen": "https://sendascolombia.com/wp-content/uploads/2022/03/Carrusel-Amazonas-6.jpg"
+      },
+      { "actividad": "Kayak por el Amazonas",
+        "imagen": "https://i.pinimg.com/564x/a6/70/4b/a6704be729c907fa017cc82e26d27862.jpg"
       }
     ],
     "informacion": [
@@ -541,7 +562,7 @@
     "banner": "/assets/internacionales/cancun_movil.jpeg",
     "bannerGrande": "/assets/internacionales/cancun.jpeg",
     "descripcion": "Cancun es un paraíso turístico de Mexico con sus 17 kilómetros de arena blanca y brillantes agua turquesa, parques temáticos como el Xcaret,el Xplor, bares y discotecas donde podrás degustar autentico tequila, fiestas inigualables hacen que la vida nocturna en Cancun sea reconocida a nivel mundial.<br><br>Visita la pirámide de Chichen itza, los cenotes , la bella isla mujeres, disfruta de la rica gastronomía mexicana y las artesanías de la cultura de Mexico.",
-    "incluye": "Los planes desde 5 días, 4 noches cuentan con: tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, alimentación completa tipo buffet, bebidas ilimitadas en el hotel, incluye pólizas de asistencia medica y asesoría al momento de diligenciar la documentación migratoria.",
+    "incluye": "Los planes desde 4 días, 3 noches cuentan con: tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, alimentación completa tipo buffet, bebidas ilimitadas en el hotel, incluye pólizas de asistencia medica y asesoría al momento de diligenciar la documentación migratoria.",
     "hoteles": [
       {
         "nombreHotel": "Imperial las Perlas",
@@ -679,7 +700,7 @@
       }
     ],
     "informacion": [
-      "Pasaporte",
+      "Pasaporte con vigencia mínima de 6 meses al momento del viaje.",
       "El equipaje de mano es de máximo 10 kilogramos"
     ]
   },
@@ -734,7 +755,7 @@
       }
     ],
     "informacion": [
-      "Pasaporte",
+      "Pasaporte con vigencia mínima de 6 meses al momento del viaje.",
       "El equipaje de mano es de máximo 10 kilogramos",
       "Puedes alquilar un carro por $35 USD por dia para movilizarte por Aruba"
     ]
@@ -969,7 +990,7 @@
       }
     ],
     "informacion": [
-      "Pasaporte con vigencia mínima de 6 meses al momento del viaje",
+      "Pasaporte con vigencia mínima de 6 meses al momento del viaje.",
       "Se requiere vacuna contra la fiebre amararilla y demas disposiciones sanitarias",
       "No incluye bebidas alcohólicas y no alcohólicas <strong> Premium o mini bar</strong>",
       "No incluye impuesto de salida (pago nacional, $130.000 COP aproximado sin confirmar)",
@@ -1030,7 +1051,7 @@
       }
     ],
     "informacion": [
-      "Pasaporte",
+      "Pasaporte con vigencia mínima de 6 meses al momento del viaje.",
       "El equipaje de mano es de máximo 10 kilogramos",
       "Se requiere la vacuna contra la fiebre amarilla"
     ]
@@ -1085,7 +1106,7 @@
       }
     ],
     "informacion": [
-      "Pasaporte",
+      "Pasaporte con vigencia mínima de 6 meses al momento del viaje.",
       "El equipaje de mano es de máximo 10 kilogramos"
     ]
   },
@@ -1138,7 +1159,7 @@
       }
     ],
     "informacion": [
-      "Pasaporte",
+      "Pasaporte con vigencia mínima de 6 meses al momento del viaje.",
       "El equipaje de mano es de máximo 10 kilogramos"
     ]
   },
@@ -1374,7 +1395,7 @@
     ],
     "informacion": [
       "Salidas en fechas establecidas",
-      "Pasaporte",
+      "Pasaporte con vigencia mínima de 6 meses al momento del viaje.",
       "Excursiones adicionales opcionales (Costo adicional)",
       "El equipaje de mano es de máximo 10 kilogramos"
     ]
@@ -1388,10 +1409,10 @@
       false
     ],
     "url": "/destino/puerto_plata",
-    "banner": "/assets/nacionales/san_andres_movil.jpeg",
+    "banner": "/assets/internacionales/puerto_plata_movil.jpeg",
     "bannerGrande": false,
     "descripcion": "Descubre el encanto de Puerto Plata, un destino paradisíaco en la costa norte de la República Dominicana. Con sus playas de arena dorada, aguas cristalinas y una rica historia, Puerto Plata es el lugar perfecto para tus próximas vacaciones.<br><br>Puerto Plata te ofrece una mezcla única de belleza natural y actividades emocionantes. Desde relajarte en playas de ensueño hasta explorar vibrantes arrecifes de coral, cada rincón de este destino te invita a vivir experiencias inolvidables.",
-    "incluye": "En los planes incluyen con los tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto,alojamiento de 6 dias-5 noches, alimentación completa tipo buffet, y pólizas de asistencia medica",
+    "incluye": "En los planes incluyen con los tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto,alojamiento de 6 dias-5 noches, alimentación completa tipo buffet y pólizas de asistencia medica.",
     "hoteles": [
       {
         "nombreHotel": "Tangerin Resort",
@@ -1411,37 +1432,37 @@
         "imagen": "https://scontent-bog2-2.xx.fbcdn.net/v/t1.6435-9/107354855_1007251459695701_3465572940351058633_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=U28jHWPoqhIQ7kNvgFB2bgr&_nc_zt=23&_nc_ht=scontent-bog2-2.xx&_nc_gid=ALn6WcJsSq9WWsAB3X2LK1K&oh=00_AYDgHsgUASoGI9RQmEGIrqAgpoOA-Ws5xFC74bjLlsKvrA&oe=673A7963"
       },
       {
-        "actividad": "Snorkel",
-        "imagen": false
+        "actividad": "Snorkel tours",
+        "imagen": "https://i.pinimg.com/564x/93/43/5a/93435ab9b7c25db389b9a15f9f685ec9.jpg"
       },
       {
         "actividad": "Buceo",
-        "imagen": false
+        "imagen": "https://i.pinimg.com/564x/a6/4d/d6/a64dd6f0c626b1c03d41add1e928603e.jpg"
       },
       {
         "actividad": "Paseo en catamarán",
-        "imagen": false
+        "imagen": "https://i.pinimg.com/564x/5b/f4/9d/5bf49d974740a0973f8ebcdbe05c6d3c.jpg"
       },
       {
         "actividad": "Pico Isabel de Torres",
-        "imagen": false
+        "imagen": "https://i.pinimg.com/564x/4e/60/86/4e6086c18fcac764be0dd7c57b4929de.jpg"
       },
       {
         "actividad": "Fuerte de San Felipe",
-        "imagen": false
+        "imagen": "https://i.pinimg.com/564x/f8/12/2a/f8122a17cfb37f5e06842b62b973b05b.jpg"
       },
       {
         "actividad": "Museo del Ámbar",
-        "imagen": false
+        "imagen": "https://i.pinimg.com/564x/b3/7f/1a/b37f1a706d5dfc773cdfdf572bcfbe04.jpg"
       },
       {
         "actividad": "Cataratas de Damajagua",
-        "imagen": false
+        "imagen": "https://i.pinimg.com/564x/00/51/8a/00518afe51afb0532ef4d1525dfa23ab.jpg"
       }
 
     ],
     "informacion": [
-      "Pasaporte",
+      "Pasaporte con vigencia mínima de 6 meses al momento del viaje.",
       "El equipaje de mano es de máximo 10 kilogramos"
     ]
   }
