@@ -1,0 +1,4 @@
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^enmodovacaciones.com [NC]
+RewriteRule ^(.*)$ http://www.enmodovacaciones.com/$1 [L,R=301]
