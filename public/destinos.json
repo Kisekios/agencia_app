@@ -771,7 +771,7 @@
     "url": "/plan-turistico/crucero_costa",
     "banner": "/assets/internacionales/crucero_costa_movil.jpeg",
     "bannerGrande": "/assets/internacionales/crucero_costa.jpeg",
-    "descripcion": "Combina la relajación del mar con la emoción de descubrir nuevas culturas y paisajes en un crucero por el Caribe. Comienza tu aventura en el vibrante puerto de La Romana, donde abordarás un magnífico crucero de la prestigiosa empresa italiana Costa. Relájate y disfruta de una variedad de actividades a bordo, diseñadas para ofrecerte el máximo confort y entretenimiento.<br><br>Descubre la rica historia y cultura de las islas mientras te sumerges en las aguas cristalinas de Santa Lucía, Barbados, Guadalupe, Antigua y Tórtola. Desde playas paradisíacas hasta mercados locales llenos de vida, cada parada te brinda una experiencia única e inolvidable.",
+    "descripcion": "Combina la relajación del mar con la emoción de descubrir nuevas culturas y paisajes en un crucero por el Caribe. Comienza tu aventura en el vibrante puerto de La Romana, donde abordarás un magnífico crucero de la compañia Costa Crociere o Norwegian Cruise . Relájate y disfruta de una variedad de actividades a bordo, diseñadas para ofrecerte el máximo confort y entretenimiento.<br><br>Descubre la rica historia y cultura de las islas mientras te sumerges en las aguas cristalinas de Aruba, Curazao, Bonaire, Santa Lucia, Saint Kitts y Tortola.<br>Desde playas paradisíacas hasta mercados locales llenos de vida, cada parada te brinda una experiencia única e inolvidable.",
     "incluye": "El plan incluye los tiquetes aéreos ida y regreso, traslados del aeropuerto al muelle - muelle aeropuerto, alojamiento a bordo, alimentación completa, refrigerios y espectáculos/actividades a bordo.",
     "hoteles": [
       {
@@ -779,44 +779,46 @@
         "ofrece": [
           "Llegada a República Dominicana",
           "Estadía en casa de campo hasta el abordaje",
-          "Abordar el crucero Costa Pacifica",
-          "Salida del puerto a las 11:59 PM"
+          "Abordar el crucero",
+          "Salida del puerto a las 5:30 PM"
         ]
       },
       {
         "dia": "Dia 2",
         "ofrece": [
-          "Navegación con dirección a Santa Lucia"
+          "Llegada a Aruba a las 1:30 PM",
+          "Salida del puerto a las 8 PM",
+          "Navegación con dirección a Curazao"
         ]
       },
       {
         "dia": "Dia 3",
         "ofrece": [
-          "Llegada a Santa Lucia a las 9 AM",
-          "Salida del puerto a las 7PM",
-          "Navegación con dirección a Barbados"
+          "Llegada a Curazao a las 8 AM",
+          "Salida del puerto a las 5 PM",
+          "Navegación con dirección a Bonaire"
         ]
       },
       {
         "dia": "Dia 4",
         "ofrece": [
-          "Llegada a la isla Barbados a las 7 PM",
-          "Salida del puerto a las 6 PM",
-          "Navegación con dirección a Guadalupe"
+          "Llegada a la isla Bonaire a las 6 AM",
+          "Salida del puerto a la 1 PM",
+          "Navegación con dirección a Santa Lucia"
         ]
       },
       {
         "dia": "Dia 5",
         "ofrece": [
-          "Llegada a Guadalupe a las 9 AM",
-          "Salida del puerto a las 11 PM",
-          "Navegación con dirección a Antigua"
+          "Llegada a Santa Lucia a las 2 PM",
+          "Salida del puerto a las 8 PM",
+          "Navegación con dirección a Saint Kitts"
         ]
       },
       {
         "dia": "Dia 6",
         "ofrece": [
-          "Llegada a Antigua 8 AM",
+          "Llegada a Saint Kitts 9 AM",
           "Salida del puerto a las 6 PM",
           "Navegación con dirección a Tortola"
         ]
@@ -832,7 +834,8 @@
       {
         "dia": "Dia 8",
         "ofrece": [
-          "Llegada a La Romana a las 8 AM",
+          "Llegada a La Romana a las 7 AM",
+          "Fin del recorrido del crucero",
           "De Regreso a Bogota"
         ]
       }
@@ -851,7 +854,7 @@
         "imagen": "/assets/internacionales/img_destinos_inter/crucero_espectaculos.webp"
       },
       {
-        "actividad": "Bares/Discotecas",
+        "actividad": "Bares y <br>Discotecas",
         "imagen": "/assets/internacionales/img_destinos_inter/cruceros_baresYDiscotecas.webp"
       },
       {
@@ -859,16 +862,16 @@
         "imagen": "/assets/internacionales/img_destinos_inter/crucero_islaSantaLucia.jpg"
       },
       {
-        "actividad": "Isla Barbados",
+        "actividad": "Isla Saint Kitts",
         "imagen": "/assets/internacionales/img_destinos_inter/crucero_islaBarbados.jpg"
       },
       {
-        "actividad": "Isla Guadalupe",
-        "imagen": "/assets/internacionales/img_destinos_inter/crucero_islaGuadalupe.jpg"
+        "actividad": "Isla de Aruba",
+        "imagen": "/assets/internacionales/img_destinos_inter/aruba_oranjestad.jpg"
       },
       {
-        "actividad": "Isla Antigua",
-        "imagen": "/assets/internacionales/img_destinos_inter/cruceros_islaAntigua.jpg"
+        "actividad": "Isla de Curazao",
+        "imagen": "/assets/internacionales/img_destinos_inter/curacao_willemstad.webp"
       },
       {
         "actividad": "Isla Tortola",
@@ -1178,59 +1181,48 @@
     "incluye": "El plan incluye los tiquetes aéreos ida y regreso con equipaje de bodega de 23 kg y uno de mano de 8 kg; visitas panorámicas con guías locales en ciudades seleccionadas y un guia durante todo el recorrido, alojamiento con desayunos incluidos, y polizas de asistencia medica.",
     "hoteles": [
       {
-        "dia": "Dia 0",
-        "ofrece": [
-          "Vuelo desde Bogota con destino a Madrid - España en horas de la noche"
-        ]
-      },
-      {
         "dia": "Dia 1",
         "ofrece": [
-          "Llegada a Madrid",
-          "Traslado al hotel para Alojamiento"
+          "Vuelo desde Bogota con destino a Madrid - noche a bordo"
         ]
       },
       {
         "dia": "Dia 2",
         "ofrece": [
-          "Desayuno",
-          "Recorrido por la ciudad con el guia",
-          "Tarde libre para conocer",
-          "De regreso al hotel"
+          "Llegada a Madrid",
+          "Traslado hacia el hotel",
+          "Dia libre para conocer madrid o descanzar"
         ]
       },
       {
         "dia": "Dia 3",
         "ofrece": [
           "Desayuno",
-          "Salida hacia Burdeos",
-          "Se pasara por la ciudad de Burgos",
-          "Llegada a la frontera con Francia",
-          "Llegada a Burdeos",
-          "Alojamiento",
-          "Resto del dia libre"
+          "Traslado hacia San Sebatián",
+          "Tiempo para conocer San Sebatián",
+          "Traslado hacia Buerdeos (Francia)",
+          "Alojamiento"
         ]
       },
       {
         "dia": "Dia 4",
         "ofrece": [
-          "Continuacion del trayecto hacia Paris",
-          "Parada en Blois",
-          "Tiempo libre para apreciar su arquitectura y castillos",
-          "Se reanuda el viaje a Paris",
-          "Llegada a Paris",
-          "Alojamiento y tiempo libre"
+          "Desayuno",
+          "Traslado hacia Blois",
+          "Descanzo en Blois",
+          "Traslado hacia París",
+          "Alojamiento"
         ]
       },
       {
         "dia": "Dia 5",
         "ofrece": [
           "Desayuno",
-          "Recorrido por la Ciudad del Amor",
-          "Los Campos Eliseos",
-          "La Torre Eifel",
-          "El Arco del Triunfo",
-          "La Catedral de Notre Dame",
+          "Visita por panoramica por París",
+          "Recorrido por los campos Elíseos",
+          "Visita al Arco del triunfo",
+          "Visita a la Torre Eifel",
+          "Tarde libre",
           "Alojamiento"
         ]
       },
@@ -1238,7 +1230,7 @@
         "dia": "Dia 6",
         "ofrece": [
           "Desayuno",
-          "Dia Libre",
+          "Dia libre por París",
           "Alojamiento"
         ]
       },
@@ -1246,32 +1238,32 @@
         "dia": "Dia 7",
         "ofrece": [
           "Desayuno",
-          "Salida hacia la frontera con Suiza",
-          "Parada en Lucerna",
+          "Traslado hacia Luxemburgo",
           "Tiempo libre",
-          "Continuacion del trayecto a Zúrich",
+          "Traslados hacia Frankfurt",
           "Alojamiento"
         ]
       },
       {
         "dia": "Dia 8",
         "ofrece": [
-          "Desayuno y salida hacia la frontera con Italia",
-          "Pasando por las proximidades de Milán",
-          "Llegada a la ciudad de Verona",
-          "Tiempo libre",
-          "Llegada a la Casa de Julieta",
-          "Continuacion del trayecto a Venecia",
-          "Llegada y Alojamiento"
+          "Desayuno",
+          "Traslado hacia Heidelberg",
+          "Tiempo libre para conocer Heilberg",
+          "Traslado hacia Friburgo",
+          "Tiempo Libre en Friburgo",
+          "Traslado hacia Zurich (Suiza)",
+          "Tiempo libre para conocer",
+          "Alojamiento"
         ]
       },
       {
         "dia": "Dia 9",
         "ofrece": [
           "Desayuno",
-          "Guia por la ciudad",
-          "Tiempo libre",
-          "Salida hacia Roma",
+          "Traslado hacia Lucerna",
+          "Tiempo libre en Lucerna",
+          "Traslado hacia Venecia",
           "Alojamiento"
         ]
       },
@@ -1279,12 +1271,12 @@
         "dia": "Dia 10",
         "ofrece": [
           "Desayuno",
-          "Guia por la ciudad",
-          "El Coliseo",
-          "Circo Maximo",
-          "La Basílica de Santa María la Mayor",
-          "Llegada al Vaticano (excursion no incluida)",
+          "Visita por Venecia",
+          "Traslado en vaporetto hacia la Plaza de San Marcos",
+          "Visita por la plaza de San Marcos",
           "Tiempo libre",
+          "Traslado hacia Padua y su catedral",
+          "Traslado hacia Florencia",
           "Alojamiento"
         ]
       },
@@ -1292,21 +1284,18 @@
         "dia": "Dia 11",
         "ofrece": [
           "Desayuno",
-          "Dia Libre",
-          "Alojamiento"
+          "Visita panoramica por Florencia",
+          "Traslado hacia Asís",
+          "Visita por Asís y la Basílica de San Francisco",
+          "Traslado hacia Roma",
+          "Aalojamiento"
         ]
       },
       {
         "dia": "Dia 12",
         "ofrece": [
           "Desayuno",
-          "Salida con destino a Florencia",
-          "A La llegada, guia por la ciudad",
-          "Catedral de ST María del Fiore",
-          "El Campanario de Giotto",
-          "Baptisterio",
-          "Basílica Franciscana",
-          "Tiempo libre",
+          "Dia Libre",
           "Alojamiento"
         ]
       },
@@ -1314,12 +1303,11 @@
         "dia": "Dia 13",
         "ofrece": [
           "Desayuno",
-          "Salida con destino a Pisa",
-          "Llegada y tiempo libre por la ciudad",
-          "La Torre Inclinada",
-          "La Catedral",
-          "Baptisterio",
-          "Salida con destino a Costa Azul",
+          "Salida hacia el Vaticano",
+          "Visita panoramica por la Ciudad",
+          "Visita al Coliseo",
+          "Arco de Constantino",
+          "Tiempo libre para explorar",
           "Alojamiento"
         ]
       },
@@ -1327,31 +1315,49 @@
         "dia": "Dia 14",
         "ofrece": [
           "Desayuno",
-          "Salida con destino a Barcelona",
-          "Guia por la ciudad",
-          "Sagrada Familia",
-          "Plaza Cataluña",
-          "Monumento a Colón",
-          "Tiempo libre",
-          "Alojamiento"
+          "Traslado hacia Pisa",
+          "Parada por Pisa para conocer la catedral, el Baptisterio y la Famosa Torre inclinada",
+          "Traslado hacia Niza",
+          "Alojamiento y tiempo libre"
         ]
       },
       {
         "dia": "Dia 15",
         "ofrece": [
           "Desayuno",
-          "Salida con destino a Zaragoza",
-          "Parada para ver la Basílica de Nuestra Señora del Pilar",
-          "Salida con destino a Madrid",
-          "Llegada y Alojamiento"
+          "Recorrido por Niza",
+          "Traslado hacia Nimes",
+          "Almuerzo y breve tiempo libre",
+          "Traslado hacia Barcelona",
+          "Alojamiento y tiempo libre"
         ]
       },
       {
         "dia": "Dia 16",
         "ofrece": [
           "Desayuno",
-          "Traslado al aeropuerto",
-          "Vuelo con destino a Bogota"
+          "Visita panoramica por la ciudad de Barcelona",
+          "Traslado hacia Zaragoza",
+          "Visita por la Basílica de la Virgen del Pilar",
+          "Traslado hacia Madrid",
+          "Alojamiento"
+        ]
+      },
+      {
+        "dia": "Dia 17",
+        "ofrece": [
+          "Desayuno",
+          "Visita panoramica por Madrid",
+          "Tiempo libre en la tarde",
+          "Alojamiento"
+        ]
+      },
+      {
+        "dia": "Dia 18",
+        "ofrece": [
+          "Desayuno",
+          "Traslado hacia el aeropuerto",
+          "Viaje de regreso a Bogota"
         ]
       }
     ],
@@ -1373,10 +1379,6 @@
         "imagen": "/assets/internacionales/img_destinos_inter/europa_paris.jpg"
       },
       {
-        "actividad": "Verona",
-        "imagen": "/assets/internacionales/img_destinos_inter/europa_verona.jpg"
-      },
-      {
         "actividad": "Venecia",
         "imagen": "/assets/internacionales/img_destinos_inter/europa_venecia.webp"
       },
@@ -1391,6 +1393,10 @@
       {
         "actividad": "Pisa",
         "imagen": "/assets/internacionales/img_destinos_inter/europa_pisa.jpg"
+      },
+      {
+        "actividad": "Barcelona",
+        "imagen": "/assets/internacionales/img_destinos_inter/europa_barcelona.jpg"
       }
     ],
     "informacion": [
