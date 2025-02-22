@@ -643,7 +643,7 @@
     ],
     "url": "/destino/ciudad_mexico",
     "banner": "/assets/internacionales/cdmx_movil.jpeg",
-    "bannerGrande": "/assets/internacionales/mexico.jpg",
+    "bannerGrande": "/assets/internacionales/cdmx.jpg",
     "descripcion": "Embárcate en una aventura inolvidable en la vibrante Ciudad de México, un destino turístico que rebosa de historia y cultura.<br><br>Un destino turístico fascinante y lleno de riqueza cultural, visita las pirámides de Teotihuacan, la basilica de Guadalupe, el tour de Xochimilco , el tour en globos aerostáticos, el Angel de la independencia, el museo nacional de antropología y el palacio de bellas artes, ademas, su variada oferta gastronómica es un deleite para los amantes de la comida tradicional, visita la plaza Garibaldi conocida como la cuna de los mariachis.",
     "incluye": "Los planes desde 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, hotel con desayuno, tour a basilica de Guadalupe y pirámides de Teotihuacan, un city tour por ciudad de Mexico, incluye pólizas de asistencia medica y asesoría para la documentación migratoria.",
     "hoteles": [
@@ -1435,7 +1435,7 @@
       },
       {
         "actividad": "Playa de Alicia",
-        "imagen": "https://scontent-bog2-2.xx.fbcdn.net/v/t1.6435-9/107354855_1007251459695701_3465572940351058633_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=U28jHWPoqhIQ7kNvgFB2bgr&_nc_zt=23&_nc_ht=scontent-bog2-2.xx&_nc_gid=ALn6WcJsSq9WWsAB3X2LK1K&oh=00_AYDgHsgUASoGI9RQmEGIrqAgpoOA-Ws5xFC74bjLlsKvrA&oe=673A7963"
+        "imagen": "https://i.pinimg.com/736x/d7/8f/d4/d78fd48f5503aa70abff4824b1f1dd82.jpg"
       },
       {
         "actividad": "Snorkel tours",
@@ -1470,6 +1470,317 @@
     "informacion": [
       "Pasaporte con vigencia mínima de 6 meses al momento del viaje.",
       "El equipaje de mano es de máximo 10 kilogramos"
+    ]
+  },
+  {
+    "id": "tolu",
+    "titulo": "Tolu",
+    "viaje": "nacional",
+    "destacado": [
+      false,
+      true
+    ],
+    "url": "/destino/tolu",
+    "banner": "/assets/nacionales/tolu_movil.jpeg",
+    "bannerGrande": false,
+    "descripcion": "¡Tolú te espera con sus playas de ensueño y un sinfín de aventuras!. Este rincón de Colombia es ideal para desconectar y recargar energías bajo el sol tropical.<br><br>Tolú es más que playa: navega hasta las fascinantes islas de San Bernardo, practica snorkel en arrecifes llenos de color, recorre manglares en kayak, visita la reserva natural Rocamadre donde podras hacer varias actividades de exploracion en el parque de aventuras Roca Madre o simplemente relájate con un cóctel frente al mar. Además, su ambiente tranquilo y su gente cálida hacen de este destino una experiencia única.<br><br>¡Ven y vive la magia de Tolú, donde cada momento es una postal inolvidable! ",
+    "incluye": "En los planes incluyen con los tiquetes aéreos de ida y regreso, alojamiento de 4 dias/3 noches,tour por las islas de San Bernando, desayunos y cenas.",
+    "hoteles": [
+      {
+        "nombreHotel": "Tangerin Resort",
+        "ofrece": [
+          "Bebidas y licores",
+          "Snacks en el hotel"
+        ]
+      }
+    ],
+    "actividades": [
+      {
+        "actividad": "Tolu Playa",
+        "imagen": "https://i.pinimg.com/736x/aa/68/04/aa68043d0d9a45ee0ec52c341422116c.jpg"
+      },
+      {
+        "actividad": "Isla Mucura",
+        "imagen": "https://caminhosmelevem.com/wp-content/uploads/2023/05/dsc_1441_45709104202_o.jpg"
+      },
+      {
+        "actividad": "Isla Tintipan",
+        "imagen": "https://i.pinimg.com/736x/c8/8e/a3/c88ea319ff57268f1c956e2fa262a973.jpg"
+      },
+      {
+        "actividad": "Snorkel",
+        "imagen": "https://i.pinimg.com/736x/36/28/3e/36283ef151501f5c7d4ee66cea91240a.jpg"
+      },
+      {
+        "actividad": "Cienaga de la leche",
+        "imagen": "https://www.elmolinodelasflores.com/images/tours/mangle.rojo.jpg"
+      },
+      {
+        "actividad": "Reserva Roca Madre",
+        "imagen": "https://www.laguiademonteria.co/wp-content/uploads/2016/04/12-parque-natural-rocamadre-monteria-sincelejo-what-to-do-in-monteria-travelling-recommended-places.jpg"
+      }
+    ],
+    "informacion": [
+      "El equipaje de mano es de máximo 10 kilogramos."
+    ]
+  },
+  {
+    "id": "cuba",
+    "titulo": "Cuba",
+    "viaje": "internacional",
+    "destacado": [
+      true,
+      true
+    ],
+    "url": "/destino/cuba",
+    "banner": "/assets/internacionales/cuba_movil.jpeg",
+    "bannerGrande": "/assets/internacionales/cuba.jpg",
+    "descripcion": "¡Cuba te invita a vivir una experiencia única llena de ritmo, historia y playas paradisíacas! Comienza tu aventura en La Habana, donde el encanto colonial se mezcla con la energía vibrante de sus calles.déjate llevar por los ritmos de la salsa en un ambiente lleno de vida. Prueba los sabores auténticos de la cocina cubana y sumérgete en su rica cultura.<br><br>Después, escápate a las playas de ensueño que Cuba tiene para ofrecer, como Varadero o Cayo Santa María, con sus arenas blancas y aguas turquesas. Relájate bajo el sol, practica snorkel en arrecifes llenos de vida o simplemente disfruta de la brisa caribeña. Cuba es un destino que combina a la perfección la emoción de la ciudad con la tranquilidad del paraíso playero.<br><br>¡Ven y descubre la magia de esta isla inolvidable!",
+    "incluye": "En los planes incluyen con los tiquetes aéreos de ida y regreso, alojamiento de 5 dias/4 noches (2 dias en la ciudad y 3 dias en hotel de playa),city tour por la Habana, Alimentacion completa y polizas de asistencia medica.",
+    "hoteles": [
+      {
+        "nombreHotel": "Tangerin Resort",
+        "ofrece": [
+          "Bebidas y licores",
+          "Snacks en el hotel"
+        ]
+      }
+    ],
+    "actividades": [
+      {
+        "actividad": "Habana",
+        "imagen": "https://i.pinimg.com/736x/e3/95/50/e39550fdf89ff006887ce839c073b9e0.jpg"
+      },
+      {
+        "actividad": "Varadero",
+        "imagen": "https://i.pinimg.com/736x/0e/6d/0c/0e6d0cca93b2eed3361137e2daade083.jpg"
+      },
+      {
+        "actividad": "Noches de salsa dura",
+        "imagen": "https://i.pinimg.com/736x/0d/bf/03/0dbf03ed6a87ee53c41b22461a140360.jpg"
+      },
+      {
+        "actividad": "Playa Varadero",
+        "imagen": "https://i.pinimg.com/736x/18/1c/09/181c09b72e20e6d43a82db587075c2d1.jpg"
+      },
+      {
+        "actividad": "Cayo Santa Maria",
+        "imagen": "https://i.pinimg.com/736x/77/ac/05/77ac050f8b2df9fc8767d0ec4d5d6d22.jpg"
+      },
+      {
+        "actividad": "Playa Pilar",
+        "imagen": "https://i.pinimg.com/736x/a8/37/e5/a837e583d75ab879cafe765469802877.jpg"
+      }
+    ],
+    "informacion": [
+      "El equipaje de mano es de máximo 10 kilogramos.",
+      "Pasaporte con vigencia mínima de 6 meses al momento del viaje"
+    ]
+  },
+  {
+    "id": "madrid",
+    "titulo": "Madrid",
+    "viaje": "internacional",
+    "destacado": [
+      false,
+      false
+    ],
+    "url": "/destino/madrid",
+    "banner": "/assets/internacionales/madrid_movil.jpeg",
+    "bannerGrande": "/assets/internacionales/madrid.jpg",
+    "descripcion": "¡Madrid es una experiencia que despierta todos los sentidos! Imagina pasear por calles llenas de historia, donde cada rincón cuenta una historia y el aroma a churros con chocolate te invita a hacer una parada.<br><br>Maravíllate con el imponente Palacio Real y sus jardines, admira las obras maestras en el Museo del Prado y contempla la belleza del Templo de Debod al atardecer. Relájate en el Parque del Retiro, perfecto para un paseo en barca o un momento de tranquilidad, y vive el ambiente vibrante de la Plaza Mayor y la Gran Vía, llena de teatros y tiendas.<br><br>Madrid no es solo un destino, es una sensación: cultura, gastronomía y diversión se unen para crear recuerdos inolvidables. ¡Ven y vive la magia de Madrid!",
+    "incluye": "En los planes incluyen con los tiquetes aéreos de ida y regreso, alojamiento de 6 dias/5 noches ,city tour, desayunos y polizas de asistencia medica.",
+    "hoteles": [
+      {
+        "nombreHotel": "Tangerin Resort",
+        "ofrece": [
+          "Bebidas y licores",
+          "Snacks en el hotel"
+        ]
+      }
+    ],
+    "actividades": [
+      {
+        "actividad": "Palacio Real de Madrid",
+        "imagen": "https://i.pinimg.com/736x/04/b1/67/04b1672ea9e2e50fdff4c0f46d4eb4b4.jpg"
+      },
+      {
+        "actividad": "Museo Nac. del Prado",
+        "imagen": "https://i.pinimg.com/736x/af/d0/b5/afd0b5d2cef12521be83a3af99bdb67b.jpg"
+      },
+      {
+        "actividad": "Templo del Dedob",
+        "imagen": "https://i.pinimg.com/736x/90/50/83/905083c48c7c48820142fa68f45fef0f.jpg"
+      },
+      {
+        "actividad": "Parque del Retiro",
+        "imagen": "https://i.pinimg.com/736x/c8/43/34/c84334e0db44a457676d409bda689b01.jpg"
+      },
+      {
+        "actividad": "Plaza Mayor",
+        "imagen": "https://i.pinimg.com/736x/69/ff/e6/69ffe6d71a224c1e7435941b71d79722.jpg"
+      },
+      {
+        "actividad": "La Gran Via",
+        "imagen": "https://i.pinimg.com/736x/cf/7a/30/cf7a3078d783445315fc8a97f9fe2d38.jpg"
+      }
+    ],
+    "informacion": [
+      "El equipaje de mano es de máximo 10 kilogramos.",
+      "Pasaporte con vigencia mínima de 6 meses al momento del viaje"
+    ]
+  },
+  {
+    "id": "paris",
+    "titulo": "Paris",
+    "viaje": "internacional",
+    "destacado": [
+      true,
+      true
+    ],
+    "url": "/destino/paris",
+    "banner": "/assets/internacionales/paris_movil.jpeg",
+    "bannerGrande": "/assets/internacionales/paris.jpg",
+    "descripcion": "¡París te espera para vivir una experiencia llena de romance, cultura y encanto! Imagina pasear por la majestuosa Torre Eiffel al atardecer, cruzar el icónico Puente Alejandro III y perderte en los fascinantes pasillos del Museo del Louvre, hogar de la Mona Lisa.<br><br>Camina por los pintorescos barrios de Montmartre y Le Marais, donde el arte y la historia se fusionan, y relájate en los encantadores jardines de Luxemburgo. Disfruta de un croissant recién horneado en una cafetería con vista a la catedral de Notre-Dame y déjate seducir por la magia de sus calles iluminadas.<br><br>París no es solo una ciudad, es un sueño hecho realidad. ¡Ven y vive la elegancia y el encanto de la Ciudad de la Luz!",
+    "incluye": "En los planes incluyen con los tiquetes aéreos de ida y regreso,traslados aeropuerto-hotel/hotel-aeropuerto, alojamiento de 6 dias/5 noches, y polizas de asistencia medica.",
+    "hoteles": [
+      {
+        "nombreHotel": "Tangerin Resort",
+        "ofrece": [
+          "Bebidas y licores",
+          "Snacks en el hotel"
+        ]
+      }
+    ],
+    "actividades": [
+      {
+        "actividad": "Torre eiffel",
+        "imagen": "https://i.pinimg.com/736x/0a/ee/68/0aee68e5e233cad0c948e3789d08f085.jpg"
+      },
+      {
+        "actividad": "Puente Alejandro III",
+        "imagen": "https://i.pinimg.com/736x/26/b1/3e/26b13e02831a0912eb30b2a10e287c57.jpg"
+      },
+      {
+        "actividad": "Museo de Louvre",
+        "imagen": "https://i.pinimg.com/736x/8f/65/5d/8f655d095835f045ed2e01ee174be6da.jpg"
+      },
+      {
+        "actividad": "Montmartre",
+        "imagen": "https://i.pinimg.com/736x/a9/de/af/a9deaf36efd8afa293424f8e70982ec8.jpg"
+      },
+      {
+        "actividad": "Jardines de Luxemburgo",
+        "imagen": "https://i.pinimg.com/736x/cb/bf/f0/cbbff018e9ea231b98ad7db7f21d96c0.jpg"
+      },
+      {
+        "actividad": "Catedral de Notre Dame",
+        "imagen": "https://i.pinimg.com/736x/3b/92/c4/3b92c472df8d432d6c520abb0f930478.jpg"
+      }
+    ],
+    "informacion": [
+      "El equipaje de mano es de máximo 10 kilogramos.",
+      "Pasaporte con vigencia mínima de 6 meses al momento del viaje"
+    ]
+  },
+  {
+    "id": "peru",
+    "titulo": "Peru",
+    "viaje": "internacional",
+    "destacado": [
+      false,
+      false
+    ],
+    "url": "/plan-turistico/peru",
+    "banner": "/assets/internacionales/peru_movil.jpeg",
+    "bannerGrande": "/assets/internacionales/peru.jpg",
+    "descripcion": "¡Conoce Lima, Cusco, Machu Picchu y otros destinos más que despertarán en ti el espíritu de aventura!<br><br>Lima te sorprenderá con su fusión de modernidad y tradición, donde la gastronomía y la historia se unen para cautivarte. Cusco, la joya del Imperio Inca, te transportará a un mundo mágico con sus calles empedradas, plazas llenas de vida y una energía única. Y, por supuesto, Machu Picchu, la joya de la corona, te dejará sin palabras con su majestuosidad y misterio, rodeado de montañas y nubes que parecen tocarse.<br><br>Estos lugares no son solo destinos, son experiencias que despiertan emociones, conectan con la naturaleza y te invitan a vivir una aventura inolvidable. ¡Descubre la magia de Perú y deja que su encanto te conquiste!",
+    "incluye": "En los planes incluyen con los tiquetes aéreos de ida y regreso,traslados aeropuerto-hotel/hotel-aeropuerto, alojamiento de 6 dias/5 noches, y polizas de asistencia medica.",
+    "hoteles": [
+      {
+        "dia": "Dia 1",
+        "ofrece": [
+          "Vuelos Bogota - Lima",
+          "Día libre para deleitarte con la comida típica y descubrir Lima",
+          "Noche en hotel (Lima)"
+        ]
+      },
+      {
+        "dia": "Dia 2",
+        "ofrece": [
+          "Desayuno",
+          "Tour por Lima en Touribus",
+          "Noche en hotel (Lima)"
+        ]
+      },
+      {
+        "dia": "Dia 3",
+        "ofrece": [
+          "Desayuno",
+          "Viaje a Cuzco",
+          "Traslado a Ollantaytambo y Aguas Calientes en tren (incluye snacks y show cultural)",
+          "Noche en hotel (Aguas Calientes)"
+        ]
+      },
+      {
+        "dia": "Dia 4",
+        "ofrece": [
+          "Visita a Machu Picchu (traslados, entrada y guía incluidos; almuerzo no incluido)",
+          "Regreso a Cuzco"
+        ]
+      },
+      {
+        "dia": "Dia 5",
+        "ofrece": [
+          "Desayuno",
+          "Excursión a la Laguna de Humantay o Valle Sagrado (incluye almuerzo y entradas)",
+          "Noche en hotel"
+        ]
+      },
+      {
+        "dia": "Dia 6",
+        "ofrece": [
+          "Desayuno",
+          "Visita a la Montaña de 7 Colores (incluye almuerzo)",
+          "Regreso a Cuzco"
+        ]
+      },
+      {
+        "dia": "Dia 7",
+        "ofrece": [
+          "Vuelo de regreso Cuzco - Bogotá"
+        ]
+      }
+    ],
+    "actividades": [
+      {
+        "actividad": "Lima",
+        "imagen": "https://i.pinimg.com/736x/b8/3f/26/b83f263c70dedae53bd27d54db9d3f6f.jpg"
+      },
+      {
+        "actividad": "Cusco",
+        "imagen": "https://i.pinimg.com/736x/b7/bf/af/b7bfafefa62dd507f8d141cc49c2e2ed.jpg"
+      },
+      {
+        "actividad": "Ollantaytambo",
+        "imagen": "https://i.pinimg.com/736x/22/4c/64/224c647e1d7a1f7e68b9c5ee3d862714.jpg"
+      },
+      {
+        "actividad": "Machu Picchu",
+        "imagen": "https://i.pinimg.com/736x/3d/76/7f/3d767f02ceb5e2598d16bfac104eb00c.jpg"
+      },
+      {
+        "actividad": "Laguna de Humantay",
+        "imagen": "https://i.pinimg.com/736x/ed/22/be/ed22be1cf6b885f5d1256795bc3d2c6e.jpg"
+      },
+      {
+        "actividad": "Montaña de 7 Colores",
+        "imagen": "https://i.pinimg.com/736x/1c/e2/81/1ce281cc971bf4f44324cab20c17b2b1.jpg"
+      }
+    ],
+    "informacion": [
+      "El equipaje de mano es de máximo 10 kilogramos, medidas (45x35x25).",
+      "Pasaporte con vigencia mínima de 6 meses al momento del viaje"
     ]
   }
 ]
