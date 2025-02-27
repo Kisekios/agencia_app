@@ -213,10 +213,10 @@
         ]
       },
       {
-        "nombreHotel": "Cartagena Premium",
+        "nombreHotel": "Marina suits",
         "ofrece": [
           "Hotel a una cuadra de la playa",
-          "Alimentación tipo menu"
+          "Desayunos"
         ]
       }
     ],
@@ -269,11 +269,11 @@
     "incluye": "Los planes de 4 días, 3 noches, tiquetes aéreos de ida y regreso, traslados aeropuerto-hotel/hotel-aeropuerto, incluye desayuno y cena, tour a playa blanca con almuerzo incluido y pólizas de asistencia medica.",
     "hoteles": [
       {
-        "nombreHotel": "SanSiraka",
+        "nombreHotel": "Rodadero Beach",
         "ofrece": [
-          "Hotel tipo colonial",
-          "Ubicado a 2 cuadras de la playa el Rodadero",
-          "Piscina amplia"
+          "Aire acondicionado y TV satelital",
+          "Wifi",
+          "Piscina panoramica con vista a la playa"
         ]
       },
       {
@@ -1487,10 +1487,10 @@
     "incluye": "En los planes incluyen con los tiquetes aéreos de ida y regreso, alojamiento de 4 dias/3 noches,tour por las islas de San Bernando, desayunos y cenas.",
     "hoteles": [
       {
-        "nombreHotel": "Tangerin Resort",
+        "nombreHotel": "Villa Real",
         "ofrece": [
-          "Bebidas y licores",
-          "Snacks en el hotel"
+          "Desayunos y cenas",
+          "Tour por islas San Bernardo"
         ]
       }
     ],
@@ -1592,11 +1592,16 @@
     "incluye": "En los planes incluyen con los tiquetes aéreos de ida y regreso, alojamiento de 6 dias/5 noches ,city tour, desayunos y polizas de asistencia medica.",
     "hoteles": [
       {
-        "nombreHotel": "Tangerin Resort",
+        "nombreHotel": "HB Carabanchel",
         "ofrece": [
-          "Bebidas y licores",
-          "Snacks en el hotel"
+          "Sin desayuno"
         ]
+      },
+      {
+	"nombreHotel": "MYD La Latina",
+	"ofrece": [
+	 "Con desayuno americano"
+	]
       }
     ],
     "actividades": [
@@ -1645,10 +1650,12 @@
     "incluye": "En los planes incluyen con los tiquetes aéreos de ida y regreso,traslados aeropuerto-hotel/hotel-aeropuerto, alojamiento de 6 dias/5 noches, y polizas de asistencia medica.",
     "hoteles": [
       {
-        "nombreHotel": "Tangerin Resort",
+        "nombreHotel": "Saint Honore 85",
         "ofrece": [
-          "Bebidas y licores",
-          "Snacks en el hotel"
+          "En centro de Paris",
+          "Aire acondicionado",
+	  "Minibar",
+	  "Wifi"
         ]
       }
     ],
