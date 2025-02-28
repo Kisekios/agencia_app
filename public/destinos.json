@@ -32,19 +32,19 @@
       {
         "actividad": "Parque Natural Macuira",
         "imagen": "https://i.pinimg.com/564x/8b/f8/24/8bf82410960633f54ef225129feec498.jpg"
-      },       
+      },
       {
         "actividad": "Playa de Mayapo",
         "imagen": "https://playasencolombia.com/wp-content/uploads/2023/10/mapa-1.webp"
-      },       
+      },
       {
         "actividad": "Recorrido en Cuatrimoto",
         "imagen": "https://i.pinimg.com/736x/bf/56/1b/bf561b8bd406c09f9ae12dbaede52208.jpg"
-      },       
+      },
       {
         "actividad": "Excursiones a caballo",
         "imagen": "https://i.pinimg.com/564x/f5/c3/ce/f5c3ce8093a2c774adb6b15f3d14b3d3.jpg"
-      }       
+      }
     ],
     "informacion": [
       "El equipaje de mano es de máximo 10 kilogramos"
@@ -85,13 +85,16 @@
         "actividad": "Atardecer en<br> el Amazonas",
         "imagen": "https://i.pinimg.com/564x/71/11/be/7111be4c7594045dcd7812c75d2b244c.jpg"
       },
-      { "actividad": "Delfines Rosados",
+      {
+        "actividad": "Delfines Rosados",
         "imagen": "https://i.pinimg.com/564x/d4/f9/77/d4f97779a60691b51fe7525baf4cd5a7.jpg"
       },
-      { "actividad": "Canopy",
+      {
+        "actividad": "Canopy",
         "imagen": "https://sendascolombia.com/wp-content/uploads/2022/03/Carrusel-Amazonas-6.jpg"
       },
-      { "actividad": "Kayak por el Amazonas",
+      {
+        "actividad": "Kayak por el Amazonas",
         "imagen": "https://i.pinimg.com/564x/a6/70/4b/a6704be729c907fa017cc82e26d27862.jpg"
       }
     ],
@@ -1465,7 +1468,6 @@
         "actividad": "Cataratas de Damajagua",
         "imagen": "https://i.pinimg.com/564x/00/51/8a/00518afe51afb0532ef4d1525dfa23ab.jpg"
       }
-
     ],
     "informacion": [
       "Pasaporte con vigencia mínima de 6 meses al momento del viaje.",
@@ -1539,10 +1541,23 @@
     "incluye": "En los planes incluyen con los tiquetes aéreos de ida y regreso, alojamiento de 5 dias/4 noches (2 dias en la ciudad y 3 dias en hotel de playa),city tour por la Habana, Alimentacion completa y polizas de asistencia medica.",
     "hoteles": [
       {
-        "nombreHotel": "Tangerin Resort",
+        "nombreHotel": "Laguna Azul",
         "ofrece": [
-          "Bebidas y licores",
-          "Snacks en el hotel"
+          "Ubicado en la playa del Varadero",
+          "Todo incluido",
+          "Cuenta con 6 piscinas",
+          "Actividades a diario y espectaculos nocturnos",
+          "Spa"
+        ]
+      },
+      {
+        "nombreHotel": "Royalton Habana",
+        "ofrece": [
+          "Aire acondicionado y minibar",
+          "Acepta mascotas (TyC)",
+          "Cuenta con piscina infinita en el 4° piso",
+          "Salon de eventos",
+          "Spa y gimnasio"
         ]
       }
     ],
@@ -1598,10 +1613,10 @@
         ]
       },
       {
-	"nombreHotel": "MYD La Latina",
-	"ofrece": [
-	 "Con desayuno americano"
-	]
+        "nombreHotel": "MYD La Latina",
+        "ofrece": [
+          "Con desayuno americano"
+        ]
       }
     ],
     "actividades": [
@@ -1654,8 +1669,9 @@
         "ofrece": [
           "En centro de Paris",
           "Aire acondicionado",
-	  "Minibar",
-	  "Wifi"
+          "Servicio de ama de llaves",
+          "Minibar",
+          "Wifi"
         ]
       }
     ],
@@ -1715,9 +1731,15 @@
       {
         "dia": "Dia 2",
         "ofrece": [
-          "Desayuno",
-          "Tour por Lima en Touribus",
-          "Noche en hotel (Lima)"
+          "Salida a Paracas",
+          "De Paracas traslado al muelle",
+          "Recorrido a las islas Ballestas",
+          "Regreso al muelle",
+          "Recorrido hacia Ica",
+          "Almuerzo",
+          "Direccion al oasis de Huacachina",
+          "Recorrido por el desierto en carros areneros",
+          "Regreso a Lima"
         ]
       },
       {
@@ -1725,36 +1747,46 @@
         "ofrece": [
           "Desayuno",
           "Viaje a Cuzco",
-          "Traslado a Ollantaytambo y Aguas Calientes en tren (incluye snacks y show cultural)",
-          "Noche en hotel (Aguas Calientes)"
+          "Alojamiento"
         ]
       },
       {
         "dia": "Dia 4",
         "ofrece": [
-          "Visita a Machu Picchu (traslados, entrada y guía incluidos; almuerzo no incluido)",
+          "Visita a Machu Picchu (traslados, entrada y guía incluidos)",
+          "Traslado a Aguas Calientes",
+          "Tiempo de Almorzar",
           "Regreso a Cuzco"
         ]
       },
       {
         "dia": "Dia 5",
         "ofrece": [
+          "Traslado a Mollepata",
           "Desayuno",
-          "Excursión a la Laguna de Humantay o Valle Sagrado (incluye almuerzo y entradas)",
-          "Noche en hotel"
+          "Traslado a Soraypampa",
+          "Excursión a la Laguna de Humantay",
+          "Regreso a Soraypampa",
+          "Exploracion hacia Saltankay",
+          "Visita a la Montaña Sagrada",
+          "Almuerzo",
+          "Regreso a Cuzco"
         ]
       },
       {
         "dia": "Dia 6",
         "ofrece": [
-          "Desayuno",
-          "Visita a la Montaña de 7 Colores (incluye almuerzo)",
+          "Tralados a las Faldas del nevado Ausangate",
+          "Desayuno en Kesiuno",
+          "Visita a la Montaña de 7 Colores",
+          "Almuerzo en Kesiuno",
           "Regreso a Cuzco"
         ]
       },
       {
         "dia": "Dia 7",
         "ofrece": [
+          "Desayuno (segun horario de vuelo)",
           "Vuelo de regreso Cuzco - Bogotá"
         ]
       }
