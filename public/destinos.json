@@ -1707,6 +1707,171 @@
     ]
   },
   {
+    "id": "juan_dolio",
+    "titulo": "Juan Dolio",
+    "viaje": "internacional",
+    "destacado": [
+      false,
+      false
+    ],
+    "url": "/destino/juan_dolio",
+    "banner": "/assets/internacionales/juan_dolio_movil.jpeg",
+    "bannerGrande": false,
+    "descripcion": "¡Descubre Juan Dolio, un rincón paradisíaco en la República Dominicana! <br><br>🏖️✨Relájate en las playas de arena blanca y aguas cristalinas, como Playa Juan Dolio y Playa Guayacanes, perfectas para nadar, tomar el sol o practicar deportes acuáticos.Para los amantes del buceo, el Parque Nacional Submarino La Caleta ofrece una experiencia inolvidable con arrecifes de coral y naufragios históricos.Además, Juan Dolio cuenta con una vibrante oferta gastronómica y cultural, ideal para quienes buscan una experiencia auténtica en el Caribe.<br><br> ¡Haz tus maletas y vive la magia de este destino único! 🌴✨",
+    "incluye": "En los planes incluyen con los tiquetes aéreos de ida y regreso,traslados aeropuerto-hotel/hotel-aeropuerto, alojamiento de 4 dias/3 noches, y polizas de asistencia medica.",
+    "hoteles": [
+      {
+        "nombreHotel": "Coral Costa Caribe",
+        "ofrece": [
+          "Alimentacion completa tipo buffet",
+          "Snacks incluidos",
+          "Bebidas y licores ilimitados"
+        ]
+      }
+    ],
+    "actividades": [
+      {
+        "actividad": "Hotel Coral Costa Caribe",
+        "imagen": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/355044426.jpg?k=54735bf9525b46049a6208e60ad2157aad37f5b7b77e1feb529629b98655c33d&o=&hp=1"
+      },
+      {
+        "actividad": "Playa Juan Dolio",
+        "imagen": "https://res.cloudinary.com/simpleview/image/upload/v1686639415/clients/dominicanrepublic/Playa_Juan_Dolio_Juan_Dolio_San_Pedro_de_Macori_s_63db5f84-b468-4b5b-9ae5-f9e48e71716e.jpg"
+      },
+      {
+        "actividad": "Playa Guayacanes",
+        "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/f4/72/b6/playa-guayacanes.jpg?w=800&h=400&s=1"
+      },
+      {
+        "actividad": "Excursion a los Haitises",
+        "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/10/14/22/caption.jpg?w=500&h=400&s=1"
+      },
+      {
+        "actividad": "Parque Nacional la Caleta",
+        "imagen": "https://assets.simpleviewinc.com/simpleview/image/upload/crm/dominicanrepublic/la-caleta-1_784e31ac-c66e-52e9-1f8bbbdc440af7e4.jpg"
+      },
+      {
+        "actividad": "Snorkel y Buceo",
+        "imagen": "https://assets.simpleviewinc.com/simpleview/image/upload/crm/dominicanrepublic/la-caleta_784e4d53-0507-4195-f9974da787d9b51d.jpg"
+      }
+    ],
+    "informacion": [
+      "El equipaje de mano es de máximo 10 kilogramos.",
+      "Pasaporte con vigencia mínima de 6 meses al momento del viaje",
+      "Niños de 2 a 4 años solo pagan, impuestos hoteleros, traslados y tiquetes DUERMEN CON PAPITOS"
+    ]
+  },
+  {
+    "id": "bayahibe",
+    "titulo": "Bayahibe",
+    "viaje": "internacional",
+    "destacado": [
+      false,
+      false
+    ],
+    "url": "/destino/bayahibe",
+    "banner": "/assets/internacionales/bayahibe_movil.jpeg",
+    "bannerGrande": false,
+    "descripcion": "¡Descubre Bayahibe, un paraíso en la República Dominicana! 🌊✨Relájate en las playas de arena blanca y aguas cristalinas, como Playa Bayahibe y Playa Dominicus.<br><br> Explora el Parque Nacional del Este, hogar de una biodiversidad única y la impresionante Cueva del Puente. No te pierdas una excursión a la paradisíaca Isla Saona, famosa por sus piscinas naturales y arrecifes de coral.Bayahibe te espera con aventuras inolvidables y paisajes de ensueño.<br><br> ¡Haz tus maletas y vive la magia del Caribe! 🏝️✨",
+    "incluye": "En los planes incluyen con los tiquetes aéreos de ida y regreso,traslados aeropuerto-hotel/hotel-aeropuerto, alojamiento de 4 dias/3 noches, y polizas de asistencia medica.",
+    "hoteles": [
+      {
+        "nombreHotel": "Alma Bayahibe",
+        "ofrece": [
+          "Alimentacion completa tipo buffet",
+          "Snacks incluidos",
+          "Bebidas y licores ilimitados"
+        ]
+      }
+    ],
+    "actividades": [
+      {
+        "actividad": "Playa Bayahibe",
+        "imagen": "https://scontent.fbog3-1.fna.fbcdn.net/v/t39.30808-6/474039470_964201572311947_2710447513385793036_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=37Sn96ipaOoQ7kNvgECtZzW&_nc_oc=AdmKETptQtRDziW5WMH3j-jD-14uu11zVzi9Y6792mm6kKwMngOOS0sR-F62kuWcQfI&_nc_zt=23&_nc_ht=scontent.fbog3-1.fna&_nc_gid=NCVPlr0vJVtYnRdzrIUInw&oh=00_AYEBnfRXDclXRxK9ZXZ49uQEaSR2GElE63i3-c0dMZRPpQ&oe=67F206FF"
+      },
+      {
+        "actividad": "Parque Nacional del Este",
+        "imagen": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/65/c6.jpg"
+      },
+      {
+        "actividad": "Cueva del Puente",
+        "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/a8/62/57/photo7jpg.jpg?w=1200&h=1200&s=1"
+      },
+      {
+        "actividad": "Isla Saona",
+        "imagen": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/73/f3/45.jpg"
+      },
+      {
+        "actividad": "Snorkel y Buceo",
+        "imagen": "https://www.dresseldivers.com/wp-content/uploads/Snorkeling-Bayahibe.jpg"
+      },
+      {
+        "actividad": "Aventura en Buggie",
+        "imagen": "https://dominicanemotion.com/wp-content/uploads/2017/12/buggies.jpg"
+      }
+    ],
+    "informacion": [
+      "El equipaje de mano es de máximo 10 kilogramos.",
+      "Pasaporte con vigencia mínima de 6 meses al momento del viaje",
+      "Niños de 2 a 4 años solo pagan, impuestos hoteleros, traslados y tiquetes DUERMEN CON PAPITOS"
+    ]
+  },
+  {
+    "id": "santo_domingo",
+    "titulo": "Santo Domingo",
+    "viaje": "internacional",
+    "destacado": [
+      false,
+      true
+    ],
+    "url": "/destino/santo_domingo",
+    "banner": "/assets/internacionales/santo_domingo_movil.jpeg",
+    "bannerGrande": false,
+    "descripcion": "¡Descubre Santo Domingo, República Dominicana, y vive unas vacaciones inolvidables! 🌴✨Sumérgete en la historia y cultura de la primera ciudad europea en América mientras exploras la Zona Colonial, declarada Patrimonio de la Humanidad por la UNESCO.<br><br> Pasea por la Plaza de España, admira la majestuosa Catedral Primada de América y disfruta de la vibrante vida nocturna y gastronómica.<br><br>Para los amantes de la naturaleza, el Parque Nacional Los Tres Ojos te espera con sus impresionantes lagos subterráneos de agua turquesa.Relájate en las playas de Boca Chica, donde el sol y el mar Caribe serán tus mejores aliados. Y para una experiencia única, embárcate en un catamarán hacia la paradisíaca Isla Saona.",
+    "incluye": "En los planes incluyen con los tiquetes aéreos de ida y regreso,traslados aeropuerto-hotel/hotel-aeropuerto, alojamiento de 4 dias/3 noches, y polizas de asistencia medica.",
+    "hoteles": [
+      {
+        "nombreHotel": "Whala Boca Chica",
+        "ofrece": [
+          "Alimentacion completa tipo buffet",
+          "Snacks incluidos",
+          "Bebidas y licores ilimitados"
+        ]
+      }
+    ],
+    "actividades": [
+      {
+        "actividad": "Playa Boca Chica",
+        "imagen": "https://jackcana.tours/wp-content/uploads/2023/04/Playa-Boca-Chica.jpg"
+      },
+      {
+        "actividad": "Parque los tres ojos",
+        "imagen": "https://www.viajesyfotografia.com/wp-content/uploads/2015/09/parque-de-los-tres-ojos-santo-domingo.jpg"
+      },
+      {
+        "actividad": "Plaza de España",
+        "imagen": "https://www.got2globe.com/wp-content/uploads/2021/07/santo-domingo-cidade-colonial-republica-dominicana-estatua-alcacer-diego-colombo.jpg"
+      },
+      {
+        "actividad": "Agora Mall",
+        "imagen": "https://acoprovi.org/arreto/wp-content/uploads/2012/09/La-apuesta-verde-de-%C3%81gora-Mall-1.jpg"
+      },
+      {
+        "actividad": "Catedral Primada de America",
+        "imagen": "https://live.staticflickr.com/8467/8354964588_90bea6f9dc_b.jpg"
+      },
+      {
+        "actividad": "Catamaran a isla Saona",
+        "imagen": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/73/f3/45.jpg"
+      }
+    ],
+    "informacion": [
+      "El equipaje de mano es de máximo 10 kilogramos.",
+      "Pasaporte con vigencia mínima de 6 meses al momento del viaje",
+      "Niños de 2 a 4 años solo pagan, impuestos hoteleros, traslados y tiquetes DUERMEN CON PAPITOS"
+    ]
+  },
+  {
     "id": "peru",
     "titulo": "Peru",
     "viaje": "internacional",
