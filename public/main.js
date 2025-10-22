@@ -19,8 +19,8 @@ const header = document.querySelector('header')
 header.innerHTML = `
   <section id="header">
     <div>
-      <h2>3 AÑOS</h2>
-      <h2>3 AÑOS</h2>
+      <h2>4 AÑOS</h2>
+      <h2>4 AÑOS</h2>
     </div>
     <div>
       <a href="https://wa.me/+573219379621?text=Hola,%20estoy%20navegando%20el%20sitio%20web%20y%20quisiera%20m%C3%A1s%20informaci%C3%B3n..."class="fa fa-whatsapp"></a>
@@ -82,14 +82,33 @@ function mostrarOpcionesMovil() {
 }
 
 function preferenciaModoLD() {
-  if (localStorage.theme === 'light' && document.body.classList.contains('light') == false) {
-    switchModoLightDark.classList.toggle('active')
-    document.body.classList.contains('dark') ? document.body.classList.toggle('dark') : document.body.classList.remove('dark')
-    document.body.classList.toggle('light')
-  } else if ((localStorage.theme === 'dark' && document.body.classList.contains('dark') == false) || localStorage.theme == undefined) {
-    document.body.classList.toggle('dark')
-    document.body.classList.contains('light') === true ? document.body.classList.toggle('light') : document.body.classList.remove('light')
+  // Si el usuario ya tiene una preferencia guardada, respetarla
+  if (localStorage.theme === 'light') {
+    if (!document.body.classList.contains('light')) {
+      switchModoLightDark.classList.add('active')
+      document.body.classList.remove('dark')
+      document.body.classList.add('light')
+    }
+    return
   }
+
+  if (localStorage.theme === 'dark') {
+    if (!document.body.classList.contains('dark')) {
+      switchModoLightDark.classList.remove('active')
+      document.body.classList.remove('light')
+      document.body.classList.add('dark')
+    }
+    return
+  }
+
+  // Caso primera visita (localStorage.theme undefined): establecer light por defecto
+  switchModoLightDark.classList.add('active')
+  document.body.classList.remove('dark')
+  document.body.classList.add('light')
+  // Guardar preferencia inicial como 'light'
+  localStorage.setItem('theme', 'light')
+  localStorage.setItem('dark-mode', false)
+  localStorage.setItem('light-mode', true)
 }
 
 function handleColorSchemeChange() {
@@ -129,7 +148,7 @@ footer.innerHTML = `
       </div>
       <div>
         <div>
-          <a href="https://wa.me/+573219379621?text=Hola,%20estoy%20navegando%20el%20sitio%20web%20y%20quisiera%20m%C3%A1s%20informaci%C3%B3n..."
+          <a id="whatsapp-contacto" href="https://wa.me/+573219379621?text=Hola,%20estoy%20navegando%20el%20sitio%20web%20y%20quisiera%20m%C3%A1s%20informaci%C3%B3n..."
             class="fa fa-whatsapp"></a>
           <a href="https://www.facebook.com/profile.php?id=100088886881677" class="fa fa-facebook-square"></a>
           <a href="mailto:enmodovacacionesporvenir@gmail.com?Subject=Información%20Para%20unas%20Vacaciones&amp;body=Buen%20día,%20estoy%20interesad@%20en%20estar%20en%20Modo%20Vacaciones."
@@ -208,6 +227,7 @@ function mostrarInformacionFooter(mensaje) {
   const foto = document.querySelector('#foto')
   const asesor = document.querySelector('#asesor')
   const cargo = document.querySelector('#cargo')
+  const whatsappContacto = document.querySelector('#whatsapp-contacto')
 
   fetch(globalThis.origin + '/informacion')
     .then(res => res.json())
@@ -232,6 +252,7 @@ function mostrarInformacionFooter(mensaje) {
       foto.src = informacionSede.foto
       asesor.innerHTML = informacionSede.asesor
       cargo.innerHTML = informacionSede.cargo
+      whatsappContacto.href = informacionSede.links[0].whatsapp
     })
 }
 
@@ -328,5 +349,8 @@ window.addEventListener('resize', () => {
   iniciarDesplazamientoDiv(urlPath[1])
 });
 
-globalThis.onload = preferenciaModoLD()
-globalThis.onload = iniciarDesplazamientoDiv(urlPath[1])
+// Ejecutar las inicializaciones en load sin sobrescribir la referencia onload
+window.addEventListener('load', () => {
+  preferenciaModoLD()
+  iniciarDesplazamientoDiv(urlPath[1])
+})
