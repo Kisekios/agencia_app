@@ -26,9 +26,9 @@
   },
   {
     "asesor": "Luz Mary Plaza",
-    "cargo": "Ejecutivo Comercial",
+    "cargo": "Gerente Comercial",
     "foto": "/assets/img/user2.jpg",
-    "telefono":"305 784 4080",
+    "telefono": "305 784 4080",
     "ubicacion": {
       "sede": "Sede Engativa Las Ferias:",
       "edificio": "Centro Comercial <em>Av. Calle 68</em>",
@@ -36,7 +36,32 @@
     },
     "links": [
       {
-        "whatsapp": false
+        "whatsapp": "https://wa.me/+573045345141?text=Hola,%20estoy%20navegando%20el%20sitio%20web%20y%20quisiera%20m%C3%A1s%20informaci%C3%B3n..."
+      },
+      {
+        "facebook": false
+      },
+      {
+        "email": false
+      },
+      {
+        "telefono": false
+      }
+    ]
+  },
+  {
+    "asesor": "Nicolas Plaza",
+    "cargo": "Ejecutivo Comercial",
+    "foto": "/assets/img/user3.png",
+    "telefono": "323 949 5722",
+    "ubicacion": {
+      "sede": "Sede Los Martirez San Jose:",
+      "edificio": "Centro Comercial <em>Puerto Triunfo</em>",
+      "direccion": "Cra 23 # 9 - 21 Local 162"
+    },
+    "links": [
+      {
+        "whatsapp": "https://wa.me/+573239495722?text=Hola,%20estoy%20navegando%20el%20sitio%20web%20y%20quisiera%20m%C3%A1s%20informaci%C3%B3n..."
       },
       {
         "facebook": false

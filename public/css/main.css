@@ -401,7 +401,7 @@ footer {
         padding: 10px 0 10px 5px;
         border-radius: 1rem;
         cursor: pointer;
-        width: 45%;
+        width: 150px;
         background-color: transparent;
         border: none;
         text-align: left;
@@ -632,7 +632,7 @@ header>nav>section:nth-of-type(2)>div {
         & button {
           width: 25vw;
           text-align: center;
-          padding: 1rem;
+          padding: 10px 0;
           border: 2px solid white;
           border-bottom: none;
           background-color: #0181e573;

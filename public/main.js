@@ -63,10 +63,10 @@ const menuOpcionesMovil = document.querySelector('.menu-opciones-movil')
 const switchModoLightDark = document.querySelector('.switcher')
 const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
 
-mediaQuery.addEventListener('change', () => { setTimeout(handleColorSchemeChange,500) });
+mediaQuery.addEventListener('change', () => { setTimeout(handleColorSchemeChange, 500) });
 
 switchModoLightDark.addEventListener('click', () => {
-  toggleModoLD ()
+  toggleModoLD()
   if (document.body.classList.contains('dark') === true) {
     cambioModoLD('dark', false)
   } else {
@@ -94,10 +94,10 @@ function preferenciaModoLD() {
 
 function handleColorSchemeChange() {
   if (globalThis.matchMedia("(prefers-color-scheme: dark)").matches && document.body.classList.contains('light')) {
-    toggleModoLD ()
+    toggleModoLD()
     cambioModoLD('dark', false)
   } else if (globalThis.matchMedia("(prefers-color-scheme: light)").matches && document.body.classList.contains('dark')) {
-    toggleModoLD ()
+    toggleModoLD()
     cambioModoLD('light', true)
   }
 }
@@ -108,7 +108,7 @@ function cambioModoLD(LightDark, setLDBool) {
   localStorage.setItem('light-mode', setLDBool)
 }
 
-function toggleModoLD () {
+function toggleModoLD() {
   switchModoLightDark.classList.toggle('active')
   document.body.classList.toggle('dark')
   document.body.classList.toggle('light')
@@ -120,66 +120,83 @@ const footer = document.querySelector('footer')
 let sedeFooterSeleccionada = 'sur'
 
 footer.innerHTML = `
-      <section>
-        <h1><em>Contactanos</em></h1>
+<section>
+      <h1><em>Contactanos</em></h1>
+      <div>
+        <button id="btn-opcion-norte">Sede Norte</button>
+        <button id="btn-opcion-centro">Sede Centro</button>
+        <button id="btn-opcion-sur">Sede Sur</button>
+      </div>
+      <div>
         <div>
-          <button id="btn-opcion-norte">Sede Norte</button>
-          <button id="btn-opcion-sur">Sede Sur</button>
-          <a href="#header"><button>Subir</button></a>
-        </div>
-        <div>
-          <div>
-          <a href="https://wa.me/+573219379621?text=Hola,%20estoy%20navegando%20el%20sitio%20web%20y%20quisiera%20m%C3%A1s%20informaci%C3%B3n..." class="fa fa-whatsapp"></a>
+          <a href="https://wa.me/+573219379621?text=Hola,%20estoy%20navegando%20el%20sitio%20web%20y%20quisiera%20m%C3%A1s%20informaci%C3%B3n..."
+            class="fa fa-whatsapp"></a>
           <a href="https://www.facebook.com/profile.php?id=100088886881677" class="fa fa-facebook-square"></a>
-          <a href="mailto:enmodovacacionesporvenir@gmail.com?Subject=Información%20Para%20unas%20Vacaciones&amp;body=Buen%20día,%20estoy%20interesad@%20en%20estar%20en%20Modo%20Vacaciones." class="fa fa-envelope"></a>
+          <a href="mailto:enmodovacacionesporvenir@gmail.com?Subject=Información%20Para%20unas%20Vacaciones&amp;body=Buen%20día,%20estoy%20interesad@%20en%20estar%20en%20Modo%20Vacaciones."
+            class="fa fa-envelope"></a>
           <a href="tel:3219379621" class="fa fa-phone"></a>
-          </div>
-          <ul>
-            <li>
-              <p class="fa fa-map-marker"></p><p id="sede">Sede Bosa Porvenir:</p>
-              <p id="edificio">Centro Comercial <em>Mi Centro Porvenir</em></p>
-              <p id="direccion">Calle 54f sur # 94 - 18 segundo piso</p>
-            </li>
-            <li>
-              <p class="fa fa-phone"></p>
-              <p id="telefono">321 937 9621</p>
-            </li>
-          </ul>
         </div>
-        <div>
-          <article>
-            <h5 id="asesor">Wilber Plaza</h5>
-            <p id="cargo">Ejecutivo Comercial</p>
-          </article>
-          <img id="foto" src="/assets/img/user.png">
-        </div>
-        <h6><a href="/TyC">Términos y condiciones</a><p><small>Todos los derechos reservados</small></p></h6>
-    </section>`
-
+        <ul>
+          <li>
+            <p class="fa fa-map-marker"></p>
+            <p id="sede">Sede Bosa Porvenir:</p>
+            <p id="edificio">Centro Comercial <em>Mi Centro Porvenir</em></p>
+            <p id="direccion">Calle 54f sur # 94 - 18 segundo piso</p>
+          </li>
+          <li>
+            <p class="fa fa-phone"></p>
+            <p id="telefono">321 937 9621</p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <article>
+          <h5 id="asesor">Wilber Plaza</h5>
+          <p id="cargo">Ejecutivo Comercial</p>
+        </article>
+        <img id="foto" src="/assets/img/user.png">
+      </div>
+      <h6><a href="/TyC">Términos y condiciones</a>
+        <p><small>Todos los derechos reservados</small></p>
+      </h6>
+    </section>
+      `
 
 const btnSedeNorteFooter = document.querySelector('#btn-opcion-norte')
+const btnSedeCentroFooter = document.querySelector('#btn-opcion-centro')
 const btnSedeSurFooter = document.querySelector('#btn-opcion-sur')
 
 btnSedeNorteFooter.addEventListener('click', mostrarInformacionFooter)
+btnSedeCentroFooter.addEventListener('click', mostrarInformacionFooter)
 btnSedeSurFooter.addEventListener('click', mostrarInformacionFooter)
 
 function mostrarInformacionFooter(mensaje) {
   if (!mensaje) {
     btnSedeNorteFooter.removeAttribute('style')
+    btnSedeCentroFooter.removeAttribute('style')
     btnSedeSurFooter.style.backgroundColor = "var(--color-blanco)"
     btnSedeSurFooter.style.color = "var(--color-azul)"
   }
   else if (sedeFooterSeleccionada != 'norte' && mensaje.target.id === 'btn-opcion-norte') {
     btnSedeSurFooter.removeAttribute('style')
+    btnSedeCentroFooter.removeAttribute('style')
     btnSedeNorteFooter.style.backgroundColor = "var(--color-blanco)"
     btnSedeNorteFooter.style.color = "var(--color-azul)"
     sedeFooterSeleccionada = 'norte'
   } else if (sedeFooterSeleccionada != 'sur' && mensaje.target.id === 'btn-opcion-sur') {
     btnSedeNorteFooter.removeAttribute('style')
+    btnSedeCentroFooter.removeAttribute('style')
     btnSedeSurFooter.style.backgroundColor = "var(--color-blanco)"
     btnSedeSurFooter.style.color = "var(--color-azul)"
     sedeFooterSeleccionada = 'sur'
-  } else {
+  } else if (sedeFooterSeleccionada != 'centro' && mensaje.target.id === 'btn-opcion-centro') {
+    btnSedeNorteFooter.removeAttribute('style')
+    btnSedeSurFooter.removeAttribute('style')
+    btnSedeCentroFooter.style.backgroundColor = "var(--color-blanco)"
+    btnSedeCentroFooter.style.color = "var(--color-azul)"
+    sedeFooterSeleccionada = 'centro'
+  }
+  else {
     return
   }
 
@@ -195,10 +212,18 @@ function mostrarInformacionFooter(mensaje) {
   fetch(globalThis.origin + '/informacion')
     .then(res => res.json())
     .then(response => {
-      if (sedeFooterSeleccionada === 'norte') {
-        informacionSede = response[1]
-      } else {
-        informacionSede = response[0]
+      switch (sedeFooterSeleccionada) {
+        case 'norte':
+          informacionSede = response[1]
+          break;
+
+        case 'centro':
+          informacionSede = response[2]
+          break;
+
+        default:
+          informacionSede = response[0]
+          break;
       }
       sede.innerHTML = informacionSede.ubicacion.sede
       edificio.innerHTML = informacionSede.ubicacion.edificio
